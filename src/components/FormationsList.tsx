@@ -11,7 +11,7 @@ const FormationsList = () => {
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
 
   // Formations populaires (les 6 premières)
-  const popularFormations = formations.slice(0, 6);
+  const popularFormations: Formation[] = [];
   
   const categories = ['populaires', 'all', ...Array.from(new Set(formations.map(f => f.category)))];
   
