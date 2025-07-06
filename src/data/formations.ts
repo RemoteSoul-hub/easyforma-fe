@@ -1057,5 +1057,158 @@ export const formations: Formation[] = [
       bio: "Expert e-commerce et marketing digital avec 10 ans d'expérience. Consultant pour des marques internationales et formateur certifié Google Ads.",
       avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
+  },
+  {
+    id: 16,
+    title: "Formation : Création d'entreprise",
+    description: "Apprenez toutes les étapes pour créer votre entreprise avec succès, de l'idée à la mise en œuvre, en passant par les démarches administratives.",
+    duration: "6h",
+    chapters: 5,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Validation d'idée et étude de marché",
+      "Choix du statut juridique optimal",
+      "Business plan et prévisionnel financier",
+      "Démarches administratives complètes"
+    ],
+    category: "La boîte à outils de l'entrepreneur",
+    detailedDescription: "Formation complète pour transformer votre idée en entreprise viable. Apprenez méthodiquement toutes les étapes de la création d'entreprise avec les conseils d'experts.",
+    objectives: [
+      "Valider votre idée d'entreprise",
+      "Choisir le statut juridique adapté",
+      "Élaborer un business plan solide",
+      "Réaliser toutes les démarches administratives",
+      "Lancer votre activité en toute sérénité"
+    ],
+    prerequisites: [
+      "Avoir une idée d'entreprise ou un projet",
+      "Motivation entrepreneuriale",
+      "Aucune connaissance préalable requise"
+    ],
+    program: [
+      {
+        title: "Validation de l'idée",
+        content: [
+          "Analyse de l'idée et du marché",
+          "Étude de la concurrence",
+          "Validation auprès des clients potentiels",
+          "Définition de la proposition de valeur"
+        ]
+      },
+      {
+        title: "Aspects juridiques",
+        content: [
+          "Choix du statut juridique",
+          "Protection de l'idée et de la marque",
+          "Rédaction des statuts",
+          "Assurances et responsabilités"
+        ]
+      },
+      {
+        title: "Business plan",
+        content: [
+          "Structure du business plan",
+          "Prévisionnel financier",
+          "Plan de financement",
+          "Stratégie commerciale"
+        ]
+      },
+      {
+        title: "Démarches administratives",
+        content: [
+          "Immatriculation de l'entreprise",
+          "Ouverture de compte bancaire",
+          "Déclarations fiscales et sociales",
+          "Mise en conformité"
+        ]
+      },
+      {
+        title: "Lancement et développement",
+        content: [
+          "Stratégie de lancement",
+          "Premiers clients et ventes",
+          "Gestion administrative courante",
+          "Développement et croissance"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Pierre Entrepreneur",
+      bio: "Consultant en création d'entreprise et ancien dirigeant de startup. 15 ans d'expérience dans l'accompagnement d'entrepreneurs.",
+      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 17,
+    title: "Formation : Document unique obligatoire en entreprise",
+    description: "Maîtrisez la création et la gestion du Document Unique d'Évaluation des Risques Professionnels (DUERP) pour assurer la sécurité en entreprise.",
+    duration: "4h30",
+    chapters: 4,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Obligations légales et réglementaires",
+      "Méthodologie d'évaluation des risques",
+      "Rédaction du document unique",
+      "Mise à jour et suivi des actions"
+    ],
+    category: "La boîte à outils de l'entrepreneur",
+    detailedDescription: "Formation essentielle pour comprendre et mettre en place le Document Unique d'Évaluation des Risques Professionnels, obligation légale pour toute entreprise employant du personnel.",
+    objectives: [
+      "Comprendre les obligations légales",
+      "Identifier et évaluer les risques professionnels",
+      "Rédiger un document unique conforme",
+      "Mettre en place un plan d'actions préventives",
+      "Assurer le suivi et les mises à jour"
+    ],
+    prerequisites: [
+      "Être dirigeant ou responsable d'entreprise",
+      "Connaissances de base en gestion d'entreprise",
+      "Avoir des salariés ou projet d'embauche"
+    ],
+    program: [
+      {
+        title: "Cadre légal et réglementaire",
+        content: [
+          "Obligations de l'employeur",
+          "Code du travail et sanctions",
+          "Responsabilités civile et pénale",
+          "Contrôles et inspections"
+        ]
+      },
+      {
+        title: "Évaluation des risques",
+        content: [
+          "Identification des dangers",
+          "Analyse des situations de travail",
+          "Méthodes d'évaluation",
+          "Hiérarchisation des risques"
+        ]
+      },
+      {
+        title: "Rédaction du document",
+        content: [
+          "Structure et contenu obligatoire",
+          "Modèles et outils pratiques",
+          "Formalisation des évaluations",
+          "Validation et diffusion"
+        ]
+      },
+      {
+        title: "Suivi et amélioration",
+        content: [
+          "Plan d'actions préventives",
+          "Mise à jour annuelle",
+          "Formation et sensibilisation",
+          "Amélioration continue"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Dr. Anne Sécurité",
+      bio: "Médecin du travail et consultante en prévention des risques professionnels. 12 ans d'expérience en entreprise et formation DUERP.",
+      avatar: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
   }
 ];
