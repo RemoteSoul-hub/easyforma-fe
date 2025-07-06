@@ -271,6 +271,22 @@ export const formations: Formation[] = [
     category: "Communication"
   },
   {
+    id: 14,
+    title: "Formation : Canva",
+    description: "Créez des visuels professionnels facilement avec Canva. Maîtrisez tous les outils pour concevoir des designs impactants sans compétences techniques.",
+    duration: "26h",
+    chapters: 12,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Design graphique accessible",
+      "Templates et personnalisation",
+      "Création de contenus multi-formats",
+      "Collaboration et partage d'équipe"
+    ],
+    category: "Communication"
+  },
+  {
     id: 15,
     title: "Formation : Marketing e-commerce et réseaux sociaux",
     description: "Développez votre activité e-commerce grâce aux stratégies marketing digital et à la puissance des réseaux sociaux.",
@@ -389,6 +405,22 @@ export const formations: Formation[] = [
       "Outils collaboratifs modernes"
     ],
     category: "Management et vente"
+  },
+  {
+    id: 21,
+    title: "Formation : Communication",
+    description: "Développez vos compétences en communication professionnelle pour améliorer vos relations interpersonnelles et votre efficacité au travail.",
+    duration: "16h",
+    chapters: 8,
+    level: "Tous niveaux",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Communication interpersonnelle efficace",
+      "Techniques d'écoute active",
+      "Communication écrite professionnelle",
+      "Gestion des situations difficiles"
+    ],
+    category: "Communication"
   },
   {
     id: 16,
