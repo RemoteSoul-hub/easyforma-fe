@@ -733,16 +733,7 @@ export const formations: Formation[] = [
           "Installation et paramétrage",
           "Profil professionnel optimisé",
           "Informations commerciales",
-          "Horaires et disponibil             ]
-        
-      }
-    ]
-  }
-]]
-   ]
-   
-      }
-          "Horaires et disponibilité"
+        "Horaires et disponibilité"
         ]
       },
       {
