@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formations } from '../data/formations';
 import FormationCard from './FormationCard';
-import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase, Crown, DollarSign } from 'lucide-react';
+import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase, Crown, DollarSign, User, Heart } from 'lucide-react';
 
 const FormationsList = () => {
   
@@ -219,6 +219,85 @@ const FormationsList = () => {
         </div>
 
         <div className="text-center space-y-6 my-20">
+          {/* Qui suis-je Section */}
+          <div className="my-20">
+            <div className="bg-gradient-to-br from-orange-50 to-white rounded-3xl overflow-hidden shadow-xl border border-orange-100">
+              <div className="px-8 py-16 md:px-16">
+                <div className="max-w-4xl mx-auto">
+                  <div className="grid lg:grid-cols-2 gap-12 items-center">
+                    {/* Photo et présentation */}
+                    <div className="text-center lg:text-left">
+                      <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+                        <User className="h-4 w-4" />
+                        <span>Qui suis-je ?</span>
+                      </div>
+                      
+                      <div className="w-32 h-32 mx-auto lg:mx-0 mb-6">
+                        <img
+                          src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+                          alt="Cyprien - Fondateur Easy Forma"
+                          className="w-full h-full rounded-full object-cover shadow-lg"
+                        />
+                      </div>
+                      
+                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Cyprien
+                      </h3>
+                      <p className="text-xl text-orange-600 font-semibold mb-6">
+                        Fondateur d'Easy Forma
+                      </p>
+                    </div>
+
+                    {/* Contenu */}
+                    <div className="space-y-6">
+                      <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+                        <p>
+                          Passionné par l'entrepreneuriat et la formation, j'ai créé Easy Forma avec une mission claire : 
+                          <strong className="text-orange-600"> démocratiser l'accès à la formation professionnelle de qualité</strong>.
+                        </p>
+                        
+                        <p>
+                          Après avoir accompagné des centaines d'entrepreneurs dans leur développement, 
+                          j'ai réalisé que le principal frein était l'accès à des formations complètes et abordables.
+                        </p>
+                        
+                        <p>
+                          C'est pourquoi j'ai développé un modèle unique : 
+                          <strong className="text-orange-600"> un abonnement à 29€/mois pour accéder à l'intégralité de notre catalogue</strong>, 
+                          sans limitation.
+                        </p>
+                      </div>
+
+                      <div className="bg-orange-100 rounded-xl p-6 border border-orange-200">
+                        <div className="flex items-start space-x-3">
+                          <Heart className="h-6 w-6 text-orange-500 mt-1 flex-shrink-0" />
+                          <div>
+                            <h4 className="font-semibold text-gray-900 mb-2">Ma mission</h4>
+                            <p className="text-gray-700">
+                              Permettre à chacun de développer ses compétences professionnelles, 
+                              quel que soit son budget ou sa situation géographique.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="grid grid-cols-2 gap-4 text-center">
+                        <div className="bg-white rounded-xl p-4 shadow-sm border border-orange-100">
+                          <div className="text-2xl font-bold text-orange-600">5000+</div>
+                          <div className="text-sm text-gray-600">Apprenants accompagnés</div>
+                        </div>
+                        <div className="bg-white rounded-xl p-4 shadow-sm border border-orange-100">
+                          <div className="text-2xl font-bold text-orange-600">100+</div>
+                          <div className="text-sm text-gray-600">Formations créées</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
             <Infinity className="h-4 w-4" />
             <span>Accès illimité pour 29€/mois</span>
