@@ -454,7 +454,7 @@ const FormationsList = () => {
                   </div>
                   
                   <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                    DIMANCHE <span className="text-pink-400">BUSINESS</span>
+                    SUNDAY <span className="text-pink-400">BUSINESS</span>
                   </h2>
                   
                   <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
@@ -487,7 +487,7 @@ const FormationsList = () => {
                       <div className="bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-2xl p-6 border border-pink-400/30">
                         <div className="text-center">
                           <Mail className="h-12 w-12 text-pink-400 mx-auto mb-4" />
-                          <div className="text-3xl font-bold text-pink-300 mb-2">50+</div>
+                          <div className="text-3xl font-bold text-pink-300 mb-2">+100</div>
                           <div className="text-purple-200">Idées business partagées</div>
                         </div>
                       </div>
@@ -495,13 +495,13 @@ const FormationsList = () => {
                   </div>
                   
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <button className="bg-pink-500 text-white px-8 py-4 rounded-xl font-bold hover:bg-pink-400 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center space-x-2">
+                    <button className="bg-gray-500 text-white px-8 py-4 rounded-xl font-bold cursor-not-allowed opacity-75 flex items-center space-x-2" disabled>
                       <Mail className="h-5 w-5" />
-                      <span>Recevoir Dimanche Business</span>
+                      <span>Prochainement</span>
                     </button>
                     <div className="flex items-center space-x-2 text-purple-200">
                       <CheckCircle className="h-5 w-5 text-pink-400" />
-                      <span className="text-sm">Gratuit avec l'abonnement</span>
+                      <span className="text-sm">Bientôt disponible</span>
                     </div>
                   </div>
                 </div>
