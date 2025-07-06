@@ -733,8 +733,23 @@ export const formations: Formation[] = [
           "Installation et paramétrage",
           "Profil professionnel optimisé",
           "Informations commerciales",
-          "Horaires et disponibilité"
-        ]
+          "Horaires et disponibil             ]
+   ]
+   
+      }
+    ]
+  }
+]     
+      }
+    ]
+  }
+]]
+ité"
+   
+      }
+    ]
+  }
+]     ]
       },
       {
         title: "Automatisation et Outils",
@@ -769,6 +784,4 @@ export const formations: Formation[] = [
       bio: "Consultante en marketing digital et experte WhatsApp Business. 5 ans d'expérience dans l'accompagnement des TPE/PME pour leur digitalisation.",
       avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
-  }
-];
 ];
