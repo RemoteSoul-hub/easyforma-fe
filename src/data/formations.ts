@@ -343,6 +343,54 @@ export const formations: Formation[] = [
     }
   },
   {
+    id: 18,
+    title: "Formation : Management (Manitude)",
+    description: "Développez vos compétences managériales avec la méthode Manitude pour diriger efficacement vos équipes et créer un environnement de travail performant.",
+    duration: "19h",
+    chapters: 8,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Leadership et motivation d'équipe",
+      "Communication managériale efficace",
+      "Gestion des performances",
+      "Développement des collaborateurs"
+    ],
+    category: "Management et vente"
+  },
+  {
+    id: 19,
+    title: "Formation : Techniques de vente - Omnicanal RS5068",
+    description: "Maîtrisez les techniques de vente modernes et l'approche omnicanale pour maximiser vos performances commerciales sur tous les canaux.",
+    duration: "9h",
+    chapters: 6,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Techniques de vente avancées",
+      "Stratégie omnicanale",
+      "Négociation et closing",
+      "Relation client digitale"
+    ],
+    category: "Management et vente"
+  },
+  {
+    id: 20,
+    title: "Formation : Gestion de projet",
+    description: "Apprenez à planifier, organiser et mener à bien vos projets avec les méthodologies et outils de gestion de projet les plus efficaces.",
+    duration: "15h",
+    chapters: 7,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Méthodologies de gestion de projet",
+      "Planification et suivi",
+      "Gestion des équipes projet",
+      "Outils collaboratifs modernes"
+    ],
+    category: "Management et vente"
+  },
+  {
     id: 16,
     title: "Formation : Création d'entreprise",
     description: "Apprenez toutes les étapes pour créer votre entreprise avec succès, de l'idée à la mise en œuvre, en passant par les démarches administratives.",
