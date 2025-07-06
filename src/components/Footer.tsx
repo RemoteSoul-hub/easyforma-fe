@@ -45,12 +45,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
-                  <div className="w-1 h-1 bg-orange-500 rounded-full"></div>
-                  <span>À propos</span>
-                </Link>
-              </li>
-              <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
                   <div className="w-1 h-1 bg-orange-500 rounded-full"></div>
                   <span>Témoignages</span>
