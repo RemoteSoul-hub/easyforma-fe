@@ -1444,5 +1444,212 @@ export const formations: Formation[] = [
       bio: "Chef de projet senior et formateur certifié PMP. 18 ans d'expérience dans la gestion de projets complexes en entreprise.",
       avatar: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
+  },
+  {
+    id: 21,
+    title: "Formation : Langue des signes française",
+    description: "Apprenez les bases de la langue des signes française pour communiquer avec la communauté sourde et malentendante dans un contexte professionnel.",
+    duration: "20h",
+    chapters: 8,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Alphabet et chiffres en LSF",
+      "Vocabulaire professionnel de base",
+      "Communication gestuelle",
+      "Sensibilisation à la culture sourde"
+    ],
+    category: "Communication",
+    detailedDescription: "Formation d'initiation à la langue des signes française pour développer vos compétences de communication inclusive et améliorer l'accessibilité dans votre environnement professionnel.",
+    objectives: [
+      "Maîtriser l'alphabet et les chiffres en LSF",
+      "Acquérir un vocabulaire professionnel de base",
+      "Comprendre la culture et les spécificités de la communauté sourde",
+      "Développer une communication gestuelle efficace",
+      "Favoriser l'inclusion dans votre environnement de travail"
+    ],
+    prerequisites: [
+      "Aucun prérequis spécifique",
+      "Motivation pour l'apprentissage d'une nouvelle langue",
+      "Ouverture à la diversité et à l'inclusion"
+    ],
+    program: [
+      {
+        title: "Fondamentaux de la LSF",
+        content: [
+          "Histoire et culture de la communauté sourde",
+          "Alphabet dactylologique",
+          "Chiffres et nombres",
+          "Règles de base de la LSF"
+        ]
+      },
+      {
+        title: "Vocabulaire essentiel",
+        content: [
+          "Présentations et salutations",
+          "Vocabulaire du quotidien",
+          "Termes professionnels de base",
+          "Expressions courantes"
+        ]
+      },
+      {
+        title: "Communication pratique",
+        content: [
+          "Construction de phrases simples",
+          "Expression du temps et de l'espace",
+          "Questions et réponses",
+          "Conversations de base"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Amélie Gestuelle",
+      bio: "Interprète LSF certifiée et formatrice avec 8 ans d'expérience. Spécialisée dans l'enseignement de la LSF aux professionnels et la sensibilisation à l'inclusion.",
+      avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 22,
+    title: "Formation : Langue des signes française - A1",
+    description: "Niveau A1 complet de la langue des signes française pour acquérir une base solide et communiquer efficacement dans des situations courantes.",
+    duration: "26h",
+    chapters: 12,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Niveau A1 certifiant",
+      "Communication courante en LSF",
+      "Grammaire et syntaxe LSF",
+      "Mise en situation professionnelle"
+    ],
+    category: "Communication",
+    detailedDescription: "Formation complète niveau A1 en langue des signes française selon le Cadre Européen Commun de Référence. Développez une communication autonome en LSF dans des situations professionnelles et personnelles.",
+    objectives: [
+      "Atteindre le niveau A1 en LSF",
+      "Communiquer dans des situations courantes",
+      "Maîtriser la grammaire de base de la LSF",
+      "Développer une expression gestuelle fluide",
+      "Obtenir une certification de niveau"
+    ],
+    prerequisites: [
+      "Connaissances de base en LSF recommandées",
+      "Motivation pour un apprentissage approfondi",
+      "Disponibilité pour la pratique régulière"
+    ],
+    program: [
+      {
+        title: "Grammaire LSF",
+        content: [
+          "Structure grammaticale de la LSF",
+          "Ordre des mots et syntaxe",
+          "Expressions faciales et corporelles",
+          "Paramètres de formation des signes"
+        ]
+      },
+      {
+        title: "Vocabulaire étendu",
+        content: [
+          "Famille et relations",
+          "Travail et professions",
+          "Loisirs et activités",
+          "Santé et bien-être"
+        ]
+      },
+      {
+        title: "Communication avancée",
+        content: [
+          "Récits et descriptions",
+          "Expression des sentiments",
+          "Argumentation simple",
+          "Conversations élaborées"
+        ]
+      },
+      {
+        title: "Certification A1",
+        content: [
+          "Préparation aux évaluations",
+          "Tests de compréhension",
+          "Épreuves d'expression",
+          "Validation du niveau A1"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Pierre Signant",
+      bio: "Formateur LSF certifié niveau A1-C2 avec 12 ans d'expérience. Expert en pédagogie LSF et évaluateur certifié pour les niveaux du CECR.",
+      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 23,
+    title: "Formation : SketchUp",
+    description: "Maîtrisez SketchUp pour créer des modèles 3D professionnels, des plans architecturaux et des visualisations pour vos projets créatifs et techniques.",
+    duration: "19h",
+    chapters: 9,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Modélisation 3D professionnelle",
+      "Plans et coupes techniques",
+      "Rendu et visualisation",
+      "Extensions et plugins utiles"
+    ],
+    category: "Communication",
+    detailedDescription: "Formation complète SketchUp pour apprendre la modélisation 3D de A à Z. Créez des modèles professionnels, des plans techniques et des rendus visuels impressionnants pour vos projets.",
+    objectives: [
+      "Maîtriser l'interface et les outils SketchUp",
+      "Créer des modèles 3D précis et détaillés",
+      "Produire des plans et coupes techniques",
+      "Réaliser des rendus et visualisations",
+      "Utiliser les extensions pour optimiser le workflow"
+    ],
+    prerequisites: [
+      "Connaissances de base en informatique",
+      "Sens de l'espace et de la géométrie",
+      "Accès à SketchUp (version gratuite ou Pro)"
+    ],
+    program: [
+      {
+        title: "Prise en main SketchUp",
+        content: [
+          "Interface et navigation 3D",
+          "Outils de dessin de base",
+          "Sélection et modification",
+          "Système de coordonnées"
+        ]
+      },
+      {
+        title: "Modélisation avancée",
+        content: [
+          "Outils de construction complexes",
+          "Groupes et composants",
+          "Textures et matériaux",
+          "Éclairage et ombres"
+        ]
+      },
+      {
+        title: "Plans et documentation",
+        content: [
+          "Création de plans 2D",
+          "Coupes et élévations",
+          "Cotation et annotations",
+          "Mise en page Layout"
+        ]
+      },
+      {
+        title: "Rendu et présentation",
+        content: [
+          "Styles visuels",
+          "Scènes et animations",
+          "Export et formats",
+          "Extensions de rendu"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Julien 3D",
+      bio: "Architecte et formateur SketchUp certifié avec 10 ans d'expérience. Spécialisé dans la modélisation architecturale et la formation professionnelle.",
+      avatar: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
   }
 ];
