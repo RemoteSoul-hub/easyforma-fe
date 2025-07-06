@@ -97,13 +97,16 @@ const FormationCard: React.FC<FormationCardProps> = ({ formation }) => {
 
         {/* CTA */}
         <div className="pt-4 border-t border-orange-100">
-          <Link 
-            to={`/formation/${formation.id}`}
+          <button
+            onClick={() => {
+              // Redirection vers la page de paiement/inscription
+              window.open('https://easyforma.fr/inscription', '_blank');
+            }}
             className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-3 rounded-lg text-sm font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 flex items-center justify-center space-x-2 group/btn"
           >
-            <span>Voir la formation</span>
+            <span>S'inscrire maintenant</span>
             <ArrowRight className="h-4 w-4 group-hover/btn:translate-x-0.5 transition-transform duration-200" />
-          </Link>
+          </button>
         </div>
       </div>
     </div>
