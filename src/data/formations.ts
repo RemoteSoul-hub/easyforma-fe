@@ -331,78 +331,6 @@ export const formations: Formation[] = [
   },
   {
     id: 6,
-    title: "Formation : Bureautique",
-    description: "Maîtrisez les outils bureautiques essentiels pour optimiser votre productivité et votre efficacité professionnelle au quotidien.",
-    duration: "21h",
-    chapters: 10,
-    level: "Débutant à Intermédiaire",
-    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Maîtrise complète des outils Office",
-      "Optimisation de la productivité",
-      "Automatisation des tâches répétitives",
-      "Collaboration et partage de documents"
-    ],
-    category: "Bureaucratique",
-    detailedDescription: "Formation complète pour maîtriser l'ensemble des outils bureautiques modernes et développer une expertise professionnelle dans l'utilisation des logiciels de productivité.",
-    objectives: [
-      "Maîtriser les fonctionnalités avancées des outils Office",
-      "Optimiser votre flux de travail quotidien",
-      "Automatiser les tâches répétitives",
-      "Collaborer efficacement en équipe",
-      "Créer des documents professionnels de qualité"
-    ],
-    prerequisites: [
-      "Connaissances de base en informatique",
-      "Accès à un ordinateur",
-      "Motivation pour améliorer sa productivité"
-    ],
-    program: [
-      {
-        title: "Fondamentaux bureautiques",
-        content: [
-          "Interface et navigation",
-          "Gestion des fichiers et dossiers",
-          "Raccourcis clavier essentiels",
-          "Personnalisation de l'environnement"
-        ]
-      },
-      {
-        title: "Traitement de texte avancé",
-        content: [
-          "Mise en forme professionnelle",
-          "Styles et modèles",
-          "Tableaux et graphiques",
-          "Révision et collaboration"
-        ]
-      },
-      {
-        title: "Tableurs et calculs",
-        content: [
-          "Formules et fonctions",
-          "Graphiques et tableaux croisés",
-          "Analyse de données",
-          "Automatisation avec macros"
-        ]
-      },
-      {
-        title: "Présentations impactantes",
-        content: [
-          "Design et mise en page",
-          "Animations et transitions",
-          "Intégration multimédia",
-          "Techniques de présentation"
-        ]
-      }
-    ],
-    instructor: {
-      name: "Jean-Pierre Bureau",
-      bio: "Expert en bureautique avec 15 ans d'expérience en formation professionnelle. Certifié Microsoft Office Specialist Master.",
-      avatar: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
-  },
-  {
-    id: 7,
     title: "Formation : Excel - Pack complet",
     description: "Devenez expert Excel en maîtrisant toutes les fonctionnalités, des bases aux techniques avancées d'analyse de données et d'automatisation.",
     duration: "12h40",
@@ -474,7 +402,7 @@ export const formations: Formation[] = [
     }
   },
   {
-    id: 8,
+    id: 7,
     title: "Formation : Word - Pack complet",
     description: "Maîtrisez Microsoft Word de A à Z pour créer des documents professionnels impeccables et optimiser votre productivité rédactionnelle.",
     duration: "13h15",
@@ -546,7 +474,7 @@ export const formations: Formation[] = [
     }
   },
   {
-    id: 9,
+    id: 8,
     title: "Formation : PowerPoint – Pack complet",
     description: "Créez des présentations percutantes et professionnelles avec PowerPoint. Maîtrisez le design, les animations et les techniques de présentation.",
     duration: "6h15",
@@ -627,7 +555,7 @@ export const formations: Formation[] = [
     }
   },
   {
-    id: 10,
+    id: 9,
     title: "Formation : Initiation informatique sous Mac",
     description: "Découvrez l'univers Mac et maîtrisez macOS pour optimiser votre productivité sur les ordinateurs Apple.",
     duration: "4h",
@@ -699,7 +627,7 @@ export const formations: Formation[] = [
     }
   },
   {
-    id: 11,
+    id: 10,
     title: "Formation : WhatsApp Business",
     description: "Exploitez le potentiel de WhatsApp Business pour développer votre activité, automatiser vos communications et fidéliser vos clients.",
     duration: "3h30",
