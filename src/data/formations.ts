@@ -1210,5 +1210,239 @@ export const formations: Formation[] = [
       bio: "Médecin du travail et consultante en prévention des risques professionnels. 12 ans d'expérience en entreprise et formation DUERP.",
       avatar: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
+  },
+  {
+    id: 18,
+    title: "Formation : Management (Manitude)",
+    description: "Développez vos compétences managériales avec la méthode Manitude pour diriger efficacement vos équipes et créer un environnement de travail performant.",
+    duration: "19h",
+    chapters: 10,
+    level: "Intermédiaire à Avancé",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Leadership et autorité naturelle",
+      "Communication managériale efficace",
+      "Gestion d'équipe et motivation",
+      "Résolution de conflits et médiation"
+    ],
+    category: "Management et vente",
+    detailedDescription: "Formation complète basée sur la méthode Manitude pour développer un management humain et performant. Apprenez à diriger avec bienveillance tout en atteignant vos objectifs.",
+    objectives: [
+      "Développer votre style de leadership authentique",
+      "Maîtriser la communication managériale",
+      "Motiver et fédérer vos équipes",
+      "Gérer les conflits et les situations difficiles",
+      "Créer une culture d'entreprise positive"
+    ],
+    prerequisites: [
+      "Expérience en management ou projet de management",
+      "Ouverture aux méthodes de management modernes",
+      "Volonté de développement personnel"
+    ],
+    program: [
+      {
+        title: "Fondamentaux du management",
+        content: [
+          "Les bases du leadership",
+          "Styles de management",
+          "Autorité et légitimité",
+          "Posture managériale"
+        ]
+      },
+      {
+        title: "Communication managériale",
+        content: [
+          "Techniques de communication",
+          "Écoute active et empathie",
+          "Feedback constructif",
+          "Réunions efficaces"
+        ]
+      },
+      {
+        title: "Gestion d'équipe",
+        content: [
+          "Motivation et engagement",
+          "Délégation et autonomie",
+          "Gestion des performances",
+          "Développement des talents"
+        ]
+      },
+      {
+        title: "Situations complexes",
+        content: [
+          "Gestion des conflits",
+          "Situations de crise",
+          "Changement et résistances",
+          "Management à distance"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Marc Leadership",
+      bio: "Expert en management et développement du leadership. Formateur certifié Manitude avec 15 ans d'expérience en direction d'équipes.",
+      avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 19,
+    title: "Formation : Techniques de vente - Omnicanal RS5068",
+    description: "Maîtrisez les techniques de vente modernes et l'approche omnicanale pour maximiser vos performances commerciales sur tous les canaux.",
+    duration: "9h",
+    chapters: 6,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Techniques de vente avancées",
+      "Stratégie omnicanale",
+      "Négociation et closing",
+      "CRM et suivi client"
+    ],
+    category: "Management et vente",
+    detailedDescription: "Formation certifiante RS5068 pour maîtriser les techniques de vente dans un environnement omnicanal. Apprenez à vendre efficacement sur tous les canaux de distribution.",
+    objectives: [
+      "Maîtriser les techniques de vente modernes",
+      "Développer une approche omnicanale",
+      "Optimiser le processus de négociation",
+      "Utiliser efficacement les outils CRM",
+      "Augmenter significativement vos performances"
+    ],
+    prerequisites: [
+      "Expérience en vente ou commerce",
+      "Connaissances de base en marketing",
+      "Motivation pour améliorer ses performances"
+    ],
+    program: [
+      {
+        title: "Fondamentaux de la vente",
+        content: [
+          "Psychologie du client",
+          "Processus de vente moderne",
+          "Qualification des prospects",
+          "Argumentation et présentation"
+        ]
+      },
+      {
+        title: "Approche omnicanale",
+        content: [
+          "Stratégie multicanal",
+          "Cohérence de l'expérience client",
+          "Vente digitale et physique",
+          "Parcours client unifié"
+        ]
+      },
+      {
+        title: "Techniques avancées",
+        content: [
+          "Négociation commerciale",
+          "Traitement des objections",
+          "Techniques de closing",
+          "Vente consultative"
+        ]
+      },
+      {
+        title: "Outils et suivi",
+        content: [
+          "Utilisation du CRM",
+          "Suivi et fidélisation",
+          "Analyse des performances",
+          "Amélioration continue"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Julie Vente",
+      bio: "Formatrice commerciale certifiée RS5068 avec 12 ans d'expérience en vente B2B et B2C. Experte en stratégies omnicanales.",
+      avatar: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 20,
+    title: "Formation : Gestion de projet",
+    description: "Apprenez les méthodologies et outils essentiels pour mener à bien vos projets, de la planification à la livraison, en respectant les délais et budgets.",
+    duration: "15h",
+    chapters: 8,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Méthodologies de gestion de projet",
+      "Planification et suivi des tâches",
+      "Gestion des risques et des budgets",
+      "Leadership d'équipe projet"
+    ],
+    category: "Management et vente",
+    detailedDescription: "Formation complète pour maîtriser la gestion de projet sous tous ses aspects. Apprenez les méthodologies reconnues et les outils modernes pour garantir le succès de vos projets.",
+    objectives: [
+      "Maîtriser les phases d'un projet",
+      "Planifier et organiser efficacement",
+      "Gérer les risques et les imprévus",
+      "Diriger une équipe projet",
+      "Livrer dans les temps et le budget"
+    ],
+    prerequisites: [
+      "Expérience professionnelle recommandée",
+      "Notions de base en management",
+      "Projet en cours ou à venir"
+    ],
+    program: [
+      {
+        title: "Fondamentaux",
+        content: [
+          "Définition et types de projets",
+          "Cycle de vie d'un projet",
+          "Rôles et responsabilités",
+          "Méthodologies (Agile, Waterfall)"
+        ]
+      },
+      {
+        title: "Planification",
+        content: [
+          "Définition des objectifs",
+          "Découpage en tâches",
+          "Estimation des charges",
+          "Planning et jalons"
+        ]
+      },
+      {
+        title: "Exécution et suivi",
+        content: [
+          "Pilotage et contrôle",
+          "Gestion des ressources",
+          "Communication projet",
+          "Tableaux de bord"
+        ]
+      },
+      {
+        title: "Gestion des risques",
+        content: [
+          "Identification des risques",
+          "Analyse et évaluation",
+          "Plans de mitigation",
+          "Gestion de crise"
+        ]
+      },
+      {
+        title: "Leadership projet",
+        content: [
+          "Animation d'équipe",
+          "Motivation et engagement",
+          "Résolution de conflits",
+          "Reporting et communication"
+        ]
+      },
+      {
+        title: "Clôture et capitalisation",
+        content: [
+          "Livraison et recette",
+          "Bilan de projet",
+          "Retour d'expérience",
+          "Capitalisation des acquis"
+        ]
+      }
+    ],
+    instructor: {
+      name: "David Projet",
+      bio: "Chef de projet senior et formateur certifié PMP. 18 ans d'expérience dans la gestion de projets complexes en entreprise.",
+      avatar: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
   }
 ];
