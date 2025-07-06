@@ -734,8 +734,13 @@ export const formations: Formation[] = [
           "Installation et paramétrage",
           "Profil professionnel optimisé",
           "Informations commerciales",
-          "Horaires et disponibilité"
-        ]
+          "Horaires et disponibil        ]
+ité"
+   
+      }
+    ]
+  }
+]     ]
       },
       {
         title: "Automatisation et Outils",
