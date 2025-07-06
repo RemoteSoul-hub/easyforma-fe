@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import FormationDetail from './components/FormationDetail';
 import About from './components/About';
 import Contact from './components/Contact';
+import Business20 from './components/Business20';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/formation/:id" element={<FormationDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/business-20" element={<Business20 />} />
         </Routes>
         <Footer />
       </div>
