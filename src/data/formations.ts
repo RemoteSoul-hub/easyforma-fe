@@ -329,4 +329,445 @@ export const formations: Formation[] = [
       avatar: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   }
+  },
+  {
+    id: 6,
+    title: "Formation : Bureautique",
+    description: "Maîtrisez les outils bureautiques essentiels pour optimiser votre productivité et votre efficacité professionnelle au quotidien.",
+    duration: "21h",
+    chapters: 10,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Maîtrise complète des outils Office",
+      "Optimisation de la productivité",
+      "Automatisation des tâches répétitives",
+      "Collaboration et partage de documents"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Formation complète pour maîtriser l'ensemble des outils bureautiques modernes et développer une expertise professionnelle dans l'utilisation des logiciels de productivité.",
+    objectives: [
+      "Maîtriser les fonctionnalités avancées des outils Office",
+      "Optimiser votre flux de travail quotidien",
+      "Automatiser les tâches répétitives",
+      "Collaborer efficacement en équipe",
+      "Créer des documents professionnels de qualité"
+    ],
+    prerequisites: [
+      "Connaissances de base en informatique",
+      "Accès à un ordinateur",
+      "Motivation pour améliorer sa productivité"
+    ],
+    program: [
+      {
+        title: "Fondamentaux bureautiques",
+        content: [
+          "Interface et navigation",
+          "Gestion des fichiers et dossiers",
+          "Raccourcis clavier essentiels",
+          "Personnalisation de l'environnement"
+        ]
+      },
+      {
+        title: "Traitement de texte avancé",
+        content: [
+          "Mise en forme professionnelle",
+          "Styles et modèles",
+          "Tableaux et graphiques",
+          "Révision et collaboration"
+        ]
+      },
+      {
+        title: "Tableurs et calculs",
+        content: [
+          "Formules et fonctions",
+          "Graphiques et tableaux croisés",
+          "Analyse de données",
+          "Automatisation avec macros"
+        ]
+      },
+      {
+        title: "Présentations impactantes",
+        content: [
+          "Design et mise en page",
+          "Animations et transitions",
+          "Intégration multimédia",
+          "Techniques de présentation"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Jean-Pierre Bureau",
+      bio: "Expert en bureautique avec 15 ans d'expérience en formation professionnelle. Certifié Microsoft Office Specialist Master.",
+      avatar: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 7,
+    title: "Formation : Excel - Pack complet",
+    description: "Devenez expert Excel en maîtrisant toutes les fonctionnalités, des bases aux techniques avancées d'analyse de données et d'automatisation.",
+    duration: "12h40",
+    chapters: 8,
+    level: "Débutant à Avancé",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Formules et fonctions avancées",
+      "Tableaux croisés dynamiques",
+      "Macros et automatisation VBA",
+      "Analyse de données et graphiques"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Formation complète Excel pour passer de débutant à expert. Apprenez à exploiter toute la puissance d'Excel pour l'analyse de données, l'automatisation et la création de tableaux de bord professionnels.",
+    objectives: [
+      "Maîtriser toutes les fonctions Excel essentielles",
+      "Créer des tableaux croisés dynamiques complexes",
+      "Automatiser vos tâches avec les macros VBA",
+      "Analyser et visualiser des données efficacement",
+      "Développer des tableaux de bord interactifs"
+    ],
+    prerequisites: [
+      "Connaissances de base d'Excel recommandées",
+      "Accès à Microsoft Excel",
+      "Logique mathématique de base"
+    ],
+    program: [
+      {
+        title: "Excel Fondamentaux",
+        content: [
+          "Interface et navigation",
+          "Saisie et mise en forme",
+          "Formules de base",
+          "Gestion des feuilles et classeurs"
+        ]
+      },
+      {
+        title: "Fonctions Avancées",
+        content: [
+          "Fonctions logiques et conditionnelles",
+          "Fonctions de recherche (VLOOKUP, INDEX/MATCH)",
+          "Fonctions de date et texte",
+          "Fonctions statistiques et mathématiques"
+        ]
+      },
+      {
+        title: "Analyse de Données",
+        content: [
+          "Tableaux croisés dynamiques",
+          "Graphiques avancés",
+          "Filtres et tris complexes",
+          "Outils d'analyse de données"
+        ]
+      },
+      {
+        title: "Automatisation VBA",
+        content: [
+          "Introduction à VBA",
+          "Enregistrement de macros",
+          "Programmation VBA de base",
+          "Création d'interfaces utilisateur"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Marie Tableur",
+      bio: "Formatrice Excel certifiée Microsoft avec 12 ans d'expérience. Spécialisée dans l'analyse de données et l'automatisation pour les entreprises.",
+      avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 8,
+    title: "Formation : Word - Pack complet",
+    description: "Maîtrisez Microsoft Word de A à Z pour créer des documents professionnels impeccables et optimiser votre productivité rédactionnelle.",
+    duration: "13h15",
+    chapters: 7,
+    level: "Débutant à Avancé",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Mise en forme professionnelle",
+      "Styles et modèles avancés",
+      "Publipostage et automatisation",
+      "Collaboration et révision"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Formation exhaustive pour devenir expert Word. Apprenez à créer des documents professionnels, automatiser vos tâches et collaborer efficacement avec les outils avancés de traitement de texte.",
+    objectives: [
+      "Maîtriser toutes les fonctionnalités de Word",
+      "Créer des documents professionnels complexes",
+      "Utiliser les styles et modèles efficacement",
+      "Automatiser avec le publipostage",
+      "Collaborer et réviser des documents en équipe"
+    ],
+    prerequisites: [
+      "Connaissances de base de Word",
+      "Accès à Microsoft Word",
+      "Compétences rédactionnelles de base"
+    ],
+    program: [
+      {
+        title: "Word Fondamentaux",
+        content: [
+          "Interface et outils de base",
+          "Saisie et correction de texte",
+          "Mise en forme des caractères et paragraphes",
+          "Insertion d'objets et d'images"
+        ]
+      },
+      {
+        title: "Mise en Page Avancée",
+        content: [
+          "Styles et hiérarchisation",
+          "En-têtes et pieds de page",
+          "Tables des matières automatiques",
+          "Sections et colonnes"
+        ]
+      },
+      {
+        title: "Documents Complexes",
+        content: [
+          "Tableaux avancés",
+          "Formulaires et champs",
+          "Références croisées",
+          "Index et bibliographie"
+        ]
+      },
+      {
+        title: "Automatisation et Collaboration",
+        content: [
+          "Modèles personnalisés",
+          "Publipostage avancé",
+          "Suivi des modifications",
+          "Commentaires et révisions"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Sophie Rédaction",
+      bio: "Experte Word et formatrice en bureautique depuis 10 ans. Spécialisée dans la création de documents complexes et la formation en entreprise.",
+      avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 9,
+    title: "Formation : PowerPoint – Pack complet",
+    description: "Créez des présentations percutantes et professionnelles avec PowerPoint. Maîtrisez le design, les animations et les techniques de présentation.",
+    duration: "6h15",
+    chapters: 5,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Design professionnel et impactant",
+      "Animations et transitions fluides",
+      "Intégration multimédia avancée",
+      "Techniques de présentation efficaces"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Apprenez à créer des présentations PowerPoint qui marquent les esprits. De la conception graphique aux techniques de présentation, devenez un expert de la communication visuelle.",
+    objectives: [
+      "Créer des présentations visuellement attractives",
+      "Maîtriser les animations et transitions",
+      "Intégrer efficacement du contenu multimédia",
+      "Structurer vos présentations pour l'impact",
+      "Présenter avec confiance et professionnalisme"
+    ],
+    prerequisites: [
+      "Connaissances de base de PowerPoint",
+      "Accès à Microsoft PowerPoint",
+      "Sens esthétique et créativité"
+    ],
+    program: [
+      {
+        title: "PowerPoint Essentiels",
+        content: [
+          "Interface et outils de base",
+          "Création et gestion des diapositives",
+          "Mise en forme du texte et des objets",
+          "Thèmes et modèles"
+        ]
+      },
+      {
+        title: "Design et Graphisme",
+        content: [
+          "Principes de design visuel",
+          "Couleurs et typographie",
+          "Images et icônes",
+          "Mise en page professionnelle"
+        ]
+      },
+      {
+        title: "Animations et Interactivité",
+        content: [
+          "Animations d'objets",
+          "Transitions entre diapositives",
+          "Déclencheurs et chronologie",
+          "Présentations interactives"
+        ]
+      },
+      {
+        title: "Contenu Multimédia",
+        content: [
+          "Intégration vidéo et audio",
+          "Graphiques et tableaux",
+          "Liens et navigation",
+          "Export et partage"
+        ]
+      },
+      {
+        title: "Techniques de Présentation",
+        content: [
+          "Préparation et répétition",
+          "Mode présentateur",
+          "Gestion du stress",
+          "Interaction avec l'audience"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Thomas Présentation",
+      bio: "Designer et formateur PowerPoint avec 8 ans d'expérience. Expert en communication visuelle et techniques de présentation pour les entreprises.",
+      avatar: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 10,
+    title: "Formation : Initiation informatique sous Mac",
+    description: "Découvrez l'univers Mac et maîtrisez macOS pour optimiser votre productivité sur les ordinateurs Apple.",
+    duration: "4h",
+    chapters: 4,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Navigation et interface macOS",
+      "Applications natives essentielles",
+      "Gestion des fichiers et dossiers",
+      "Personnalisation et optimisation"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Formation d'initiation complète pour les nouveaux utilisateurs Mac. Apprenez à naviguer dans macOS, utiliser les applications natives et optimiser votre expérience utilisateur.",
+    objectives: [
+      "Maîtriser l'interface et la navigation macOS",
+      "Utiliser efficacement les applications natives",
+      "Gérer vos fichiers et dossiers",
+      "Personnaliser votre environnement de travail",
+      "Optimiser les performances de votre Mac"
+    ],
+    prerequisites: [
+      "Aucune expérience Mac requise",
+      "Accès à un ordinateur Mac",
+      "Curiosité pour l'écosystème Apple"
+    ],
+    program: [
+      {
+        title: "Découverte de macOS",
+        content: [
+          "Interface et bureau",
+          "Dock et barre de menus",
+          "Finder et navigation",
+          "Spotlight et recherche"
+        ]
+      },
+      {
+        title: "Applications Essentielles",
+        content: [
+          "Safari et navigation web",
+          "Mail et communication",
+          "Calendrier et contacts",
+          "Notes et rappels"
+        ]
+      },
+      {
+        title: "Gestion des Fichiers",
+        content: [
+          "Organisation des dossiers",
+          "iCloud et synchronisation",
+          "Sauvegarde Time Machine",
+          "Partage et permissions"
+        ]
+      },
+      {
+        title: "Personnalisation et Optimisation",
+        content: [
+          "Préférences système",
+          "Raccourcis clavier",
+          "Maintenance et nettoyage",
+          "Sécurité et confidentialité"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Alex MacExpert",
+      bio: "Formateur Apple certifié avec 6 ans d'expérience. Spécialisé dans l'accompagnement des nouveaux utilisateurs Mac et l'optimisation de l'écosystème Apple.",
+      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 11,
+    title: "Formation : WhatsApp Business",
+    description: "Exploitez le potentiel de WhatsApp Business pour développer votre activité, automatiser vos communications et fidéliser vos clients.",
+    duration: "3h30",
+    chapters: 4,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Configuration professionnelle complète",
+      "Automatisation des réponses",
+      "Catalogue produits intégré",
+      "Stratégies de communication client"
+    ],
+    category: "Bureaucratique",
+    detailedDescription: "Transformez WhatsApp en outil professionnel puissant. Apprenez à configurer WhatsApp Business, automatiser vos communications et développer votre relation client via cette plateforme incontournable.",
+    objectives: [
+      "Configurer et optimiser WhatsApp Business",
+      "Automatiser vos réponses et communications",
+      "Créer un catalogue produits attractif",
+      "Développer une stratégie de communication efficace",
+      "Mesurer et analyser vos performances"
+    ],
+    prerequisites: [
+      "Utilisation basique de WhatsApp",
+      "Smartphone ou ordinateur",
+      "Activité commerciale ou projet professionnel"
+    ],
+    program: [
+      {
+        title: "Configuration WhatsApp Business",
+        content: [
+          "Installation et paramétrage",
+          "Profil professionnel optimisé",
+          "Informations commerciales",
+          "Horaires et disponibilité"
+        ]
+      },
+      {
+        title: "Automatisation et Outils",
+        content: [
+          "Messages de bienvenue",
+          "Réponses automatiques",
+          "Messages d'absence",
+          "Raccourcis et modèles"
+        ]
+      },
+      {
+        title: "Catalogue et Vente",
+        content: [
+          "Création du catalogue produits",
+          "Photos et descriptions optimisées",
+          "Gestion des commandes",
+          "Processus de vente"
+        ]
+      },
+      {
+        title: "Stratégie et Performance",
+        content: [
+          "Stratégies de communication",
+          "Fidélisation client",
+          "Statistiques et analyses",
+          "Bonnes pratiques et conformité"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Sarah Digital",
+      bio: "Consultante en marketing digital et experte WhatsApp Business. 5 ans d'expérience dans l'accompagnement des TPE/PME pour leur digitalisation.",
+      avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
 ];
