@@ -697,5 +697,365 @@ export const formations: Formation[] = [
       bio: "Consultante en marketing digital et experte WhatsApp Business. 5 ans d'expérience dans l'accompagnement des TPE/PME pour leur digitalisation.",
       avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
+  },
+  {
+    id: 11,
+    title: "Formation : Adobe Photoshop",
+    description: "Maîtrisez Adobe Photoshop pour créer, retoucher et optimiser vos visuels professionnels avec les techniques des experts.",
+    duration: "7h45",
+    chapters: 6,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Retouche photo professionnelle",
+      "Création de visuels impactants",
+      "Maîtrise des calques et masques",
+      "Optimisation pour le web et l'impression"
+    ],
+    category: "Communication",
+    detailedDescription: "Formation complète pour maîtriser Adobe Photoshop, l'outil de référence en retouche photo et création graphique. Apprenez les techniques professionnelles pour créer des visuels de qualité.",
+    objectives: [
+      "Maîtriser l'interface et les outils Photoshop",
+      "Réaliser des retouches photo professionnelles",
+      "Créer des compositions graphiques complexes",
+      "Optimiser vos images pour différents supports",
+      "Développer un workflow efficace"
+    ],
+    prerequisites: [
+      "Connaissances de base en informatique",
+      "Accès à Adobe Photoshop",
+      "Sens artistique et créativité"
+    ],
+    program: [
+      {
+        title: "Interface et outils de base",
+        content: [
+          "Découverte de l'interface",
+          "Outils de sélection",
+          "Calques et masques",
+          "Réglages de base"
+        ]
+      },
+      {
+        title: "Retouche photo",
+        content: [
+          "Correction des défauts",
+          "Ajustements colorimétriques",
+          "Techniques de détourage",
+          "Retouche beauté et portrait"
+        ]
+      },
+      {
+        title: "Création graphique",
+        content: [
+          "Compositions et montages",
+          "Effets et filtres",
+          "Typographie et texte",
+          "Export et optimisation"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Lucas Créatif",
+      bio: "Graphiste professionnel et formateur Photoshop certifié Adobe. 10 ans d'expérience en agence de communication et formation.",
+      avatar: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 12,
+    title: "Formation : Première Pro",
+    description: "Apprenez le montage vidéo professionnel avec Adobe Premiere Pro pour créer des contenus vidéo de qualité cinématographique.",
+    duration: "7h",
+    chapters: 5,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Montage vidéo professionnel",
+      "Étalonnage et correction colorimétrique",
+      "Effets visuels et transitions",
+      "Export optimisé multi-formats"
+    ],
+    category: "Communication",
+    detailedDescription: "Maîtrisez Adobe Premiere Pro, le logiciel de montage vidéo de référence utilisé par les professionnels du cinéma et de la télévision. Créez des vidéos percutantes pour tous vos projets.",
+    objectives: [
+      "Maîtriser le workflow de montage vidéo",
+      "Réaliser des montages dynamiques et fluides",
+      "Appliquer des effets visuels et sonores",
+      "Étalonner et corriger vos images",
+      "Exporter dans les formats appropriés"
+    ],
+    prerequisites: [
+      "Connaissances de base en informatique",
+      "Accès à Adobe Premiere Pro",
+      "Matériel vidéo pour s'exercer"
+    ],
+    program: [
+      {
+        title: "Prise en main",
+        content: [
+          "Interface et workspace",
+          "Import et organisation des médias",
+          "Timeline et séquences",
+          "Outils de montage de base"
+        ]
+      },
+      {
+        title: "Montage avancé",
+        content: [
+          "Techniques de montage",
+          "Transitions et effets",
+          "Titrage et graphiques",
+          "Synchronisation audio/vidéo"
+        ]
+      },
+      {
+        title: "Post-production",
+        content: [
+          "Étalonnage colorimétrique",
+          "Mixage audio",
+          "Effets visuels",
+          "Export et diffusion"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Maxime Vidéo",
+      bio: "Monteur vidéo professionnel et formateur Adobe certifié. 8 ans d'expérience en production audiovisuelle et post-production.",
+      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 13,
+    title: "Formation : After Effects",
+    description: "Créez des animations et effets visuels spectaculaires avec Adobe After Effects pour donner vie à vos projets créatifs.",
+    duration: "10h",
+    chapters: 7,
+    level: "Intermédiaire à Avancé",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Animation 2D et motion design",
+      "Effets visuels cinématographiques",
+      "Compositing et incrustation",
+      "Animation de texte et logos"
+    ],
+    category: "Communication",
+    detailedDescription: "Plongez dans l'univers du motion design et des effets visuels avec Adobe After Effects. Créez des animations professionnelles et des effets spectaculaires pour vos vidéos.",
+    objectives: [
+      "Maîtriser les principes de l'animation",
+      "Créer des effets visuels professionnels",
+      "Réaliser du compositing avancé",
+      "Animer textes, logos et graphiques",
+      "Intégrer After Effects dans un workflow vidéo"
+    ],
+    prerequisites: [
+      "Connaissances de base en vidéo",
+      "Accès à Adobe After Effects",
+      "Notions de Premiere Pro recommandées"
+    ],
+    program: [
+      {
+        title: "Fondamentaux",
+        content: [
+          "Interface et concepts de base",
+          "Compositions et calques",
+          "Propriétés et keyframes",
+          "Prévisualisation et rendu"
+        ]
+      },
+      {
+        title: "Animation",
+        content: [
+          "Principes de l'animation",
+          "Courbes de vitesse",
+          "Animation de texte",
+          "Rigging et parentage"
+        ]
+      },
+      {
+        title: "Effets et compositing",
+        content: [
+          "Effets visuels",
+          "Masques et rotoscoping",
+          "Tracking et stabilisation",
+          "Compositing multicouches"
+        ]
+      },
+      {
+        title: "Motion design avancé",
+        content: [
+          "Animation de logos",
+          "Particules et simulations",
+          "Expressions et scripts",
+          "Workflow et optimisation"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Emma Motion",
+      bio: "Motion designer et formatrice After Effects avec 12 ans d'expérience. Spécialisée dans les effets visuels et l'animation pour la publicité.",
+      avatar: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 14,
+    title: "Formation : Canva - Pack Complet",
+    description: "Maîtrisez Canva de A à Z pour créer facilement tous vos visuels professionnels sans compétences techniques en design.",
+    duration: "26h",
+    chapters: 12,
+    level: "Débutant à Avancé",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Création de visuels pour tous supports",
+      "Design de publications réseaux sociaux",
+      "Présentations et documents professionnels",
+      "Branding et identité visuelle"
+    ],
+    category: "Communication",
+    detailedDescription: "Formation exhaustive pour devenir expert Canva. Apprenez à créer tous types de visuels professionnels facilement, des réseaux sociaux aux supports de communication d'entreprise.",
+    objectives: [
+      "Maîtriser toutes les fonctionnalités de Canva",
+      "Créer une identité visuelle cohérente",
+      "Produire du contenu pour les réseaux sociaux",
+      "Concevoir des supports de communication",
+      "Optimiser votre workflow créatif"
+    ],
+    prerequisites: [
+      "Aucune compétence en design requise",
+      "Compte Canva (gratuit ou Pro)",
+      "Créativité et motivation"
+    ],
+    program: [
+      {
+        title: "Prise en main Canva",
+        content: [
+          "Interface et navigation",
+          "Types de designs et formats",
+          "Bibliothèque d'éléments",
+          "Gestion des projets"
+        ]
+      },
+      {
+        title: "Design fondamental",
+        content: [
+          "Principes de design",
+          "Couleurs et typographie",
+          "Composition et mise en page",
+          "Utilisation des templates"
+        ]
+      },
+      {
+        title: "Réseaux sociaux",
+        content: [
+          "Posts Instagram et Facebook",
+          "Stories et formats verticaux",
+          "LinkedIn et Twitter",
+          "Planification de contenu"
+        ]
+      },
+      {
+        title: "Communication d'entreprise",
+        content: [
+          "Présentations professionnelles",
+          "Flyers et brochures",
+          "Cartes de visite",
+          "Supports événementiels"
+        ]
+      },
+      {
+        title: "Branding et identité",
+        content: [
+          "Création de logos",
+          "Charte graphique",
+          "Kit de marque",
+          "Cohérence visuelle"
+        ]
+      },
+      {
+        title: "Fonctionnalités avancées",
+        content: [
+          "Animations et vidéos",
+          "Collaboration en équipe",
+          "Brand Hub et assets",
+          "Automatisation et intégrations"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Sophie Design",
+      bio: "Designer graphique et formatrice Canva certifiée. 7 ans d'expérience en communication visuelle et marketing digital.",
+      avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  },
+  {
+    id: 15,
+    title: "Formation : Marketing e-commerce et réseaux sociaux",
+    description: "Développez votre activité e-commerce grâce aux stratégies marketing digital et à la puissance des réseaux sociaux.",
+    duration: "18h",
+    chapters: 9,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Stratégies e-commerce performantes",
+      "Marketing des réseaux sociaux",
+      "Publicité Facebook et Instagram Ads",
+      "Conversion et fidélisation client"
+    ],
+    category: "Communication",
+    detailedDescription: "Apprenez à développer et promouvoir votre e-commerce grâce aux techniques de marketing digital les plus efficaces. Maîtrisez les réseaux sociaux pour booster vos ventes.",
+    objectives: [
+      "Élaborer une stratégie e-commerce complète",
+      "Maîtriser le marketing des réseaux sociaux",
+      "Créer des campagnes publicitaires rentables",
+      "Optimiser le taux de conversion",
+      "Fidéliser et développer sa clientèle"
+    ],
+    prerequisites: [
+      "Notions de base en marketing",
+      "Projet e-commerce existant ou en cours",
+      "Accès aux réseaux sociaux professionnels"
+    ],
+    program: [
+      {
+        title: "Stratégie e-commerce",
+        content: [
+          "Analyse de marché et concurrence",
+          "Positionnement et proposition de valeur",
+          "Parcours client et UX",
+          "KPIs et métriques essentielles"
+        ]
+      },
+      {
+        title: "Marketing des réseaux sociaux",
+        content: [
+          "Stratégie de contenu",
+          "Community management",
+          "Influence et partenariats",
+          "Engagement et interaction"
+        ]
+      },
+      {
+        title: "Publicité payante",
+        content: [
+          "Facebook et Instagram Ads",
+          "Google Ads pour e-commerce",
+          "Retargeting et remarketing",
+          "Optimisation des campagnes"
+        ]
+      },
+      {
+        title: "Conversion et fidélisation",
+        content: [
+          "Optimisation du tunnel de vente",
+          "Email marketing automatisé",
+          "Programme de fidélité",
+          "Service client et avis"
+        ]
+      }
+    ],
+    instructor: {
+      name: "Thomas Commerce",
+      bio: "Expert e-commerce et marketing digital avec 10 ans d'expérience. Consultant pour des marques internationales et formateur certifié Google Ads.",
+      avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
   }
 ];
