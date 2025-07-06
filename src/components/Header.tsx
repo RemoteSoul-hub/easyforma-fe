@@ -54,7 +54,7 @@ const Header = () => {
               <div className="p-1 bg-orange-100 rounded-full">
                 <Mail className="h-4 w-4 text-orange-500" />
               </div>
-              <span>contact@easyforma.fr</span>
+              <span>service.easyforma@gmail.com</span>
             </div>
           </div>
 
@@ -115,7 +115,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Mail className="h-4 w-4 text-orange-500" />
-                  <span>contact@easyforma.fr</span>
+                  <span>service.easyforma@gmail.com</span>
                 </div>
               </div>
             </div>

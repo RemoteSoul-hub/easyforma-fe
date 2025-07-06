@@ -110,7 +110,7 @@ const Footer = () => {
                 <div className="p-2 bg-orange-500/20 rounded-full">
                   <Mail className="h-4 w-4 text-orange-400" />
                 </div>
-                <span className="text-gray-400">contact@easyforma.fr</span>
+                <span className="text-gray-400">service.easyforma@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="p-2 bg-orange-500/20 rounded-full mt-0.5">
