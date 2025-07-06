@@ -66,17 +66,81 @@ export const formations: Formation[] = [
     duration: "10h30",
     chapters: 6,
     level: "Intermédiaire",
-    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
       "Identification des sources de conflit",
-      "Techniques de médiation et négociation",
-      "Communication assertive",
-      "Résolution collaborative des différends"
+      "Techniques de médiation",
+      "Communication non-violente",
+      "Négociation et résolution"
+    ],
+    category: "Bien-être et performance"
+  },
+  {
+    id: 5,
+    title: "Formation : Gestion du stress",
+    description: "Maîtrisez les techniques de gestion du stress pour améliorer votre performance, votre bien-être et votre qualité de vie professionnelle.",
+    duration: "12h",
+    chapters: 7,
+    level: "Tous niveaux",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Identification des sources de stress",
+      "Techniques de relaxation",
+      "Gestion émotionnelle",
+      "Stratégies de coping"
+    ],
+    category: "Bien-être et performance"
+  },
+  {
+    id: 6,
+    title: "Formation : Bureautique",
+    description: "Maîtrisez les outils bureautiques essentiels pour optimiser votre productivité et votre efficacité professionnelle au quotidien.",
+    duration: "21h",
+    chapters: 10,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Maîtrise complète des outils Office",
+      "Optimisation de la productivité",
+      "Automatisation des tâches répétitives",
+      "Collaboration et partage de documents"
+    ],
+    category: "Bureaucratique"
+  },
+  {
+    id: 7,
+    title: "Formation : Excel - Pack complet",
+    description: "Devenez expert Excel en maîtrisant toutes les fonctionnalités, des bases aux techniques avancées d'analyse de données et d'automatisation.",
+    duration: "12h40",
+    chapters: 8,
+    level: "Débutant à Avancé",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Formules et fonctions avancées",
+      "Tableaux croisés dynamiques",
+      "Macros et automatisation VBA",
+      "Analyse de données et graphiques"
     ],
     category: "Bureaucratique"
   },
   {
     id: 8,
+    title: "Formation : Word - Pack complet",
+    description: "Maîtrisez Microsoft Word de A à Z pour créer des documents professionnels impeccables et optimiser votre productivité rédactionnelle.",
+    duration: "13h15",
+    chapters: 7,
+    level: "Débutant à Avancé",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Mise en forme professionnelle",
+      "Styles et modèles avancés",
+      "Publipostage et automatisation",
+      "Collaboration et révision"
+    ],
+    category: "Bureaucratique"
+  },
+  {
+    id: 9,
     title: "Formation : PowerPoint – Pack complet",
     description: "Créez des présentations percutantes et professionnelles avec PowerPoint. Maîtrisez le design, les animations et les techniques de présentation.",
     duration: "6h15",
@@ -92,7 +156,7 @@ export const formations: Formation[] = [
     category: "Bureaucratique"
   },
   {
-    id: 9,
+    id: 10,
     title: "Formation : Initiation informatique sous Mac",
     description: "Découvrez l'univers Mac et maîtrisez macOS pour optimiser votre productivité sur les ordinateurs Apple.",
     duration: "4h",
@@ -108,7 +172,7 @@ export const formations: Formation[] = [
     category: "Bureaucratique"
   },
   {
-    id: 10,
+    id: 11,
     title: "Formation : WhatsApp Business",
     description: "Exploitez le potentiel de WhatsApp Business pour développer votre activité, automatiser vos communications et fidéliser vos clients.",
     duration: "3h30",
@@ -124,7 +188,7 @@ export const formations: Formation[] = [
     category: "Bureaucratique"
   },
   {
-    id: 11,
+    id: 12,
     title: "Formation : Adobe Photoshop",
     description: "Maîtrisez Adobe Photoshop pour créer, retoucher et optimiser vos visuels professionnels avec les techniques des experts.",
     duration: "7h45",
