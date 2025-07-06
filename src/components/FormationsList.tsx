@@ -253,15 +253,19 @@ const FormationsList = () => {
               <div className="bg-orange-50 p-6 rounded-2xl border border-orange-100">
                 <div className="flex items-center justify-center space-x-4 mb-4">
                   <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Accès immédiat à toutes les formations</span>
+                  <span className="text-gray-700">Accès immédiat et à vie à toutes les formations</span>
                 </div>
                 <div className="flex items-center justify-center space-x-4 mb-4">
                   <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Certificats de réussite</span>
+                  <span className="text-gray-700">+ de 1000h de contenu sur des thématiques ultra variées</span>
                 </div>
                 <div className="flex items-center justify-center space-x-4">
                   <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Support pédagogique inclus</span>
+                  <span className="text-gray-700">Une communauté de + de 5000 entrepreneurs</span>
+                </div>
+                <div className="flex items-center justify-center space-x-4 mt-4">
+                  <CheckCircle className="h-5 w-5 text-green-500" />
+                  <span className="text-gray-700">Un accompagnement business</span>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
