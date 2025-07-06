@@ -734,6 +734,11 @@ export const formations: Formation[] = [
           "Profil professionnel optimisé",
           "Informations commerciales",
           "Horaires et disponibil             ]
+        
+      }
+    ]
+  }
+]]
    ]
    
       }
