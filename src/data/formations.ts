@@ -92,22 +92,6 @@ export const formations: Formation[] = [
     category: "Bien-être et performance"
   },
   {
-    id: 6,
-    title: "Formation : Bureautique",
-    description: "Maîtrisez les outils bureautiques essentiels pour optimiser votre productivité et votre efficacité professionnelle au quotidien.",
-    duration: "21h",
-    chapters: 10,
-    level: "Débutant à Intermédiaire",
-    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Maîtrise complète des outils Office",
-      "Optimisation de la productivité",
-      "Automatisation des tâches répétitives",
-      "Collaboration et partage de documents"
-    ],
-    category: "Bureaucratique"
-  },
-  {
     id: 7,
     title: "Formation : Excel - Pack complet",
     description: "Devenez expert Excel en maîtrisant toutes les fonctionnalités, des bases aux techniques avancées d'analyse de données et d'automatisation.",
