@@ -427,7 +427,7 @@ export const formations: Formation[] = [
     id: 17,
     title: "Formation : Document unique obligatoire en entreprise",
     description: "Maîtrisez la création et la gestion du Document Unique d'Évaluation des Risques Professionnels (DUERP) pour assurer la sécurité en entreprise.",
-    duration: "4h30",
+    duration: "13h",
     chapters: 4,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -437,7 +437,7 @@ export const formations: Formation[] = [
       "Rédaction et mise à jour du DUERP",
       "Plan d'actions préventives"
     ],
-    category: "Management et vente"
+    category: "La boîte à outils de l'entrepreneur"
   },
   {
     id: 23,
