@@ -65,6 +65,14 @@ export const formations: Formation[] = [
     description: "Apprenez à identifier, prévenir et résoudre les conflits professionnels pour maintenir un climat de travail serein et productif.",
     duration: "10h30",
     chapters: 6,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Identification des sources de conflit",
+      "Techniques de médiation et négociation",
+      "Communication assertive",
+      "Résolution collaborative des différends"
+    ],
     category: "Bureaucratique"
   },
   {
@@ -422,6 +430,13 @@ export const formations: Formation[] = [
     duration: "4h30",
     chapters: 4,
     level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Obligations légales et réglementaires",
+      "Méthodologie d'évaluation des risques",
+      "Rédaction et mise à jour du DUERP",
+      "Plan d'actions préventives"
+    ],
     category: "Management et vente"
   },
   {
