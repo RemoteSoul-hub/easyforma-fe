@@ -260,7 +260,7 @@ export const formations: Formation[] = [
         ]
       }
     ],
-   category: "Communication"
+    category: "Communication"
   },
   {
     id: 15,
@@ -421,17 +421,8 @@ export const formations: Formation[] = [
     description: "Maîtrisez la création et la gestion du Document Unique d'Évaluation des Risques Professionnels (DUERP) pour assurer la sécurité en entreprise.",
     duration: "4h30",
     chapters: 4,
-category: "Management et vente"
     level: "Intermédiaire",
-          "Validation du niveau A1"
-        ]
-      }
-    ],
-    instructor: {
-      name: "Pierre Signant",
-      bio: "Formateur LSF certifié niveau A1-C2 avec 12 ans d'expérience. Expert en pédagogie LSF et évaluateur certifié pour les niveaux du CECR.",
-      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
+    category: "Management et vente"
   },
   {
     id: 23,
@@ -447,15 +438,6 @@ category: "Management et vente"
       "Rendu et visualisation",
       "Extensions et plugins utiles"
     ],
-    category: "Communication",
-    detailedDescription: "Formation complète SketchUp pour apprendre la modélisation 3D de A à Z. Créez des modèles professionnels, des plans techniques et des rendus visuels impressionnants pour vos projets.",
-    objectives: [
-      "Maîtriser l'interface et les outils SketchUp",
-      "Créer des modèles 3D précis et détaillés",
-      "Produire des plans et coupes techniques",
-      "Réaliser des rendus et visualisations",
-      "Utiliser les extensions pour optimiser le workflow"
-    ],
-    prerequisites: [
-  category: "Communication"
+    category: "Communication"
+  }
 ];
