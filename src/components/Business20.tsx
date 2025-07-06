@@ -324,11 +324,11 @@ const Business20 = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-2xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-400">29,90€</div>
+                  <div className="text-3xl font-bold text-yellow-400">29€</div>
                   <div className="text-blue-200 text-sm">par mois</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-400">100+</div>
+                  <div className="text-3xl font-bold text-yellow-400">+100</div>
                   <div className="text-blue-200 text-sm">formations</div>
                 </div>
                 <div className="text-center">

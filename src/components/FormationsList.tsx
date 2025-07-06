@@ -6,21 +6,29 @@ import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, 
 
 const FormationsList = () => {
   
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [selectedCategory, setSelectedCategory] = useState<string>('populaires');
   const [activeStep, setActiveStep] = useState(0);
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
 
-  const categories = ['all', ...Array.from(new Set(formations.map(f => f.category)))];
+  // Formations populaires (les 6 premières)
+  const popularFormations = formations.slice(0, 6);
   
-  const filteredFormations = selectedCategory === 'all' 
-    ? formations 
-    : formations.filter(f => f.category === selectedCategory);
+  const categories = ['populaires', 'all', ...Array.from(new Set(formations.map(f => f.category)))];
+  
+  const filteredFormations = selectedCategory === 'populaires'
+    ? popularFormations
+    : selectedCategory === 'all' 
+      ? formations 
+      : formations.filter(f => f.category === selectedCategory);
 
   const getCategoryLabel = (category: string) => {
     const labels = {
+      'populaires': 'Les populaires',
       'all': 'Toutes les formations',
       'Développement': 'Développement',
-      'Marketing': 'Marketing',
+      'Réseaux sociaux et communication': 'Réseaux sociaux',
+      'Communication': 'Communication',
+      'Création digitale': 'Création digitale',
       'Design': 'Design',
       'Data Science': 'Data Science',
       'Management': 'Management',
@@ -257,7 +265,7 @@ const FormationsList = () => {
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                 <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl">
-                  S'abonner maintenant - 29.90€/mois
+                  S'abonner maintenant - 29€/mois
                 </button>
                 <button className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200">
                   Essai gratuit 7 jours

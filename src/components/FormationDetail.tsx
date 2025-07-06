@@ -199,7 +199,7 @@ const FormationDetail = () => {
             {/* Pricing Card */}
             <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white shadow-xl">
               <div className="text-center space-y-4">
-                <div className="text-4xl font-bold">99€</div>
+                <div className="text-4xl font-bold">29€</div>
                 <div className="text-orange-100">par mois</div>
                 <div className="border-t border-orange-400 pt-4">
                   <div className="flex items-center justify-center space-x-2 mb-2">

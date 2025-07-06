@@ -11,12 +11,12 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
                 <Infinity className="h-4 w-4" />
-                <span>Forme toi - Deviens expert - Gagne de l'argent</span>
+                <span>Accès illimité pour 29€/mois</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
                 Toutes nos
                 <span className="text-orange-500 block">formations</span>
-                <span className="text-gray-700">pour 29,90€/mois</span>
+                <span className="text-gray-700">pour 29€/mois</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
                 Un seul abonnement pour accéder à l'intégralité de notre catalogue 
@@ -28,11 +28,11 @@ const Hero = () => {
             <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-6 text-white shadow-xl">
               <div className="flex items-center justify-between">
                 <div>
-                  <div className="text-3xl font-bold">29,90€</div>
+                  <div className="text-3xl font-bold">29€</div>
                   <div className="text-orange-100">par mois</div>
                 </div>
                 <div className="text-right">
-                  <div className="text-lg font-semibold">100+ formations</div>
+                  <div className="text-lg font-semibold">+100 formations</div>
                   <div className="text-orange-100">accès illimité</div>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const Hero = () => {
                     <BookOpen className="h-6 w-6 text-orange-500" />
                   </div>
                   <div>
-                    <div className="text-lg font-bold text-gray-900">100+</div>
+                    <div className="text-lg font-bold text-gray-900">+100</div>
                     <div className="text-sm text-gray-600">Formations</div>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ const Hero = () => {
               {/* Price floating card */}
               <div className="absolute -top-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 text-white p-4 rounded-2xl shadow-xl">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">29,90€</div>
+                  <div className="text-2xl font-bold">29€</div>
                   <div className="text-xs text-orange-100">par mois</div>
                 </div>
               </div>
