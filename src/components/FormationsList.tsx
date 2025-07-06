@@ -25,14 +25,11 @@ const FormationsList = () => {
     const labels = {
       'populaires': 'Les populaires',
       'all': 'Toutes les formations',
-      'Développement': 'Développement',
-      'Réseaux sociaux et communication': 'Réseaux sociaux',
+      'Bien-être et performance': 'Bien-être et performance',
+      'Bureaucratique': 'Bureaucratique',
       'Communication': 'Communication',
-      'Création digitale': 'Création digitale',
-      'Design': 'Design',
-      'Data Science': 'Data Science',
-      'Management': 'Management',
-      'Sécurité': 'Sécurité',
+      'La boîte à outils de l\'entrepreneur': 'Boîte à outils entrepreneur',
+      'Management et vente': 'Management et vente',
     };
     return labels[category as keyof typeof labels] || category;
   };

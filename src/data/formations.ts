@@ -37,7 +37,7 @@ export const formations: Formation[] = [
       "Croissance & analyse",
       "Community management"
     ],
-    category: "Réseaux sociaux et communication",
+    category: "Communication",
     detailedDescription: "Cette formation complète vous permettra de maîtriser l'ensemble des réseaux sociaux pour développer votre présence en ligne et créer une communauté engagée.",
     objectives: [
       "Maîtriser les principales plateformes sociales",
@@ -91,7 +91,7 @@ export const formations: Formation[] = [
       "Publicité en ligne (Google Ads, Facebook)",
       "Analytics et mesure de performance"
     ],
-    category: "Réseaux sociaux et communication",
+    category: "Communication",
     detailedDescription: "Devenez expert en marketing digital grâce à cette formation complète qui couvre tous les aspects du marketing en ligne.",
     objectives: [
       "Élaborer une stratégie marketing digital complète",
@@ -179,7 +179,7 @@ export const formations: Formation[] = [
       "Générez des opportunités",
       "Personal branding"
     ],
-    category: "Réseaux sociaux et communication",
+    category: "Communication",
     detailedDescription: "Maîtrisez LinkedIn pour développer votre carrière et votre business.",
     objectives: [
       "Optimiser votre profil LinkedIn",
@@ -223,7 +223,7 @@ export const formations: Formation[] = [
       "Mesurez l'impact",
       "ROI et performance"
     ],
-    category: "Réseaux sociaux et communication",
+    category: "Communication",
     detailedDescription: "Maîtrisez l'influence marketing pour développer votre marque.",
     objectives: [
       "Comprendre l'écosystème influenceurs",
@@ -267,7 +267,7 @@ export const formations: Formation[] = [
       "Création d'expériences fluides",
       "Design systems"
     ],
-    category: "Création digitale",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Devenez concepteur designer UI et créez des interfaces exceptionnelles.",
     objectives: [
       "Maîtriser les principes UX/UI",
@@ -312,7 +312,7 @@ export const formations: Formation[] = [
       "Bases de données",
       "Déploiement"
     ],
-    category: "Développement",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Formation complète pour devenir développeur web full stack.",
     objectives: [
       "Maîtriser les langages web",
@@ -351,7 +351,7 @@ export const formations: Formation[] = [
       "Visualisation de données",
       "Machine Learning"
     ],
-    category: "Data Science",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Maîtrisez Python pour l'analyse de données.",
     objectives: [
       "Apprendre Python",
@@ -390,7 +390,7 @@ export const formations: Formation[] = [
       "Recherche de mots-clés",
       "Analytics SEO"
     ],
-    category: "Marketing Digital",
+    category: "Communication",
     detailedDescription: "Maîtrisez le SEO pour améliorer votre visibilité.",
     objectives: [
       "Comprendre le SEO",
@@ -429,7 +429,7 @@ export const formations: Formation[] = [
       "Montage créatif",
       "Export optimisé"
     ],
-    category: "Création digitale",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Formation complète sur Adobe Photoshop.",
     objectives: [
       "Maîtriser l'interface",
@@ -469,7 +469,7 @@ export const formations: Formation[] = [
       "Optimisation ROI",
       "Analytics avancé"
     ],
-    category: "Marketing Digital",
+    category: "Communication",
     detailedDescription: "Maîtrisez Google Ads pour vos campagnes publicitaires.",
     objectives: [
       "Créer des campagnes efficaces",
@@ -508,7 +508,7 @@ export const formations: Formation[] = [
       "Personnalisation",
       "SEO WordPress"
     ],
-    category: "Développement",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Créez des sites WordPress professionnels.",
     objectives: [
       "Installer WordPress",
@@ -548,7 +548,7 @@ export const formations: Formation[] = [
       "Automatisation",
       "Mesure performance"
     ],
-    category: "Marketing Digital",
+    category: "Communication",
     detailedDescription: "Maîtrisez l'email marketing pour votre business.",
     objectives: [
       "Créer une stratégie email",
@@ -626,7 +626,7 @@ export const formations: Formation[] = [
       "Prototypage",
       "Collaboration équipe"
     ],
-    category: "Création digitale",
+    category: "La boîte à outils de l'entrepreneur",
     detailedDescription: "Apprenez Figma pour le design UI/UX.",
     objectives: [
       "Maîtriser Figma",
@@ -655,7 +655,7 @@ export const formations: Formation[] = [
   // Je vais créer un pattern pour générer rapidement les formations restantes
   ...Array.from({ length: 49 }, (_, i) => {
     const id = i + 16;
-    const categories = ["Développement", "Marketing Digital", "Création digitale", "Communication", "Data Science", "Management"];
+    const categories = ["Bien-être et performance", "Bureaucratique", "Communication", "La boîte à outils de l'entrepreneur", "Management et vente"];
     const category = categories[i % categories.length];
     
     return {

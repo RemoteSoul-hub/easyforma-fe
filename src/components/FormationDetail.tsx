@@ -43,12 +43,11 @@ const FormationDetail = () => {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      'Développement': 'bg-orange-500',
-      'Marketing': 'bg-orange-600',
-      'Design': 'bg-orange-400',
-      'Data Science': 'bg-orange-700',
-      'Management': 'bg-orange-500',
-      'Sécurité': 'bg-orange-600',
+      'Bien-être et performance': 'bg-green-500',
+      'Bureaucratique': 'bg-blue-500',
+      'Communication': 'bg-orange-500',
+      'La boîte à outils de l\'entrepreneur': 'bg-purple-500',
+      'Management et vente': 'bg-red-500',
     };
     return colors[category as keyof typeof colors] || 'bg-orange-500';
   };
