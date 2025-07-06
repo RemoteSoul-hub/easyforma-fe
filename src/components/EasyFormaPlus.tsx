@@ -1,0 +1,377 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { 
+  ArrowLeft, 
+  Play, 
+  CheckCircle, 
+  Target, 
+  TrendingUp, 
+  Users, 
+  Award, 
+  Clock, 
+  Infinity,
+  Star,
+  Briefcase,
+  Zap,
+  Heart,
+  Globe,
+  MessageSquare,
+  Calendar,
+  DollarSign,
+  Handshake,
+  Rocket,
+  Shield,
+  Crown
+} from 'lucide-react';
+
+const EasyFormaPlus = () => {
+  const benefits = [
+    {
+      icon: <DollarSign className="h-8 w-8" />,
+      title: "Commission de 50%",
+      description: "750€ de commission sur chaque vente, virés en moins de 24h"
+    },
+    {
+      icon: <Infinity className="h-8 w-8" />,
+      title: "Accès à vie",
+      description: "Possédez l'écosystème EASY FORMA et revendez-le à qui vous voulez"
+    },
+    {
+      icon: <Rocket className="h-8 w-8" />,
+      title: "Liberté financière",
+      description: "Obtenez votre indépendance financière en ligne simplement"
+    },
+    {
+      icon: <Shield className="h-8 w-8" />,
+      title: "Paiement rapide",
+      description: "Commissions versées en moins de 24h sur votre compte"
+    }
+  ];
+
+  const comparison = [
+    {
+      feature: "Accès immédiat et à vie à toutes les formations",
+      included: true
+    },
+    {
+      feature: "Plus de 1 000 heures de contenu sur des thématiques ultra variées",
+      included: true
+    },
+    {
+      feature: "Une communauté de + de 5 000 entrepreneurs",
+      included: true
+    },
+    {
+      feature: "Un accompagnement business",
+      included: true
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-white">
+      {/* Header */}
+      <div className="bg-white shadow-sm border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Link 
+            to="/" 
+            className="inline-flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors duration-200"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            <span>Retour à l'accueil</span>
+          </Link>
+        </div>
+      </div>
+
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8 text-white">
+              <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
+                <Crown className="h-4 w-4" />
+                <span>Programme Partenaire Exclusif</span>
+              </div>
+              
+              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+                EASY FORMA<span className="text-yellow-400">+</span>
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-purple-100 leading-relaxed">
+                Deviens mon partenaire et révolutionne le marché du closing avec une offre irrésistible
+              </p>
+              
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="p-2 bg-yellow-400/20 rounded-full">
+                    <DollarSign className="h-6 w-6 text-yellow-400" />
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold">1 500€</div>
+                    <div className="text-purple-200">Investissement unique</div>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="p-2 bg-green-400/20 rounded-full">
+                    <TrendingUp className="h-6 w-6 text-green-400" />
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-green-400">750€</div>
+                    <div className="text-purple-200">Commission par vente</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-4">
+                <button className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2">
+                  <Handshake className="h-5 w-5" />
+                  <span>Devenir partenaire</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Video Section */}
+            <div className="relative">
+              <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+                <div className="aspect-video bg-gradient-to-br from-purple-600/30 to-pink-600/30 rounded-2xl flex items-center justify-center mb-6">
+                  <div className="text-center space-y-4">
+                    <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto">
+                      <Play className="h-8 w-8 text-purple-900 ml-1" />
+                    </div>
+                    <div className="text-white">
+                      <h3 className="text-lg font-semibold mb-2">Découvrez EASY FORMA+</h3>
+                      <p className="text-purple-200 text-sm">Vidéo de présentation du programme partenaire</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-purple-100 text-center text-sm">
+                  Cliquez pour découvrir comment devenir partenaire et générer des revenus récurrents
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              Deviens mon partenaire en rejoignant
+              <span className="text-purple-600 block">EASY FORMA+</span>
+            </h2>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700">
+            <p>
+              Tu percevras un <strong className="text-purple-600">droit de revente</strong> te permettant d'acheter la totalité du catalogue EASY FORMA en une seule fois, au prix unique de <strong className="text-purple-600">1 500€</strong>. Cet achat te permettra de posséder l'écosystème EASY FORMA et de pouvoir le revendre à la personne de ton choix.
+            </p>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Contexte du marché</h3>
+              <p className="mb-4">
+                En 2025, les académies de closing proposent des formations individuelles à des prix de <strong className="text-red-600">2 000€</strong>.
+              </p>
+              <p className="text-purple-600 font-semibold">
+                Imagine pouvoir proposer à ton client :
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-6">Ce que tu peux offrir pour seulement 1 500€ :</h3>
+              <div className="space-y-4">
+                {comparison.map((item, index) => (
+                  <div key={index} className="flex items-center space-x-3">
+                    <CheckCircle className="h-6 w-6 text-yellow-400 flex-shrink-0" />
+                    <span className="text-lg">{item.feature}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-green-50 rounded-2xl p-8 border border-green-200">
+              <h3 className="text-2xl font-bold text-green-800 mb-4">Tes revenus</h3>
+              <p className="text-green-700 text-lg">
+                Tu obtiens une commission de <strong className="text-green-800">50%</strong> sur chacune de tes ventes, soit <strong className="text-green-800">750€</strong> virés en moins de 24h sur ton compte bancaire.
+              </p>
+            </div>
+
+            <div className="bg-yellow-50 rounded-2xl p-8 border border-yellow-200">
+              <h3 className="text-2xl font-bold text-yellow-800 mb-4">Révolution du marché</h3>
+              <p className="text-yellow-700 text-lg">
+                EASY FORMA révolutionne le marché du closing avec une véritable offre irrésistible et un paiement de tes commissions en moins de 24h.
+              </p>
+              <p className="text-yellow-700 text-lg mt-4 font-semibold">
+                Obtenir ta liberté financière en ligne n'a jamais été aussi simple.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              Pourquoi choisir
+              <span className="text-purple-600 block">EASY FORMA+ ?</span>
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {benefits.map((benefit, index) => (
+              <div key={index} className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 border border-purple-100 hover:shadow-lg transition-all duration-300">
+                <div className="flex items-start space-x-6">
+                  <div className="p-4 bg-purple-100 rounded-2xl flex-shrink-0">
+                    {React.cloneElement(benefit.icon, { className: "h-8 w-8 text-purple-600" })}
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-gray-900">{benefit.title}</h3>
+                    <p className="text-gray-600 leading-relaxed text-lg">{benefit.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Choice Section */}
+      <section className="py-24 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-8 text-white mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
+              Pour résumer, aujourd'hui
+              <span className="text-yellow-400 block">tu as le choix :</span>
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Option 1 */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+              <div className="text-center space-y-6">
+                <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center mx-auto">
+                  <Users className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-white">Client Simple</h3>
+                <div className="space-y-4">
+                  <div className="text-4xl font-bold text-orange-400">29€</div>
+                  <div className="text-white/80">par mois</div>
+                  <p className="text-white/90">
+                    Rejoindre EASY FORMA et obtenir un accès complet au catalogue en tant que simple client
+                  </p>
+                </div>
+                <Link
+                  to="/"
+                  className="block bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-200"
+                >
+                  Devenir client
+                </Link>
+              </div>
+            </div>
+
+            {/* Option 2 */}
+            <div className="bg-gradient-to-br from-yellow-400/20 to-yellow-500/20 backdrop-blur-sm rounded-3xl p-8 border-2 border-yellow-400 relative">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <div className="bg-yellow-400 text-purple-900 px-4 py-2 rounded-full text-sm font-bold">
+                  RECOMMANDÉ
+                </div>
+              </div>
+              <div className="text-center space-y-6">
+                <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mx-auto">
+                  <Crown className="h-8 w-8 text-purple-900" />
+                </div>
+                <h3 className="text-2xl font-bold text-white">Partenaire EASY FORMA+</h3>
+                <div className="space-y-4">
+                  <div className="text-4xl font-bold text-yellow-400">1 500€</div>
+                  <div className="text-white/80">paiement unique</div>
+                  <p className="text-white/90">
+                    Devenir mon partenaire et pouvoir revendre l'écosystème EASY FORMA
+                  </p>
+                  <div className="bg-green-500/20 rounded-lg p-3">
+                    <div className="text-green-400 font-bold">+ 750€ de commission par vente</div>
+                  </div>
+                </div>
+                <button className="block w-full bg-yellow-400 text-purple-900 px-6 py-3 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200">
+                  Devenir partenaire
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-xl text-purple-100 font-semibold">
+              En bref : tu peux revendre ce que tu viens d'acheter.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="space-y-8">
+            <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto">
+              <Rocket className="h-10 w-10 text-white" />
+            </div>
+            
+            <h3 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+              Prêt à devenir
+              <span className="text-purple-600 block">partenaire ?</span>
+            </h3>
+            
+            <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+              Rejoignez le programme EASY FORMA+ dès maintenant et commencez à générer 
+              des revenus récurrents avec notre écosystème de formation.
+            </p>
+            
+            <div className="bg-purple-50 rounded-2xl p-8 border border-purple-100 max-w-2xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-purple-600">1 500€</div>
+                  <div className="text-gray-600 text-sm">Investissement unique</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-green-600">750€</div>
+                  <div className="text-gray-600 text-sm">par vente</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600">24h</div>
+                  <div className="text-gray-600 text-sm">paiement rapide</div>
+                </div>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="flex items-center justify-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500" />
+                  <span className="text-gray-700">Droit de revente complet</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500" />
+                  <span className="text-gray-700">Commission de 50% garantie</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500" />
+                  <span className="text-gray-700">Paiement en moins de 24h</span>
+                </div>
+              </div>
+            </div>
+            
+            <div className="pt-8">
+              <button className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-12 py-5 rounded-xl font-bold text-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3">
+                <Crown className="h-6 w-6" />
+                <span>Rejoindre EASY FORMA+</span>
+              </button>
+              <p className="text-gray-500 text-sm mt-4">
+                Investissement unique • Commission immédiate • Support inclus
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default EasyFormaPlus;
