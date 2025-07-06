@@ -529,6 +529,135 @@ const FormationsList = () => {
             </div>
           </div>
 
+          {/* EASY FORMA+ Section */}
+          <div className="my-24">
+            <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative px-8 py-16 md:px-16">
+                {/* Background Pattern */}
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+                
+                <div className="relative z-10 max-w-6xl mx-auto text-center text-white">
+                  <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-8">
+                    <Crown className="h-4 w-4" />
+                    <span>Programme Partenaire</span>
+                  </div>
+                  
+                  <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                    EASY FORMA<span className="text-yellow-400">+</span>
+                  </h2>
+                  
+                  <p className="text-xl md:text-2xl text-purple-100 mb-12 leading-relaxed">
+                    Deviens partenaire et revends l'écosystème EASY FORMA pour générer des revenus récurrents
+                  </p>
+                  
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-4xl mx-auto">
+                    <h3 className="text-2xl font-bold mb-6">Ce que tu peux offrir pour seulement 1 500€ :</h3>
+                    <div className="space-y-4">
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-6 w-6 text-yellow-400 flex-shrink-0" />
+                        <span className="text-lg">Un accès immédiat et à vie à toutes les formations d'EASY FORMA</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-6 w-6 text-yellow-400 flex-shrink-0" />
+                        <span className="text-lg">Plus de 1 000 heures de contenu sur des thématiques ultra variées</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-6 w-6 text-yellow-400 flex-shrink-0" />
+                        <span className="text-lg">Une communauté de + de 5 000 entrepreneurs</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-6 w-6 text-yellow-400 flex-shrink-0" />
+                        <span className="text-lg">Un accompagnement business</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-green-50/20 backdrop-blur-sm rounded-2xl p-8 border border-green-400/30 max-w-4xl mx-auto mt-8">
+                    <h3 className="text-2xl font-bold text-green-300 mb-4">Tes revenus</h3>
+                    <p className="text-white text-lg">
+                      Tu obtiens une commission de <strong className="text-green-300">50%</strong> sur chacune de tes ventes, soit <strong className="text-green-300">750€</strong> virés en moins de 24h sur ton compte bancaire.
+                    </p>
+                  </div>
+
+                  <div className="bg-yellow-50/20 backdrop-blur-sm rounded-2xl p-8 border border-yellow-400/30 max-w-4xl mx-auto mt-8">
+                    <h3 className="text-2xl font-bold text-yellow-300 mb-4">Révolution du marché</h3>
+                    <p className="text-white text-lg">
+                      EASY FORMA révolutionne le marché du closing avec une véritable offre irrésistible et un paiement de tes commissions en moins de 24h.
+                    </p>
+                    <p className="text-white text-lg mt-4 font-semibold">
+                      Obtenir ta liberté financière en ligne n'a jamais été aussi simple.
+                    </p>
+                  </div>
+
+                  <div className="border-t border-white/20 pt-12 mt-12 max-w-4xl mx-auto">
+                    <h3 className="text-3xl font-bold text-white mb-8 text-center">
+                      Pour résumer, aujourd'hui tu as le choix :
+                    </h3>
+                    
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                      {/* Option 1 */}
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                        <div className="text-center space-y-6">
+                          <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center mx-auto">
+                            <Users className="h-8 w-8 text-white" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-white">Client Simple</h4>
+                          <div className="space-y-4">
+                            <div className="text-4xl font-bold text-orange-400">29€</div>
+                            <div className="text-white/80">par mois</div>
+                            <p className="text-white/90">
+                              Rejoindre EASY FORMA et obtenir un accès complet au catalogue en tant que simple client
+                            </p>
+                          </div>
+                          <button className="bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-200 w-full">
+                            Devenir client
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Option 2 */}
+                      <div className="bg-gradient-to-br from-yellow-400/20 to-yellow-500/20 backdrop-blur-sm rounded-2xl p-8 border-2 border-yellow-400 relative">
+                        <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                          <div className="bg-yellow-400 text-purple-900 px-4 py-2 rounded-full text-sm font-bold">
+                            RECOMMANDÉ
+                          </div>
+                        </div>
+                        <div className="text-center space-y-6">
+                          <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mx-auto">
+                            <Crown className="h-8 w-8 text-purple-900" />
+                          </div>
+                          <h4 className="text-2xl font-bold text-white">Partenaire EASY FORMA+</h4>
+                          <div className="space-y-4">
+                            <div className="text-4xl font-bold text-yellow-400">1 500€</div>
+                            <div className="text-white/80">paiement unique</div>
+                            <p className="text-white/90">
+                              Devenir mon partenaire et pouvoir revendre l'écosystème EASY FORMA
+                            </p>
+                            <div className="bg-green-500/20 rounded-lg p-3">
+                              <div className="text-green-400 font-bold">+ 750€ de commission par vente</div>
+                            </div>
+                          </div>
+                          <Link
+                            to="/easy-forma-plus"
+                            className="block bg-yellow-400 text-purple-900 px-6 py-3 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 w-full"
+                          >
+                            Devenir partenaire
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="text-center mt-12 pt-8">
+                      <p className="text-xl text-purple-100 font-semibold">
+                        En bref : tu peux revendre ce que tu viens d'acheter.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Dimanche Business Section */}
           <div className="my-20">
             <div className="bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 rounded-3xl overflow-hidden shadow-2xl">
