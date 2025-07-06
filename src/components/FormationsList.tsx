@@ -434,76 +434,177 @@ const FormationsList = () => {
 
           {/* Qui suis-je Section */}
           <div className="my-20">
-            <div className="bg-gradient-to-br from-orange-50 to-white rounded-3xl overflow-hidden shadow-xl border border-orange-100">
-              <div className="px-8 py-16 md:px-16">
-                <div className="max-w-4xl mx-auto">
-                  <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    {/* Photo et présentation */}
-                    <div className="text-center lg:text-left">
-                      <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                        <User className="h-4 w-4" />
-                        <span>Qui suis-je ?</span>
+            <div className="bg-gradient-to-br from-orange-50 to-white rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative px-8 py-16 md:px-16 lg:px-24">
+                {/* Background Pattern */}
+                <div className="absolute inset-0 bg-gradient-to-r from-orange-100/50 to-orange-200/30"></div>
+                
+                <div className="relative z-10 max-w-6xl mx-auto">
+                  <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
+                    <User className="h-4 w-4" />
+                    <span>Qui suis-je ?</span>
+                  </div>
+                  
+                  <h2 className="text-4xl md:text-6xl font-bold mb-8 text-gray-900 text-center">
+                    Derrière EASY FORMA, un parcours simple. Une mission claire.
+                  </h2>
+                  
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                    {/* Content */}
+                    <div className="space-y-8 text-left">
+                      <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+                        <p>
+                          <strong className="text-orange-600">Moi, c'est Cyprien Sesboüé, j'ai 24 ans</strong>, et en réalité :
+                          <br />je ne viens pas du monde académique… <strong>je viens du terrain</strong>.
+                        </p>
+                        
+                        <p>
+                          J'ai vu trop de gens galérer avec des formations trop théoriques, sans jamais atteindre cette fameuse liberté financière.
+                        </p>
+                        
+                        <p>
+                          <strong className="text-orange-600">Alors j'ai créé EASY FORMA</strong> : une plateforme 100% orientée action, pour apprendre une compétence et en vivre.
+                        </p>
+                        
+                        <div className="bg-orange-100 rounded-2xl p-6 border border-orange-200">
+                          <p className="text-orange-800 font-semibold text-xl text-center">
+                            Chez EASY FORMA :<br />
+                            <span className="text-orange-600">forme-toi → deviens expert → gagne de l'argent.</span>
+                          </p>
+                        </div>
+                        
+                        <p>
+                          Comme beaucoup d'enfants issus de familles modestes, j'avais des rêves.
+                          Mais autour de moi, personne ne m'encourageait à les poursuivre.
+                        </p>
+                        
+                        <div className="bg-white rounded-xl p-6 shadow-lg border border-orange-100">
+                          <p className="text-gray-700 mb-4">
+                            <strong className="text-orange-600">À 15 ans, j'ai eu le déclic :</strong>
+                          </p>
+                          <p className="text-gray-700 mb-4">
+                            Je suis tombé nez à nez avec une Ferrari rouge.
+                            Quand j'ai vu le conducteur, je me suis dit :
+                          </p>
+                          <p className="text-orange-600 font-semibold text-xl text-center">
+                            "Pourquoi lui ? Et pourquoi pas moi ?"
+                          </p>
+                        </div>
                       </div>
-                      
-                      <div className="w-32 h-32 mx-auto lg:mx-0 mb-6">
-                        <img
-                          src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
-                          alt="Cyprien - Fondateur Easy Forma"
-                          className="w-full h-full rounded-full object-cover shadow-lg"
-                        />
+                    </div>
+                    
+                    {/* Image */}
+                    <div className="relative">
+                      <img
+                        src="/cyprien-speaking.jpg"
+                        alt="Cyprien Sesboüé présentant EASY FORMA"
+                        className="w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
+                    </div>
+                  </div>
+                  
+                  {/* Continuation of story */}
+                  <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                    {/* Second Image */}
+                    <div className="relative order-2 lg:order-1">
+                      <img
+                        src="/cyprien-casual.jpg"
+                        alt="Cyprien Sesboüé dans un moment décontracté"
+                        className="w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
+                    </div>
+                    
+                    {/* Content continuation */}
+                    <div className="space-y-8 text-left order-1 lg:order-2">
+                      <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+                        <p>
+                          <strong className="text-orange-600">Deux ans plus tard</strong>, j'ai quitté la maison familiale avec une seule idée en tête :
+                          transformer mes rêves en réalité.
+                        </p>
+                        
+                        <p>
+                          Après plusieurs échecs et tentatives, c'est <strong className="text-orange-600">à 21 ans que je réalise mon premier million d'euros</strong>, grâce au marketing digital.
+                        </p>
+                        
+                        <p>
+                          Deux ans plus tard, je décide de transmettre ce que j'ai appris et d'accompagner d'autres personnes à lancer leur propre business en ligne.
+                          <strong className="text-orange-600"> Des milliers de personnes ont pu changer leur vie.</strong>
+                        </p>
+                        
+                        <p className="text-orange-600 font-semibold">
+                          Mais il manquait encore quelque chose.
+                        </p>
+                        
+                        <div className="bg-red-50 rounded-2xl p-6 border border-red-200">
+                          <p className="text-red-800 font-semibold">
+                            <strong>Le vrai problème ?</strong> L'injustice devant l'accès à la connaissance.
+                          </p>
+                          <p className="text-red-700 mt-2">
+                            Tout le monde n'a pas 2 000€ pour se former.
+                            Et comment savoir, dès le départ, si la compétence qu'on choisit est la bonne ?
+                            Celle qui va vraiment te motiver à aller jusqu'au bout ?
+                          </p>
+                        </div>
+                        
+                        <div className="bg-orange-100 rounded-2xl p-6 border border-orange-200">
+                          <p className="text-orange-800 font-semibold mb-4">
+                            <strong>C'est pour ça que j'ai créé EASY FORMA :</strong>
+                          </p>
+                          <p className="text-orange-700">
+                            Une plateforme qui fait sauter les barrières à l'apprentissage.
+                            <br />Pour <strong>29€/mois</strong>, tu accèdes à plus de 100 formations professionnalisantes.
+                            <br />Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
+                          </p>
+                        </div>
                       </div>
-                      
-                      <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Cyprien
-                      </h3>
-                      <p className="text-xl text-orange-600 font-semibold mb-6">
-                        Fondateur d'Easy Forma
+                    </div>
+                  </div>
+                  
+                  {/* Final message */}
+                  <div className="mt-16 text-center space-y-8">
+                    <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl p-8 text-white">
+                      <h3 className="text-3xl font-bold mb-6">EASY FORMA, c'est la clé.</h3>
+                      <p className="text-xl text-orange-100 mb-6 leading-relaxed">
+                        Celle qui te permet d'ouvrir les bonnes portes,
+                        et de rencontrer enfin ton "toi successfull".
+                      </p>
+                      <p className="text-xl font-semibold">
+                        Plus personne ne pourra dire qu'entreprendre est impossible.
+                        <br />Avec EASY FORMA, l'impossible devient possible.
                       </p>
                     </div>
-
-                    {/* Contenu */}
-                    <div className="space-y-6">
-                      <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
-                        <p>
-                          Passionné par l'entrepreneuriat et la formation, j'ai créé Easy Forma avec une mission claire : 
-                          <strong className="text-orange-600"> démocratiser l'accès à la formation professionnelle de qualité</strong>.
-                        </p>
-                        
-                        <p>
-                          Après avoir accompagné des centaines d'entrepreneurs dans leur développement, 
-                          j'ai réalisé que le principal frein était l'accès à des formations complètes et abordables.
-                        </p>
-                        
-                        <p>
-                          C'est pourquoi j'ai développé un modèle unique : 
-                          <strong className="text-orange-600"> un abonnement à 29€/mois pour accéder à l'intégralité de notre catalogue</strong>, 
-                          sans limitation.
-                        </p>
-                      </div>
-
-                      <div className="bg-orange-100 rounded-xl p-6 border border-orange-200">
-                        <div className="flex items-start space-x-3">
-                          <Heart className="h-6 w-6 text-orange-500 mt-1 flex-shrink-0" />
-                          <div>
-                            <h4 className="font-semibold text-gray-900 mb-2">Ma mission</h4>
-                            <p className="text-gray-700">
-                              Permettre à chacun de développer ses compétences professionnelles, 
-                              quel que soit son budget ou sa situation géographique.
-                            </p>
-                          </div>
+                    
+                    <div className="bg-white rounded-2xl p-8 shadow-lg border border-orange-100">
+                      <h4 className="text-2xl font-bold text-gray-900 mb-6">Alors…</h4>
+                      <p className="text-xl text-gray-700 mb-8">
+                        Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
+                        <br />Rejoins-nous et construis ton avenir grâce à Internet.
+                      </p>
+                      
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle className="h-5 w-5 text-green-500" />
+                          <span className="text-gray-700 text-sm">Accès immédiat et à vie à toutes les formations</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle className="h-5 w-5 text-green-500" />
+                          <span className="text-gray-700 text-sm">+ 1000h de contenu ultra varié</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle className="h-5 w-5 text-green-500" />
+                          <span className="text-gray-700 text-sm">Communauté de + de 5000 entrepreneurs</span>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <CheckCircle className="h-5 w-5 text-green-500" />
+                          <span className="text-gray-700 text-sm">Lance ton offre en 7 jours</span>
                         </div>
                       </div>
-
-                      <div className="grid grid-cols-2 gap-4 text-center">
-                        <div className="bg-white rounded-xl p-4 shadow-sm border border-orange-100">
-                          <div className="text-2xl font-bold text-orange-600">5000+</div>
-                          <div className="text-sm text-gray-600">Apprenants accompagnés</div>
-                        </div>
-                        <div className="bg-white rounded-xl p-4 shadow-sm border border-orange-100">
-                          <div className="text-2xl font-bold text-orange-600">100+</div>
-                          <div className="text-sm text-gray-600">Formations créées</div>
-                        </div>
-                      </div>
+                      
+                      <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+                        DÉCOUVRIR EASY FORMA
+                      </button>
                     </div>
                   </div>
                 </div>
