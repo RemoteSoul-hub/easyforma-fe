@@ -328,7 +328,7 @@ export const formations: Formation[] = [
       bio: "Psychologue clinicien spécialisé dans la gestion du stress et l'accompagnement professionnel. Formateur certifié en mindfulness et relaxation.",
       avatar: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
-  }
+  },
   },
   {
     id: 6,
