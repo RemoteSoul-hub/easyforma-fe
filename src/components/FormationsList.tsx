@@ -225,11 +225,11 @@ const FormationsList = () => {
 
         {/* Qui suis-je Section */}
         <div className="my-20">
-          <div className="bg-gradient-to-br from-orange-50 to-white rounded-3xl overflow-hidden shadow-xl border border-orange-100">
+          <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-              <div className="p-12 lg:p-16">
+              <div className="p-12 lg:p-16 bg-gray-50">
                 <div className="space-y-8">
-                  <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
+                  <div className="inline-flex items-center space-x-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">
                     <Users className="h-4 w-4" />
                     <span>Qui suis-je ?</span>
                   </div>
@@ -253,21 +253,21 @@ const FormationsList = () => {
                       <strong className="text-orange-600">Alors j'ai créé EASY FORMA</strong> : une plateforme 100 % orientée action, pour apprendre une compétence et en vivre.
                     </p>
                     
-                    <div className="bg-orange-100 p-6 rounded-xl border border-orange-200">
-                      <p className="text-orange-800 font-semibold text-center">
+                    <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                      <p className="text-gray-800 font-semibold text-center">
                         Chez EASY FORMA :<br />
-                        forme-toi → deviens expert → gagne de l'argent.
+                        <span className="text-orange-600">forme-toi → deviens expert → gagne de l'argent.</span>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <div className="bg-gradient-to-br from-orange-100 to-orange-200 p-12 lg:p-16 flex items-center justify-center">
+              <div className="p-12 lg:p-16 flex items-center justify-center bg-white">
                 <img
-                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="/cyprien-casual.jpg"
                   alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
-                  className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-2xl"
+                  className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-lg"
                 />
               </div>
             </div>
@@ -276,21 +276,21 @@ const FormationsList = () => {
 
         {/* Histoire personnelle */}
         <div className="my-20">
-          <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700">
+          <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700 bg-white rounded-2xl p-8 shadow-lg">
             <p>
               Comme beaucoup d'enfants issus de familles modestes, j'avais des rêves.
               Mais autour de moi, personne ne m'encourageait à les poursuivre.
             </p>
             
-            <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-2xl p-8 text-white">
-              <p className="text-xl font-semibold mb-4">À 15 ans, j'ai eu le déclic :</p>
+            <div className="bg-red-50 border border-red-200 rounded-2xl p-8">
+              <p className="text-xl font-semibold mb-4 text-red-800">À 15 ans, j'ai eu le déclic :</p>
               <p className="mb-4">
                 🏎️ Je suis tombé nez à nez avec une Ferrari rouge.
               </p>
               <p className="mb-4">
                 Quand j'ai vu le conducteur, je me suis dit :
               </p>
-              <p className="text-2xl font-bold text-center">
+              <p className="text-2xl font-bold text-center text-red-800">
                 "Pourquoi lui ? Et pourquoi pas moi ?"
               </p>
             </div>
@@ -313,12 +313,12 @@ const FormationsList = () => {
               Mais il manquait encore quelque chose.
             </p>
             
-            <div className="bg-yellow-50 p-8 rounded-2xl border border-yellow-200">
-              <h4 className="text-2xl font-bold text-yellow-800 mb-4">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
-              <p className="text-yellow-700 mb-4">
+            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200">
+              <h4 className="text-2xl font-bold text-gray-800 mb-4">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
+              <p className="text-gray-700 mb-4">
                 Tout le monde n'a pas 2 000€ pour se former.
               </p>
-              <p className="text-yellow-700">
+              <p className="text-gray-700">
                 Et comment savoir, dès le départ, si la compétence qu'on choisit est la bonne ?
                 Celle qui va vraiment te motiver à aller jusqu'au bout ?
               </p>
@@ -337,7 +337,7 @@ const FormationsList = () => {
               </p>
             </div>
             
-            <div className="text-center space-y-6 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white">
+            <div className="text-center space-y-6 bg-orange-500 rounded-2xl p-8 text-white">
               <h4 className="text-3xl font-bold">EASY FORMA, c'est la clé.</h4>
               <p className="text-xl">
                 Celle qui te permet d'ouvrir les bonnes portes,
