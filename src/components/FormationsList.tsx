@@ -173,7 +173,10 @@ const FormationsList = () => {
               <div className="text-orange-200 text-sm mt-2">+ Des nouvelles formations chaque mois</div>
             </div>
             <div className="text-center md:text-right">
-              <button className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg">
+              <button 
+                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg"
+              >
                 Commencer maintenant
               </button>
             </div>
@@ -220,18 +223,67 @@ const FormationsList = () => {
           ))}
         </div>
 
+        {/* Qui suis-je Section */}
+        <div className="my-20">
+          <div className="bg-gradient-to-br from-orange-50 to-white rounded-3xl overflow-hidden shadow-xl border border-orange-100">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+              <div className="p-12 lg:p-16">
+                <div className="space-y-8">
+                  <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
+                    <Users className="h-4 w-4" />
+                    <span>Qui suis-je ?</span>
+                  </div>
+                  
+                  <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                    Cyprien, fondateur d'
+                    <span className="text-orange-500 block">EASY FORMA</span>
+                  </h3>
+                  
+                  <p className="text-xl text-gray-600 leading-relaxed">
+                    Entrepreneur passionné et expert en formation digitale, j'ai créé EASY FORMA 
+                    pour démocratiser l'accès aux compétences professionnelles de qualité.
+                  </p>
+                  
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-6 w-6 text-orange-500" />
+                      <span className="text-gray-700">+5 ans d'expérience en formation digitale</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-6 w-6 text-orange-500" />
+                      <span className="text-gray-700">+5000 apprenants accompagnés</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-6 w-6 text-orange-500" />
+                      <span className="text-gray-700">Expert en entrepreneuriat et business</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gradient-to-br from-orange-100 to-orange-200 p-12 lg:p-16 flex items-center justify-center">
+                <img
+                  src="/cyprien-speaking.jpg"
+                  alt="Cyprien, fondateur d'EASY FORMA"
+                  className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-2xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center space-y-6 my-20">
           <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
             <Infinity className="h-4 w-4" />
-            <span>Accès illimité pour 29€/mois</span>
+            <span>Notre mission</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
             <span className="text-orange-500 block">Notre mission ?</span>
           </h2>
-          <video width="50%" height="240" className="mx-auto" controls ></video>
+          <video width="50%" height="240" className="mx-auto" controls></video>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Un seul prix, un accès total. Explorez l'intégralité de notre catalogue 
-            de formations professionnelles sans restriction.
+            Rendre la formation professionnelle accessible à tous, partout et à tout moment. 
+            Nous croyons que chacun mérite d'avoir accès aux meilleures formations pour développer ses compétences.
           </p>
         </div>
 
@@ -268,10 +320,16 @@ const FormationsList = () => {
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+                <button 
+                  onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                  className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl"
+                >
                   S'abonner maintenant - 29€/mois
                 </button>
-                <button className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200">
+                <button 
+                  onClick={() => window.open('https://easyforma.fr/essai-gratuit', '_blank')}
+                  className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200"
+                >
                   Essai gratuit 7 jours
                 </button>
               </div>
