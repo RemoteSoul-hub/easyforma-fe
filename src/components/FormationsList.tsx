@@ -171,6 +171,7 @@ const FormationsList = () => {
                 <span className="text-xl font-semibold">Accès illimité</span>
               </div>
               <div className="text-orange-100">à toutes les formations</div>
+              <div className="text-orange-200 text-sm mt-2">+ Des nouvelles formations chaque mois</div>
             </div>
             <div className="text-center md:text-right">
               <button className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg">
