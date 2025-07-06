@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formations } from '../data/formations';
 import FormationCard from './FormationCard';
-import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase } from 'lucide-react';
+import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase, Crown, DollarSign, Handshake, Heart, Globe } from 'lucide-react';
 
 const FormationsList = () => {
   
@@ -38,7 +38,7 @@ const FormationsList = () => {
   const faqData = [
     {
       question: "Est-ce que je dois avoir un diplôme ou des compétences avant de me lancer ?",
-      answer: "Non, aucun prérequis ! Toutes nos formations sont conçues pour les débutants. Tu pars de zéro, et tu progresses étape par étape jusqu'à pouvoir vendre tes compétences.."
+      answer: "Non, aucun prérequis ! Toutes nos formations sont conçues pour les débutants. Tu pars de zéro, et tu progresses étape par étape jusqu'à pouvoir vendre tes compétences."
     },
     {
       question: " Est-ce que les formations sont vraiment accessibles à vie?",
@@ -46,7 +46,7 @@ const FormationsList = () => {
     },
     {
       question: "Est-ce que je peux vivre de mes compétences après une formation EASY FORMA ?",
-      answer: "C'est justement l'objectif. Chaque formation inclut une partie 'Business 2.0' qui t'apprend à monétiser ce que tu viens d'apprendre et à trouver tes premiers clients en ligne.."
+      answer: "C'est justement l'objectif. Chaque formation inclut une partie 'Business 2.0' qui t'apprend à monétiser ce que tu viens d'apprendre et à trouver tes premiers clients en ligne."
     },
     {
       question: "Combien de temps faut-il pour suivre une formation ?",
@@ -54,7 +54,7 @@ const FormationsList = () => {
     },
     {
       question: "Et si j'ai une question ou un blocage ?",
-      answer: "Tu n'es jamais seul. Tu peux poser toutes tes questions dans la communauté privée ou contacter notre support 24h / 24 et 7 j / 7.."
+      answer: "Tu n'es jamais seul. Tu peux poser toutes tes questions dans la communauté privée ou contacter notre support 24h / 24 et 7 j / 7."
     }
   ];
 
@@ -235,27 +235,29 @@ const FormationsList = () => {
                   </div>
                   
                   <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                    Cyprien, fondateur d'
-                    <span className="text-orange-500 block">EASY FORMA</span>
+                    Derrière EASY FORMA, un parcours simple.
+                    <span className="text-orange-500 block">Une mission claire.</span>
                   </h3>
                   
-                  <p className="text-xl text-gray-600 leading-relaxed">
-                    Entrepreneur passionné et expert en formation digitale, j'ai créé EASY FORMA 
-                    pour démocratiser l'accès aux compétences professionnelles de qualité.
-                  </p>
-                  
-                  <div className="space-y-4">
-                    <div className="flex items-center space-x-3">
-                      <CheckCircle className="h-6 w-6 text-orange-500" />
-                      <span className="text-gray-700">+5 ans d'expérience en formation digitale</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <CheckCircle className="h-6 w-6 text-orange-500" />
-                      <span className="text-gray-700">+5000 apprenants accompagnés</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <CheckCircle className="h-6 w-6 text-orange-500" />
-                      <span className="text-gray-700">Expert en entrepreneuriat et business</span>
+                  <div className="space-y-6 text-gray-700 leading-relaxed">
+                    <p>
+                      <strong>Moi, c'est Cyprien Sesboüé, j'ai 24 ans</strong>, et en réalité :
+                      je ne viens pas du monde académique… je viens du terrain.
+                    </p>
+                    
+                    <p>
+                      J'ai vu trop de gens galérer avec des formations trop théoriques, sans jamais atteindre cette fameuse liberté financière.
+                    </p>
+                    
+                    <p>
+                      <strong className="text-orange-600">Alors j'ai créé EASY FORMA</strong> : une plateforme 100 % orientée action, pour apprendre une compétence et en vivre.
+                    </p>
+                    
+                    <div className="bg-orange-100 p-6 rounded-xl border border-orange-200">
+                      <p className="text-orange-800 font-semibold text-center">
+                        Chez EASY FORMA :<br />
+                        forme-toi → deviens expert → gagne de l'argent.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -263,11 +265,100 @@ const FormationsList = () => {
               
               <div className="bg-gradient-to-br from-orange-100 to-orange-200 p-12 lg:p-16 flex items-center justify-center">
                 <img
-                  src="/cyprien-speaking.jpg"
-                  alt="Cyprien, fondateur d'EASY FORMA"
+                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
                   className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-2xl"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Histoire personnelle */}
+        <div className="my-20">
+          <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700">
+            <p>
+              Comme beaucoup d'enfants issus de familles modestes, j'avais des rêves.
+              Mais autour de moi, personne ne m'encourageait à les poursuivre.
+            </p>
+            
+            <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-2xl p-8 text-white">
+              <p className="text-xl font-semibold mb-4">À 15 ans, j'ai eu le déclic :</p>
+              <p className="mb-4">
+                🏎️ Je suis tombé nez à nez avec une Ferrari rouge.
+              </p>
+              <p className="mb-4">
+                Quand j'ai vu le conducteur, je me suis dit :
+              </p>
+              <p className="text-2xl font-bold text-center">
+                "Pourquoi lui ? Et pourquoi pas moi ?"
+              </p>
+            </div>
+            
+            <p>
+              Deux ans plus tard, j'ai quitté la maison familiale avec une seule idée en tête :
+              <strong className="text-orange-600"> transformer mes rêves en réalité.</strong>
+            </p>
+            
+            <p>
+              Après plusieurs échecs et tentatives, c'est à 21 ans que je réalise mon premier million d'euros, grâce au marketing digital.
+            </p>
+            
+            <p>
+              Deux ans plus tard, je décide de transmettre ce que j'ai appris et d'accompagner d'autres personnes à lancer leur propre business en ligne.
+              Des milliers de personnes ont pu changer leur vie.
+            </p>
+            
+            <p className="text-xl font-semibold text-gray-900">
+              Mais il manquait encore quelque chose.
+            </p>
+            
+            <div className="bg-yellow-50 p-8 rounded-2xl border border-yellow-200">
+              <h4 className="text-2xl font-bold text-yellow-800 mb-4">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
+              <p className="text-yellow-700 mb-4">
+                Tout le monde n'a pas 2 000€ pour se former.
+              </p>
+              <p className="text-yellow-700">
+                Et comment savoir, dès le départ, si la compétence qu'on choisit est la bonne ?
+                Celle qui va vraiment te motiver à aller jusqu'au bout ?
+              </p>
+            </div>
+            
+            <div className="bg-orange-50 p-8 rounded-2xl border border-orange-200">
+              <h4 className="text-2xl font-bold text-orange-800 mb-4">C'est pour ça que j'ai créé EASY FORMA :</h4>
+              <p className="text-orange-700 mb-4">
+                Une plateforme qui fait sauter les barrières à l'apprentissage.
+              </p>
+              <p className="text-orange-700 mb-4">
+                Pour 29€/mois, tu accèdes à plus de 100 formations professionnalisantes.
+              </p>
+              <p className="text-orange-700">
+                Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
+              </p>
+            </div>
+            
+            <div className="text-center space-y-6 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 text-white">
+              <h4 className="text-3xl font-bold">EASY FORMA, c'est la clé.</h4>
+              <p className="text-xl">
+                Celle qui te permet d'ouvrir les bonnes portes,
+                et de rencontrer enfin ton "toi successfull".
+              </p>
+              <p className="text-xl">
+                Plus personne ne pourra dire qu'entreprendre est impossible.
+              </p>
+              <p className="text-xl font-semibold">
+                Avec EASY FORMA, l'impossible devient possible.
+              </p>
+            </div>
+            
+            <div className="text-center space-y-4">
+              <p className="text-xl font-semibold text-gray-900">Alors…</p>
+              <p className="text-lg">
+                Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
+              </p>
+              <p className="text-lg font-semibold text-orange-600">
+                Rejoins-nous et construis ton avenir grâce à Internet.
+              </p>
             </div>
           </div>
         </div>
@@ -287,51 +378,162 @@ const FormationsList = () => {
           </p>
         </div>
 
-        {/* CTA Section */}
+        {/* CTA Section avec les deux profils */}
         <div className="text-center">
-          <div className="bg-white rounded-3xl shadow-xl p-12 max-w-3xl mx-auto border border-orange-100">
-            <div className="space-y-6">
+          <div className="bg-white rounded-3xl shadow-xl p-12 max-w-5xl mx-auto border border-orange-100">
+            <div className="space-y-8">
               <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto">
-                <Infinity className="h-8 w-8 text-white" />
+                <Rocket className="h-8 w-8 text-white" />
               </div>
+              
               <h3 className="text-3xl font-bold text-gray-900">
-                Prêt à débuter votre parcours ?
+                Obtenir ta liberté financière n'a jamais été aussi simple
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                Rejoignez des milliers d'apprenants qui développent leurs compétences 
-                avec Easy Forma. Un seul abonnement, des possibilités infinies.
-              </p>
-              <div className="bg-orange-50 p-6 rounded-2xl border border-orange-100">
-                <div className="flex items-center justify-center space-x-4 mb-4">
-                  <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Accès immédiat et à vie à toutes les formations</span>
+              
+              <div className="text-center space-y-6">
+                <h4 className="text-2xl font-bold text-gray-900">
+                  🚀 Deux profils, deux chemins. À toi de choisir.
+                </h4>
+              </div>
+
+              {/* Deux options côte à côte */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+                {/* EASY FORMA */}
+                <div className="bg-orange-50 p-8 rounded-2xl border-2 border-orange-200">
+                  <div className="space-y-6">
+                    <h4 className="text-2xl font-bold text-orange-600">
+                      ✅ EASY FORMA est fait pour toi si...
+                    </h4>
+                    <ul className="space-y-3 text-left">
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux apprendre une compétence concrète et l'utiliser pour gagner ta vie</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux te lancer en freelance ou créer ton activité en ligne</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu cherches une formation accessible, actionnable et sans perte de temps</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux avancer à ton rythme, sans pression</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux rejoindre une communauté dynamique et être accompagné</span>
+                      </li>
+                    </ul>
+                    
+                    <div className="bg-orange-100 p-6 rounded-xl">
+                      <div className="text-3xl font-bold text-orange-600 mb-2">💸 29€/mois – sans engagement</div>
+                      <div className="text-orange-700 mb-2">📚 +100 formations | +1000h de contenu | accompagnement business</div>
+                      <div className="text-orange-700 font-semibold">🎯 Ton objectif : apprendre et monétiser ton savoir-faire</div>
+                    </div>
+                    
+                    <button 
+                      onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                      className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg"
+                    >
+                      DÉCOUVRIR EASY FORMA
+                    </button>
+                  </div>
                 </div>
-                <div className="flex items-center justify-center space-x-4 mb-4">
-                  <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">+ de 1000h de contenu sur des thématiques ultra variées</span>
-                </div>
-                <div className="flex items-center justify-center space-x-4">
-                  <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Une communauté de + de 5000 entrepreneurs</span>
-                </div>
-                <div className="flex items-center justify-center space-x-4 mt-4">
-                  <CheckCircle className="h-5 w-5 text-green-500" />
-                  <span className="text-gray-700">Un accompagnement business</span>
+
+                {/* EASY FORMA + */}
+                <div className="bg-purple-50 p-8 rounded-2xl border-2 border-purple-200 relative">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                    <div className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
+                      PROGRAMME PARTENAIRE
+                    </div>
+                  </div>
+                  <div className="space-y-6">
+                    <h4 className="text-2xl font-bold text-purple-600">
+                      🔥 EASY FORMA + est fait pour toi si...
+                    </h4>
+                    <ul className="space-y-3 text-left">
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu ne veux pas te former, mais tu veux gagner de l'argent maintenant</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux un business prêt à l'emploi, sans créer de produit ni site</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux pouvoir revendre EASY FORMA et encaisser 750€ de commission par vente</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux un modèle simple, duplicable et rentable</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span>Tu veux une licence exclusive, des outils fournis, et du coaching</span>
+                      </li>
+                    </ul>
+                    
+                    <div className="bg-purple-100 p-6 rounded-xl">
+                      <div className="text-3xl font-bold text-purple-600 mb-2">💰 1 500€ (paiement unique)</div>
+                      <div className="text-purple-700 mb-2">🔑 Tu possèdes l'écosystème EASY FORMA + les droits de revente</div>
+                      <div className="text-purple-700 font-semibold">🚀 Ton objectif : revendre, encaisser, scaler</div>
+                    </div>
+                    
+                    <Link
+                      to="/easy-forma-plus"
+                      className="block w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-purple-600 hover:to-purple-700 transition-all duration-200 shadow-lg text-center"
+                    >
+                      DÉCOUVRIR EASY FORMA +
+                    </Link>
+                  </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                <button 
-                  onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                  className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl"
-                >
-                  S'abonner maintenant - 29€/mois
-                </button>
-                <button 
-                  onClick={() => window.open('https://easyforma.fr/essai-gratuit', '_blank')}
-                  className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200"
-                >
-                  Essai gratuit 7 jours
-                </button>
+
+              {/* Résumé */}
+              <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200 mt-8">
+                <h4 className="text-2xl font-bold text-gray-900 mb-6">🎯 Résumons simplement :</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <div className="text-lg font-semibold text-gray-700 mb-2">Ton profil</div>
+                    <div className="text-gray-600">Tu veux apprendre un métier</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-lg font-semibold text-gray-700 mb-2">L'offre faite pour toi</div>
+                    <div className="text-orange-600 font-bold">→ ✅ EASY FORMA</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-lg font-semibold text-gray-700 mb-2">Ton profil</div>
+                    <div className="text-gray-600">Tu veux un business clé en main</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-lg font-semibold text-gray-700 mb-2">L'offre faite pour toi</div>
+                    <div className="text-purple-600 font-bold">→ ✅ EASY FORMA +</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-orange-50 p-6 rounded-2xl border border-orange-100">
+                <div className="space-y-3">
+                  <div className="flex items-center justify-center space-x-4 mb-4">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span className="text-gray-700">Accès immédiat et à vie à toutes les formations</span>
+                  </div>
+                  <div className="flex items-center justify-center space-x-4 mb-4">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span className="text-gray-700">+ de 1000h de contenu sur des thématiques ultra variées</span>
+                  </div>
+                  <div className="flex items-center justify-center space-x-4 mb-4">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span className="text-gray-700">Une communauté de + de 5000 entrepreneurs</span>
+                  </div>
+                  <div className="flex items-center justify-center space-x-4">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span className="text-gray-700">Lance ton offre en 7 jours</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -510,7 +712,92 @@ const FormationsList = () => {
             </div>
           </div>
 
-          {/* Dimanche Business Section */}
+          {/* Section Partenaire EASY FORMA + */}
+          <div className="my-20">
+            <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative px-8 py-16 md:px-16">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+                
+                <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
+                  <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-8">
+                    <Crown className="h-4 w-4" />
+                    <span>Programme Partenaire Exclusif</span>
+                  </div>
+                  
+                  <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                    Deviens mon partenaire en rejoignant <span className="text-yellow-400">EASY FORMA +</span>
+                  </h2>
+                  
+                  <div className="space-y-6 text-lg leading-relaxed mb-8">
+                    <p>
+                      Tu percevras un <strong className="text-yellow-400">droit de revente</strong> te permettant d'acheter la totalité du catalogue EASY FORMA en une seule fois, au prix unique de <strong className="text-yellow-400">1 500€</strong>. Cet achat te permettra de posséder l'écosystème EASY FORMA et de pouvoir le revendre à la personne de ton choix.
+                    </p>
+                    
+                    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                      <p className="mb-4">
+                        En 2025, les académies de closing proposent des formations individuelles à des prix de <strong className="text-red-400">2 000€</strong>.
+                      </p>
+                      <p className="text-yellow-300 font-semibold">
+                        Imagine pouvoir proposer à ton client :
+                      </p>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
+                        <p className="text-sm">Un accès immédiat et à vie à toutes les formations d'EASY FORMA</p>
+                      </div>
+                      <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
+                        <p className="text-sm">Plus de 1 000 heures de contenu sur des thématiques ultra variées</p>
+                      </div>
+                      <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
+                        <p className="text-sm">Une communauté de + de 5 000 entrepreneurs</p>
+                      </div>
+                      <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
+                        <p className="text-sm">Un accompagnement business</p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-green-500/20 rounded-2xl p-6 border border-green-400/30">
+                      <p className="text-green-300 text-xl font-bold mb-2">
+                        Pour seulement 1 500€.
+                      </p>
+                      <p className="text-green-200">
+                        Tu obtiens une commission de <strong>50%</strong> sur chacune de tes ventes, soit <strong>750€</strong> virés en moins de 24h sur ton compte bancaire.
+                      </p>
+                    </div>
+                    
+                    <p className="text-xl font-semibold text-yellow-300">
+                      EASY FORMA révolutionne le marché du closing avec une véritable offre irrésistible et un paiement de tes commissions en moins de 24h.
+                    </p>
+                    
+                    <p className="text-2xl font-bold text-yellow-400">
+                      Obtenir ta liberté financière en ligne n'a jamais été aussi simple.
+                    </p>
+                  </div>
+                  
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <Link
+                      to="/easy-forma-plus"
+                      className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center space-x-2"
+                    >
+                      <Crown className="h-5 w-5" />
+                      <span>Découvrir EASY FORMA +</span>
+                    </Link>
+                    <div className="flex items-center space-x-2 text-purple-200">
+                      <DollarSign className="h-5 w-5 text-yellow-400" />
+                      <span className="text-sm">750€ de commission par vente</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Sunday Business Section */}
           <div className="my-20">
             <div className="bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 rounded-3xl overflow-hidden shadow-2xl">
               <div className="relative px-8 py-16 md:px-16">
