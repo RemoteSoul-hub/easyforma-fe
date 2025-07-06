@@ -737,19 +737,8 @@ export const formations: Formation[] = [
    ]
    
       }
-    ]
-  }
-]     
-      }
-    ]
-  }
-]]
-ité"
-   
-      }
-    ]
-  }
-]     ]
+          "Horaires et disponibilité"
+        ]
       },
       {
         title: "Automatisation et Outils",
@@ -784,4 +773,5 @@ ité"
       bio: "Consultante en marketing digital et experte WhatsApp Business. 5 ans d'expérience dans l'accompagnement des TPE/PME pour leur digitalisation.",
       avatar: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
+  }
 ];
