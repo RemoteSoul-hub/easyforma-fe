@@ -592,63 +592,17 @@ const FormationsList = () => {
               </p>
             </div>
 
-            <div className="max-w-4xl mx-auto">
-              <div className="relative">
-                {/* Connecting Line */}
-                <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-orange-200 hidden md:block"></div>
-
+            <div className="max-w-5xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
                 {roadmapSteps.map((step, index) => (
-                  <div key={step.id} className="relative mb-8 last:mb-0">
-                    {/* Step Indicator */}
-                    <div className="flex items-start">
-                      <div className="relative z-10 mr-6">
-                        <div className={`w-16 h-16 rounded-full ${getStatusColor(step.status)} flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110`}>
-                          {step.icon}
-                        </div>
+                  <div key={step.id} className="text-center">
+                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-orange-100 hover:shadow-xl transition-all duration-300">
+                      <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        {React.cloneElement(step.icon, { className: "w-6 h-6 text-white" })}
                       </div>
-
-                      {/* Step Content */}
-                      <div 
-                        className={`flex-1 bg-white rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:shadow-xl border border-orange-100 ${
-                          activeStep === index ? 'ring-2 ring-orange-500 transform scale-105' : ''
-                        }`}
-                        onClick={() => setActiveStep(activeStep === index ? -1 : index)}
-                      >
-                        <div className="flex items-center justify-between mb-4">
-                          <h3 className="text-xl font-semibold text-gray-800">{step.title}</h3>
-                        </div>
-                        
-                        <p className="text-gray-600 mb-4">{step.description}</p>
-                        
-                        <div className="flex items-center justify-between">
-                          <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                            step.status === 'completed' ? 'bg-green-100 text-green-800' :
-                            step.status === 'in-progress' ? 'bg-orange-100 text-orange-800' :
-                            'bg-gray-100 text-gray-800'
-                          }`}>
-                            {step.status === 'completed' ? 'TERMINÉ' : 
-                             step.status === 'in-progress' ? 'EN COURS' : 'À VENIR'}
-                          </span>
-                          
-                        </div>
-
-                        {/* Expanded Details */}
-                        {activeStep === index && (
-                          <div className="mt-6 border-t border-orange-100 pt-4 animate-in slide-in-from-top-2 duration-300">
-                            <h4 className="font-semibold text-gray-800 mb-3">Détails de cette étape :</h4>
-                            <ul className="space-y-2">
-                              {step.details.map((detail, idx) => (
-                                <li key={idx} className="flex items-center text-sm text-gray-600">
-                                  <div className="w-2 h-2 bg-orange-500 rounded-full mr-3"></div>
-                                  {detail}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                      </div>
+                      <h3 className="text-lg font-bold text-gray-900 mb-3">{step.title}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
                     </div>
-
                   </div>
                 ))}
               </div>
