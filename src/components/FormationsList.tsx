@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formations } from '../data/formations';
 import FormationCard from './FormationCard';
-import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase } from 'lucide-react';
+import { Filter, Search, Infinity, CheckCircle, ArrowRight, Users, Target, Zap, Rocket, ChevronDown, ChevronUp, Play, Star, Calendar, Mail, TrendingUp, Briefcase, Crown, DollarSign } from 'lucide-react';
 
 const FormationsList = () => {
   
@@ -276,79 +276,8 @@ const FormationsList = () => {
             </div>
           </div>
           
-          {/* Qui suis-je Section */}
+          {/* FAQ Section */}
           <div className="text-center space-y-6 mb-16 mt-16">
-            <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
-              <CheckCircle className="h-4 w-4" />
-              <span>Qui suis-je ?</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-              <span className="text-orange-500 block">Qui suis-je ?</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Découvrez qui se cache derrière Easy Forma et pourquoi j'ai créé cette plateforme
-            </p>
-          </div>
-
-          {/* Qui suis-je Section */}
-          <div className="max-w-4xl mx-auto mb-20">
-            <div className="bg-white rounded-3xl shadow-xl p-12 border border-orange-100">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
-                  <div className="w-32 h-32 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full mx-auto lg:mx-0 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-white">CF</span>
-                  </div>
-                  <div>
-                    <h3 className="text-3xl font-bold text-gray-900 mb-4">Cyprien Fondateur</h3>
-                    <p className="text-gray-600 leading-relaxed mb-4">
-                      Entrepreneur passionné depuis plus de 10 ans, j'ai créé Easy Forma avec une mission simple : 
-                      démocratiser l'accès à la formation professionnelle de qualité.
-                    </p>
-                    <p className="text-gray-600 leading-relaxed mb-4">
-                      Après avoir accompagné des milliers d'entrepreneurs dans leur développement, 
-                      j'ai voulu créer un écosystème complet qui combine formation, communauté et opportunités business.
-                    </p>
-                    <p className="text-gray-600 leading-relaxed">
-                      Easy Forma, c'est le fruit de cette vision : un abonnement unique pour accéder à toutes 
-                      les compétences dont vous avez besoin pour réussir dans l'économie moderne.
-                    </p>
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <div className="bg-orange-50 rounded-2xl p-6 border border-orange-100">
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Ma mission</h4>
-                    <p className="text-gray-600">
-                      Rendre la formation accessible à tous, peu importe votre budget ou votre niveau. 
-                      Chaque personne mérite d'avoir accès aux meilleures formations pour développer ses compétences.
-                    </p>
-                  </div>
-                  <div className="bg-orange-50 rounded-2xl p-6 border border-orange-100">
-                    <h4 className="text-xl font-bold text-gray-900 mb-4">Mes valeurs</h4>
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-orange-500" />
-                        <span>Accessibilité pour tous</span>
-                      </li>
-                      <li className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-orange-500" />
-                        <span>Qualité sans compromis</span>
-                      </li>
-                      <li className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-orange-500" />
-                        <span>Accompagnement personnalisé</span>
-                      </li>
-                      <li className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-orange-500" />
-                        <span>Innovation continue</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center space-y-6 mb-16">
             <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
               <CheckCircle className="h-4 w-4" />
               <span>Questions fréquentes</span>
