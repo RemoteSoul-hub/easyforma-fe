@@ -533,6 +533,10 @@ const EasyFormaPlus = () => {
                   <CheckCircle className="h-5 w-5 text-green-500" />
                   <span className="text-gray-700">Paiement en moins de 24h</span>
                 </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500" />
+                  <span className="text-gray-700">Accompagnement CLOSERS</span>
+                </div>
               </div>
             </div>
             
