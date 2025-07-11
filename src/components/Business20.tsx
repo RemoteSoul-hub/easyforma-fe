@@ -133,19 +133,20 @@ const Business20 = () => {
             {/* Video Section */}
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-                <div className="aspect-video bg-gradient-to-br from-blue-600/30 to-purple-600/30 rounded-2xl flex items-center justify-center mb-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto">
-                      <Play className="h-8 w-8 text-blue-900 ml-1" />
-                    </div>
-                    <div className="text-white">
-                      <h3 className="text-lg font-semibold mb-2">Découvrez Business 2.0</h3>
-                      <p className="text-blue-200 text-sm">Vidéo de présentation exclusive</p>
-                    </div>
-                  </div>
+                <div className="aspect-video rounded-2xl overflow-hidden shadow-lg mb-6">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/rSzi8E_-SjM"
+                    title="Présentation Business 2.0"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
                 </div>
                 <p className="text-blue-100 text-center text-sm">
-                  Cliquez pour découvrir comment Business 2.0 va transformer votre approche entrepreneuriale
+                  Découvrez comment Business 2.0 va transformer votre approche entrepreneuriale
                 </p>
               </div>
             </div>

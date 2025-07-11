@@ -106,12 +106,19 @@ const Hero = () => {
 
           {/* Image */}
           <div className="relative">
-            <div className="relative z-10">
-              <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Formation professionnelle Easy Forma"
-                className="w-full h-96 lg:h-[500px] object-cover rounded-3xl shadow-2xl"
-              />
+            <div className="relative z-10 bg-white rounded-3xl shadow-2xl overflow-hidden">
+              <div className="aspect-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/WO174H-oymM"
+                  title="Présentation Easy Forma"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
               {/* Floating card */}
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-orange-100">
                 <div className="flex items-center space-x-3">

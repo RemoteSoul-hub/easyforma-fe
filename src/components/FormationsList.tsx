@@ -378,7 +378,20 @@ const FormationsList = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
             <span className="text-orange-500 block">Notre mission ?</span>
           </h2>
-          <video width="50%" height="240" className="mx-auto" controls></video>
+          <div className="max-w-3xl mx-auto">
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/xFqeh_DtIGU"
+                title="Notre mission - Easy Forma"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Rendre la formation professionnelle accessible à tous, partout et à tout moment. 
             Nous croyons que chacun mérite d'avoir accès aux meilleures formations pour développer ses compétences.

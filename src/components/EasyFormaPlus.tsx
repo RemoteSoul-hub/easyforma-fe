@@ -132,19 +132,20 @@ const EasyFormaPlus = () => {
             {/* Video Section */}
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-                <div className="aspect-video bg-gradient-to-br from-purple-600/30 to-pink-600/30 rounded-2xl flex items-center justify-center mb-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto">
-                      <Play className="h-8 w-8 text-purple-900 ml-1" />
-                    </div>
-                    <div className="text-white">
-                      <h3 className="text-lg font-semibold mb-2">Découvrez EASY FORMA+</h3>
-                      <p className="text-purple-200 text-sm">Vidéo de présentation du programme partenaire</p>
-                    </div>
-                  </div>
+                <div className="aspect-video rounded-2xl overflow-hidden shadow-lg mb-6">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/39mEkOco50w"
+                    title="Présentation EASY FORMA+"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
                 </div>
                 <p className="text-purple-100 text-center text-sm">
-                  Cliquez pour découvrir comment devenir partenaire et générer des revenus récurrents
+                  Découvrez comment devenir partenaire et générer des revenus récurrents
                 </p>
               </div>
             </div>
