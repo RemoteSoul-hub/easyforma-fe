@@ -357,7 +357,7 @@ const FormationsList = () => {
                 Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
               </p>
               <p className="text-lg font-semibold text-orange-600">
-                Rejoins-nous et construis ton avenir grâce à Internet.
+                Annulation à tout moment • Support inclus
               </p>
             </div>
           </div>

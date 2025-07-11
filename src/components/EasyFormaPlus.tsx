@@ -37,14 +37,14 @@ const EasyFormaPlus = () => {
       description: "Possédez l'écosystème EASY FORMA et revendez-le à qui vous voulez"
     },
     {
-      icon: <Rocket className="h-8 w-8" />,
-      title: "Liberté financière",
-      description: "Obtenez votre indépendance financière en ligne simplement"
+      icon: <Users className="h-8 w-8" />,
+      title: "Accompagnement CLOSERS",
+      description: "Formation et accompagnement pour réussir vos ventes"
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Paiement rapide",
-      description: "Commissions versées en moins de 24h sur votre compte"
+      description: "Commissions versées en moins de 24h sur votre compte + accompagnement CLOSERS"
     }
   ];
 
@@ -237,6 +237,90 @@ const EasyFormaPlus = () => {
         </div>
       </section>
 
+      {/* Section CLOSERS */}
+      <section className="py-24 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+              <Target className="h-4 w-4" />
+              <span>Formation Exclusive</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              CLOSERS : OBTIENS TA PREMIÈRE VENTE
+              <span className="text-blue-600 block">EN - DE 7 JOURS</span>
+            </h2>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 mb-12">
+              <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Ce que tu reçois :</h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">15H de contenu sur les réseaux sociaux, le setting et le closing.</span>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">Un plan d'action personnalisé pour réaliser ta 1ère vente en - de 7 jours</span>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">Un Business coach attitré.</span>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">Un accompagnement par téléphone jusqu'à résultat.</span>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">Un support partenaire 24h/24, 7J/7</span>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-2 bg-blue-100 rounded-full flex-shrink-0">
+                    <CheckCircle className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <span className="text-gray-700">Une communauté de + de 1500 entrepreneurs</span>
+                </div>
+              </div>
+
+              {/* Vidéo YouTube */}
+              <div className="mb-8">
+                <h4 className="text-xl font-bold text-gray-900 mb-4 text-center">Extrait de la formation CLOSERS :</h4>
+                <div className="aspect-video rounded-2xl overflow-hidden shadow-lg">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/fvHW19_q_oA"
+                    title="Extrait formation CLOSERS"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+                  Nous rejoindre
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Choice Section */}
       <section className="py-24 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -381,6 +465,27 @@ const EasyFormaPlus = () => {
         </div>
       </section>
 
+      {/* CTA après FAQ */}
+      <section className="py-12 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+            <h3 className="text-2xl font-bold text-white mb-4">D'autres questions ?</h3>
+            <p className="text-purple-100 mb-6">
+              Réservez un appel stratégique gratuit pour discuter de votre projet
+            </p>
+            <a
+              href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
+            >
+              <Calendar className="h-5 w-5" />
+              <span>Réserver un appel</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -437,7 +542,7 @@ const EasyFormaPlus = () => {
                 <span>Rejoindre EASY FORMA+</span>
               </button>
               <p className="text-gray-500 text-sm mt-4">
-                Investissement unique • Commission immédiate • Support inclus
+                Commission immédiate • Support inclus • Accompagnement personnalisé
               </p>
             </div>
           </div>
