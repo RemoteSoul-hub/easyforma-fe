@@ -100,6 +100,7 @@ const Business20 = () => {
               </div>
               
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 BUSINESS <span className="text-yellow-400">2.0</span>
               </h1>
               

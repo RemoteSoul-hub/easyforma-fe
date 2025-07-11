@@ -154,7 +154,7 @@ const FormationsList = () => {
             <span>Accès illimité pour 29€/mois</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-            Toutes nos formations
+            +100 formations professionnalisantes
             <span className="text-orange-500 block">incluses dans l'abonnement</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">

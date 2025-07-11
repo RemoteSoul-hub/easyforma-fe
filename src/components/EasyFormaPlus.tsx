@@ -93,6 +93,7 @@ const EasyFormaPlus = () => {
               </div>
               
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 EASY FORMA<span className="text-yellow-400">+</span>
               </h1>
               
