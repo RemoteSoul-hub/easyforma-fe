@@ -492,25 +492,43 @@ const FormationsList = () => {
                 </div>
               </div>
 
-              {/* Résumé */}
-              <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200 mt-8">
-                <h4 className="text-2xl font-bold text-gray-900 mb-6">🎯 Résumons simplement :</h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <div className="text-lg font-semibold text-gray-700 mb-2">Ton profil</div>
-                    <div className="text-gray-600">Tu veux apprendre un métier</div>
+              {/* Résumé - Style tableau comme l'image */}
+              <div className="bg-gray-900 p-8 rounded-2xl mt-8">
+                <div className="flex items-center space-x-3 mb-8">
+                  <Target className="h-6 w-6 text-orange-500" />
+                  <h4 className="text-2xl font-bold text-white">Résumons simplement :</h4>
+                </div>
+                
+                {/* En-têtes du tableau */}
+                <div className="grid grid-cols-2 gap-8 mb-6">
+                  <div className="text-xl font-semibold text-gray-300 pb-4 border-b border-gray-700">
+                    Ton profil
                   </div>
-                  <div className="text-center">
-                    <div className="text-lg font-semibold text-gray-700 mb-2">L'offre faite pour toi</div>
-                    <div className="text-orange-600 font-bold">→ ✅ EASY FORMA</div>
+                  <div className="text-xl font-semibold text-gray-300 pb-4 border-b border-gray-700">
+                    L'offre faite pour toi
                   </div>
-                  <div className="text-center">
-                    <div className="text-lg font-semibold text-gray-700 mb-2">Ton profil</div>
-                    <div className="text-gray-600">Tu veux un business clé en main</div>
+                </div>
+                
+                {/* Lignes du tableau */}
+                <div className="space-y-6">
+                  <div className="grid grid-cols-2 gap-8 items-center py-4 border-b border-gray-800">
+                    <div className="text-white text-lg">
+                      Tu veux apprendre un métier →
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-white font-semibold text-lg">EASY FORMA</span>
+                    </div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-lg font-semibold text-gray-700 mb-2">L'offre faite pour toi</div>
-                    <div className="text-purple-600 font-bold">→ ✅ EASY FORMA +</div>
+                  
+                  <div className="grid grid-cols-2 gap-8 items-center py-4">
+                    <div className="text-white text-lg">
+                      Tu veux un business clé en main →
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <CheckCircle className="h-5 w-5 text-green-500" />
+                      <span className="text-white font-semibold text-lg">EASY FORMA +</span>
+                    </div>
                   </div>
                 </div>
               </div>
