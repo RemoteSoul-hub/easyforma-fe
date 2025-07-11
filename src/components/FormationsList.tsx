@@ -57,6 +57,10 @@ const FormationsList = () => {
     {
       question: "Et si j'ai une question ou un blocage ?",
       answer: "Tu n'es jamais seul. Tu peux poser toutes tes questions dans la communauté privée ou contacter notre support 24h / 24 et 7 j / 7."
+    },
+    {
+      question: "Est-ce que je peux obtenir un certificat de réussite ?",
+      answer: "Oui, dès que tu as complété 100 % d'une formation, une attestation de réalisation est automatiquement générée et envoyée directement dans ta boîte mail."
     }
   ];
 

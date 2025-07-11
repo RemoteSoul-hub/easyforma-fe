@@ -14,13 +14,13 @@ const Hero = () => {
                 <span>Accès illimité pour 29€/mois</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                Toutes nos
-                <span className="text-orange-500 block">formations</span>
+                +100 formations
+                <span className="text-orange-500 block">professionnalisantes</span>
                 <span className="text-gray-700">pour 29€/mois</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Un seul abonnement pour accéder à l'intégralité de notre catalogue 
-                de formations professionnelles. Apprenez à votre rythme, sans limite.
+                Forme-toi - Deviens expert - Gagne de l'argent. 
+                Accédez à l'intégralité de notre catalogue de formations professionnelles.
               </p>
             </div>
 
