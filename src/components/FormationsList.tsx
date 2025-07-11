@@ -820,7 +820,6 @@ const FormationsList = () => {
           </div>
 
         </div>
-      </div>
     </section>
   );
 };
