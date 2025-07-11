@@ -120,7 +120,7 @@ const Hero = () => {
                 ></iframe>
               </div>
               {/* Floating card */}
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-orange-100">
+              <div className="absolute bottom-4 left-4 bg-white p-6 rounded-2xl shadow-xl border border-orange-100">
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-orange-100 rounded-full">
                     <BookOpen className="h-6 w-6 text-orange-500" />
@@ -132,7 +132,7 @@ const Hero = () => {
                 </div>
               </div>
               {/* Price floating card */}
-              <div className="absolute -top-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 text-white p-4 rounded-2xl shadow-xl">
+              <div className="absolute top-4 right-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white p-4 rounded-2xl shadow-xl">
                 <div className="text-center">
                   <div className="text-2xl font-bold">29€</div>
                   <div className="text-xs text-orange-100">par mois</div>
