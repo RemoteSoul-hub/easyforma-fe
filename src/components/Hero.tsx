@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
                 <Infinity className="h-4 w-4" />
-                <span>Accès illimité pour 29€/mois</span>
+                <span>Forme-toi - Deviens expert - Gagne de l'argent</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
                 +100 formations
@@ -19,8 +19,8 @@ const Hero = () => {
                 <span className="text-gray-700">pour 29€/mois</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Forme-toi - Deviens expert - Gagne de l'argent. 
-                Accédez à l'intégralité de notre catalogue de formations professionnelles.
+                Accédez à l'intégralité de notre catalogue de formations professionnelles 
+                pour développer vos compétences et booster votre carrière.
               </p>
             </div>
 
