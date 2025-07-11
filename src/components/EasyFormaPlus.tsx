@@ -240,6 +240,13 @@ const EasyFormaPlus = () => {
       {/* Choice Section */}
       <section className="py-24 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-8 text-white mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
+              Tu veux aller
+              <span className="text-yellow-400 block">encore plus loin ?</span>
+            </h2>
+          </div>
+          
           <div className="text-center space-y-8 text-white mb-16">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Pour résumer, aujourd'hui
@@ -254,19 +261,19 @@ const EasyFormaPlus = () => {
                 <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center mx-auto">
                   <Users className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-white">Client Simple</h3>
+                <h3 className="text-2xl font-bold text-white">EASY FORMA</h3>
                 <div className="space-y-4">
                   <div className="text-4xl font-bold text-orange-400">29€</div>
                   <div className="text-white/80">par mois</div>
                   <p className="text-white/90">
-                    Rejoindre EASY FORMA et obtenir un accès complet au catalogue en tant que simple client
+                    Rejoindre Easy Forma et obtenir un accès complet au catalogue en illimité
                   </p>
                 </div>
                 <Link
                   to="/"
                   className="block bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-200"
                 >
-                  Devenir client
+                  Rejoindre EASY FORMA
                 </Link>
               </div>
             </div>
@@ -304,6 +311,72 @@ const EasyFormaPlus = () => {
             <p className="text-xl text-purple-100 font-semibold">
               En bref : tu peux revendre ce que tu viens d'acheter.
             </p>
+          </div>
+          
+          {/* FAQ Section */}
+          <div className="mt-20">
+            <div className="text-center space-y-6 mb-16">
+              <h3 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+                Questions fréquentes sur
+                <span className="text-yellow-400 block">EASY FORMA+</span>
+              </h3>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">1. Qu'est-ce que EASY FORMA + exactement ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    EASY FORMA + est une offre exclusive qui te donne le droit de revente de l'ensemble de la plateforme EASY FORMA. En achetant cette licence à 1500€ (paiement unique), tu deviens partenaire officiel et tu peux revendre EASY FORMA+ à ton tour… en gagnant 750€ de commission par vente.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">2. Est-ce que je dois me former avant de revendre ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    Non, ce n'est pas obligatoire. EASY FORMA + est une opportunité clé en main. Tu reçois une formation en ligne exclusive CLOSERS et un accompagnement business par téléphone jusqu'à que tu obtienne ta première vente.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">3. Est-ce que je peux rejoindre EASY FORMA + gratuitement ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    Non. En rejoignant EASY FORMA +, tu deviens propriétaire d'une licence de revente de l'écosystème EASY FORMA. Cet accès exclusif représente une réelle valeur et est proposé au tarif unique de 1 500 € (paiement unique, sans abonnement).
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">4. Comment fonctionne le système de commission ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    À chaque fois que tu vends EASY FORMA + à 1500€, tu gagnes automatiquement 750€, versés en moins de 24h sur ton compte bancaire. Tu n'as aucune gestion technique à faire : on s'occupe de tout, tu n'as qu'à vendre.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">5. Que se passe-t-il si mon prospect préfère prendre l'abonnement à 29€/mois ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    L'abonnement à 29€/mois est destiné à ceux qui veulent se former et créer leur agence. EASY FORMA +, c'est pour ceux qui veulent gagner de l'argent immédiatement avec un business déjà prêt. Les deux offres ne répondent pas aux mêmes besoins, c'est à toi de bien positionner la valeur que tu proposes (Thématique traitée dans la formation CLOSERS).
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 overflow-hidden">
+                <div className="px-8 py-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">6. Combien de ventes dois-je faire pour rentabiliser mon investissement ?</h4>
+                  <p className="text-purple-100 leading-relaxed">
+                    Seulement 2 ventes. Chaque vente te rapporte 750€, donc dès la 2e vente, ton investissement est déjà remboursé — et les suivantes sont 100% de bénéfice.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
