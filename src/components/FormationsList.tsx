@@ -749,37 +749,6 @@ const FormationsList = () => {
             </div>
           </div>
         </div>
-          <div className="my-20">
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                <Target className="h-4 w-4" />
-                <span>Votre parcours d'apprentissage</span>
-              </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Que se passe-t-il une 
-                <span className="text-orange-500 block">Fois inscrit?</span>
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Découvrez votre parcours d'apprentissage étape par étape, de l'inscription à la mise en pratique de vos nouvelles compétences.
-              </p>
-            </div>
-
-            <div className="max-w-5xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-                {roadmapSteps.map((step, index) => (
-                  <div key={step.id} className="text-center">
-                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-orange-100 hover:shadow-xl transition-all duration-300">
-                      <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                        {React.cloneElement(step.icon, { className: "w-6 h-6 text-white" })}
-                      </div>
-                      <h3 className="text-lg font-bold text-gray-900 mb-3">{step.title}</h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
 
         {/* 7. Sunday Business Section */}
           <div className="my-20">
