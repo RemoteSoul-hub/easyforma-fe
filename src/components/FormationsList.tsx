@@ -409,6 +409,12 @@ const FormationsList = () => {
                 </div>
               ))}
             </div>
+                                <button 
+                      onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                      className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg"
+                    >
+                      DÉCOUVRIR EASY FORMA
+                    </button>
           </div>
         </div>
 
