@@ -532,27 +532,6 @@ const FormationsList = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="bg-orange-50 p-6 rounded-2xl border border-orange-100">
-                <div className="space-y-3">
-                  <div className="flex items-center justify-center space-x-4 mb-4">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-700">Accès immédiat et à vie à toutes les formations</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-4 mb-4">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-700">+ de 1000h de contenu sur des thématiques ultra variées</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-4 mb-4">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-700">Une communauté de + de 5000 entrepreneurs</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-4">
-                    <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-700">Lance ton offre en 7 jours</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           
