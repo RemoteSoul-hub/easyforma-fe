@@ -13,7 +13,6 @@ const Hero = () => {
                 <Infinity className="h-4 w-4" />
                 <span>Forme-toi - Deviens expert - Gagne de l'argent</span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 <span className="block sm:hidden">
                   +100 formations
