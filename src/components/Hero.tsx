@@ -14,9 +14,16 @@ const Hero = () => {
                 <span>Forme-toi - Deviens expert - Gagne de l'argent</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
-                +100 formations
-                <span className="text-orange-500 block">professionnalisantes</span>
-                <span className="text-gray-700">pour 29€/mois</span>
+                <span className="block sm:hidden">
+                  +100 formations
+                  <span className="text-orange-500 block">pro</span>
+                  <span className="text-gray-700">pour 29€/mois</span>
+                </span>
+                <span className="hidden sm:block">
+                  +100 formations
+                  <span className="text-orange-500 block">professionnalisantes</span>
+                  <span className="text-gray-700">pour 29€/mois</span>
+                </span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
                 Accédez à l'intégralité de notre catalogue de formations professionnelles 
