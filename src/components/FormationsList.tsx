@@ -409,12 +409,17 @@ const FormationsList = () => {
                 </div>
               ))}
             </div>
-                          <button 
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg mx-auto"
-              >
-                Commencer maintenant
-              </button>
+          </div>
+          
+          {/* CTA après la roadmap */}
+          <div className="text-center mt-12">
+            <button 
+              onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+              className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
+            >
+              <Rocket className="h-6 w-6" />
+              <span>Rejoindre EASY FORMA</span>
+            </button>
           </div>
         </div>
 
