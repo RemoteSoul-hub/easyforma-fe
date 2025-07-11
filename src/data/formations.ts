@@ -471,6 +471,102 @@ export const formations: Formation[] = [
     category: "Communication"
   },
   {
+    id: 24,
+    title: "Formation : Marketing e-commerce et réseaux sociaux",
+    description: "Développez votre activité e-commerce grâce aux stratégies marketing digital et à la puissance des réseaux sociaux.",
+    duration: "18h",
+    chapters: 9,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Stratégies e-commerce performantes",
+      "Marketing des réseaux sociaux",
+      "Publicité Facebook et Instagram Ads",
+      "Conversion et fidélisation client"
+    ],
+    category: "Communication"
+  },
+  {
+    id: 25,
+    title: "Formation : Cybersécurité",
+    description: "Maîtrisez les fondamentaux de la cybersécurité pour protéger les systèmes d'information et développer une expertise recherchée.",
+    duration: "22h",
+    chapters: 10,
+    level: "Intermédiaire à Avancé",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Sécurité des réseaux et systèmes",
+      "Détection et prévention des menaces",
+      "Audit et conformité sécuritaire",
+      "Gestion des incidents de sécurité"
+    ],
+    category: "Bureaucratique"
+  },
+  {
+    id: 26,
+    title: "Formation : Influence Marketing",
+    description: "Apprenez à développer votre influence en ligne et à créer des campagnes marketing d'influence efficaces pour booster votre business.",
+    duration: "14h",
+    chapters: 7,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Stratégies d'influence marketing",
+      "Création de contenu viral",
+      "Partenariats avec les influenceurs",
+      "Mesure du ROI des campagnes"
+    ],
+    category: "Communication"
+  },
+  {
+    id: 27,
+    title: "Formation : Réseaux sociaux - Community Manager",
+    description: "Devenez expert en gestion de communautés et maîtrisez tous les aspects du community management professionnel.",
+    duration: "16h",
+    chapters: 8,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Stratégie de contenu social media",
+      "Animation et engagement communauté",
+      "Gestion de crise et e-réputation",
+      "Analytics et reporting"
+    ],
+    category: "Communication"
+  },
+  {
+    id: 28,
+    title: "Formation : Esthétique",
+    description: "Maîtrisez les techniques esthétiques professionnelles et lancez votre activité dans le secteur de la beauté et du bien-être.",
+    duration: "20h",
+    chapters: 9,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Techniques de soins du visage",
+      "Protocoles de beauté professionnels",
+      "Hygiène et sécurité en institut",
+      "Création d'un institut de beauté"
+    ],
+    category: "Bien-être et performance"
+  },
+  {
+    id: 29,
+    title: "Formation : Gestion Locative",
+    description: "Apprenez à gérer efficacement un patrimoine immobilier locatif et optimisez vos revenus immobiliers.",
+    duration: "12h",
+    chapters: 6,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Sélection et acquisition de biens",
+      "Gestion locative et administrative",
+      "Optimisation fiscale immobilière",
+      "Relation propriétaire-locataire"
+    ],
+    category: "La boîte à outils de l'entrepreneur"
+  },
+  {
     id: 16,
     title: "Formation : Création d'entreprise",
     description: "Apprenez toutes les étapes pour créer votre entreprise avec succès, de l'idée à la mise en œuvre, en passant par les démarches administratives.",

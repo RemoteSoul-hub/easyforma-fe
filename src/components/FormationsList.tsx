@@ -10,8 +10,10 @@ const FormationsList = () => {
   const [activeStep, setActiveStep] = useState(0);
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
 
-  // Formations populaires (les 6 premières)
-  const popularFormations = formations.slice(0, 6);
+  // Formations populaires spécifiques
+  const popularFormations = formations.filter(f => 
+    [24, 25, 26, 27, 28, 29].includes(f.id)
+  );
   
   const categories = ['populaires', 'all', ...Array.from(new Set(formations.map(f => f.category)))];
   
