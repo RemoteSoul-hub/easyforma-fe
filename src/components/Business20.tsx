@@ -223,8 +223,8 @@ const Business20 = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-              Pourquoi choisir
-              <span className="text-blue-600 block">Business 2.0 ?</span>
+              Pourquoi BUSINESS 2.0 est
+              <span className="text-blue-600 block">l'accompagnement qu'il te faut ?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Une approche complète et moderne pour développer votre activité entrepreneuriale
