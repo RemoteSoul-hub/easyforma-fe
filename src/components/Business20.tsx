@@ -46,8 +46,8 @@ const Business20 = () => {
     },
     {
       icon: <MessageSquare className="h-6 w-6" />,
-      title: "3 séances d'accompagnement",
-      description: "30min avec un business coach expert"
+      title: "1 séance de coaching / mois",
+      description: "30min avec un business coach tous les mois"
     }
   ];
 
@@ -262,12 +262,12 @@ const Business20 = () => {
                   </div>
                   
                   <h3 className="text-3xl md:text-4xl font-bold leading-tight">
-                    3 séances de coaching
+                    1 séance de coaching / mois
                     <span className="text-blue-200 block">incluses</span>
                   </h3>
                   
                   <p className="text-xl text-blue-100 leading-relaxed">
-                    Bénéficiez de 3 séances d'accompagnement de 30 minutes chacune 
+                    Bénéficiez d'une séance d'accompagnement de 30 minutes tous les mois 
                     avec un business coach expert pour personnaliser votre stratégie.
                   </p>
                   
@@ -294,8 +294,8 @@ const Business20 = () => {
                     <MessageSquare className="h-12 w-12 text-white" />
                   </div>
                   <div className="text-white">
-                    <div className="text-4xl font-bold mb-2">3 × 30min</div>
-                    <div className="text-blue-200">Sessions de coaching</div>
+                    <div className="text-4xl font-bold mb-2">1 × 30min</div>
+                    <div className="text-blue-200">Session mensuelle</div>
                   </div>
                 </div>
               </div>
@@ -345,7 +345,7 @@ const Business20 = () => {
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-yellow-400" />
-                  <span className="text-blue-100">3 séances de coaching offertes</span>
+                  <span className="text-blue-100">1 séance de coaching / mois incluse</span>
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-yellow-400" />
