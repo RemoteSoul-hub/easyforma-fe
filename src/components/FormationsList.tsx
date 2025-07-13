@@ -485,6 +485,7 @@ const FormationsList = () => {
                   <Link
                     to="/business-20"
                     className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center space-x-2"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     <Play className="h-5 w-5" />
                     <span>Découvrir Business 2.0</span>
