@@ -82,9 +82,6 @@ const Business20 = () => {
           <Link 
             to="/" 
             className="inline-flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors duration-200"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            <span>Retour à l'accueil</span>
           </Link>
         </div>
       </div>
