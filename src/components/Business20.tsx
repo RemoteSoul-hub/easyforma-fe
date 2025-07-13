@@ -249,6 +249,80 @@ const Business20 = () => {
         </div>
       </section>
 
+      {/* Video Extracts Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+              <Play className="h-4 w-4" />
+              <span>Aperçu du contenu</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              Extraits de la
+              <span className="text-blue-600 block">formation</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Découvrez un aperçu du contenu exclusif de Business 2.0 avec ces extraits de formation
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Vidéo 1 */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-100">
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg mb-4">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/Y6lnGO-m_x0"
+                  title="Extrait Business 2.0 - Partie 1"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Stratégie Business</h3>
+              <p className="text-gray-600 text-sm">Découvrez les fondamentaux pour construire une stratégie business solide</p>
+            </div>
+
+            {/* Vidéo 2 */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-100">
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg mb-4">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/Kdw2jsphkWg"
+                  title="Extrait Business 2.0 - Partie 2"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Acquisition Clients</h3>
+              <p className="text-gray-600 text-sm">Apprenez les techniques pour attirer et convertir vos premiers clients</p>
+            </div>
+
+            {/* Vidéo 3 */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-100">
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg mb-4">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/fvHW19_q_oA"
+                  title="Extrait Business 2.0 - Partie 3"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Développement Business</h3>
+              <p className="text-gray-600 text-sm">Maîtrisez les clés pour faire évoluer et scaler votre activité</p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Coaching Section */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
