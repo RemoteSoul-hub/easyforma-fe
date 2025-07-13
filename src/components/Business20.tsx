@@ -47,7 +47,7 @@ const Business20 = () => {
     {
       icon: <MessageSquare className="h-6 w-6" />,
       title: "1 séance de coaching / mois",
-      description: "30min avec un business coach tous les mois"
+      description: "1 séance de coaching / mois offert"
     }
   ];
 
