@@ -436,9 +436,6 @@ const Business20 = () => {
                 <Zap className="h-6 w-6" />
                 <span>Démarrer EASY FORMA</span>
               </Link>
-              <p className="text-blue-200 text-sm mt-4">
-                Essai gratuit 7 jours • Annulation à tout moment
-              </p>
             </div>
           </div>
         </div>

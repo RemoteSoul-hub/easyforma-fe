@@ -399,48 +399,116 @@ const FormationsList = () => {
         </div>
 
         {/* 2. Que se passe-t-il après s'être inscrit */}
-        <div className="my-20">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <Target className="h-4 w-4" />
-              <span>Votre parcours d'apprentissage</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Que se passe-t-il une 
-              <span className="text-orange-500 block">fois inscrit?</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Découvrez votre parcours d'apprentissage étape par étape, de l'inscription à la mise en pratique de vos nouvelles compétences.
-            </p>
-          </div>
+    <div className="my-20">
+      <div className="text-center mb-16">
+        <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <Target className="h-4 w-4" />
+          <span>Votre parcours d'apprentissage</span>
+        </div>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          Que se passe-t-il une 
+          <span className="text-orange-500 block">fois inscrit?</span>
+        </h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Découvrez votre parcours d'apprentissage étape par étape, de l'inscription à la mise en pratique de vos nouvelles compétences.
+        </p>
+      </div>
 
-          <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-              {roadmapSteps.map((step, index) => (
-                <div key={step.id} className="text-center">
-                  <div className="bg-white rounded-2xl p-6 shadow-lg border border-orange-100 hover:shadow-xl transition-all duration-300">
-                    <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                      {React.cloneElement(step.icon, { className: "w-6 h-6 text-white" })}
+      <div className="max-w-4xl mx-auto">
+        <div className="relative">
+          {/* Ligne verticale de connexion */}
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-orange-200 via-orange-300 to-orange-200"></div>
+          
+          <div className="space-y-4">
+            {roadmapSteps.map((step, index) => (
+              <div key={step.id} className="relative">
+                {/* Numéro de l'étape sur la ligne */}
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                
+                {/* Contenu de l'étape */}
+                <div className="ml-16">
+                  <div 
+                    className={`bg-white rounded-2xl shadow-lg border transition-all duration-300 cursor-pointer overflow-hidden ${
+                      activeStep === step.id 
+                        ? 'border-orange-300 shadow-xl' 
+                        : 'border-gray-200 hover:border-orange-200 hover:shadow-xl'
+                    }`}
+                    onClick={() => toggleStep(step.id)}
+                  >
+                    {/* Header de l'étape */}
+                    <div className="p-6 flex items-center justify-between">
+                      <div className="flex items-center space-x-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
+                          {React.cloneElement(step.icon, { className: "w-6 h-6 text-white" })}
+                        </div>
+                        <div>
+                          <div className="flex items-center space-x-3 mb-2">
+                            <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">
+                              Étape {step.id}
+                            </span>
+                          </div>
+                          <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
+                          <p className="text-gray-600 mt-1">{step.description}</p>
+                        </div>
+                      </div>
+                      <div className="text-orange-500">
+                        {activeStep === step.id ? 
+                          <ChevronUp className="w-6 h-6" /> : 
+                          <ChevronDown className="w-6 h-6" />
+                        }
+                      </div>
                     </div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-3">{step.title}</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">{step.description}</p>
+
+                    {/* Contenu détaillé (accordéon) */}
+                    <div className={`transition-all duration-300 overflow-hidden ${
+                      activeStep === step.id ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                    }`}>
+                      <div className="px-6 pb-6 border-t border-gray-100">
+                        <div className="pt-4">
+                          <h4 className="font-semibold text-gray-900 mb-3">Ce qui vous attend :</h4>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            {step.details.map((detail, detailIndex) => (
+                              <div key={detailIndex} className="flex items-start space-x-2">
+                                <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
+                                <span className="text-gray-600 text-sm">{detail}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-          
-          {/* CTA après la roadmap */}
-          <div className="text-center mt-12">
-            <button 
-              onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-              className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-            >
-              <Rocket className="h-6 w-6" />
-              <span>Rejoindre EASY FORMA</span>
-            </button>
+
+                {/* Indicateur de progression */}
+                {index < roadmapSteps.length - 1 && (
+                  <div className="absolute left-7 mt-4 w-2 h-8 bg-gradient-to-b from-orange-300 to-orange-200 rounded-full opacity-50"></div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
+      </div>
+      
+      {/* CTA après la roadmap */}
+      <div className="text-center mt-12">
+        <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 max-w-2xl mx-auto">
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            Prêt à commencer votre transformation ?
+          </h3>
+          <p className="text-gray-600 mb-6">
+            Rejoignez des milliers d'apprenants qui ont déjà transformé leur carrière avec EASY FORMA
+          </p>
+          <button 
+            onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+            className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3 transform hover:scale-105"
+          >
+            <Rocket className="h-6 w-6" />
+            <span>Rejoindre EASY FORMA</span>
+          </button>
+        </div>
+      </div>
+    </div>
 
         {/* 3. Business 2.0 Section */}
         <div className="my-20">
