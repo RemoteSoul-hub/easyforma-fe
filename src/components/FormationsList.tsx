@@ -274,7 +274,7 @@ const roadmapSteps = [
               
               <div className="p-12 lg:p-16 flex items-center justify-center bg-white">
                 <img
-                  src="/cyprien-casual.jpg"
+                  src="/cyprien-speaking.jpg"
                   alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
                   className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-lg"
                 />
@@ -286,41 +286,6 @@ const roadmapSteps = [
         {/* Histoire personnelle */}
         <div className="my-20">
           <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700 bg-white rounded-2xl p-8 shadow-lg">
-            <p>
-              Comme beaucoup d'enfants issus de familles modestes, j'avais des rêves.
-              Mais autour de moi, personne ne m'encourageait à les poursuivre.
-            </p>
-            
-            <div className="bg-red-50 border border-red-200 rounded-2xl p-8">
-              <p className="text-xl font-semibold mb-4 text-red-800">À 15 ans, j'ai eu le déclic :</p>
-              <p className="mb-4">
-                🏎️ Je suis tombé nez à nez avec une Ferrari rouge.
-              </p>
-              <p className="mb-4">
-                Quand j'ai vu le conducteur, je me suis dit :
-              </p>
-              <p className="text-2xl font-bold text-center text-red-800">
-                "Pourquoi lui ? Et pourquoi pas moi ?"
-              </p>
-            </div>
-            
-            <p>
-              Deux ans plus tard, j'ai quitté la maison familiale avec une seule idée en tête :
-              <strong className="text-orange-600"> transformer mes rêves en réalité.</strong>
-            </p>
-            
-            <p>
-              Après plusieurs échecs et tentatives, c'est à 21 ans que je réalise mon premier million d'euros, grâce au marketing digital.
-            </p>
-            
-            <p>
-              Deux ans plus tard, je décide de transmettre ce que j'ai appris et d'accompagner d'autres personnes à lancer leur propre business en ligne.
-              Des milliers de personnes ont pu changer leur vie.
-            </p>
-            
-            <p className="text-xl font-semibold text-gray-900">
-              Mais il manquait encore quelque chose.
-            </p>
             
             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200">
               <h4 className="text-2xl font-bold text-gray-800 mb-4">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
