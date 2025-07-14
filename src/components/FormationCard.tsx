@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Clock, BookOpen, BarChart3, ArrowRight, CheckCircle } from 'lucide-react';
+import { Clock, BookOpen, ArrowRight, CheckCircle } from 'lucide-react';
 import { Formation } from '../data/formations';
 
 interface FormationCardProps {
@@ -8,13 +8,6 @@ interface FormationCardProps {
 }
 
 const FormationCard: React.FC<FormationCardProps> = ({ formation }) => {
-  const getLevelColor = (level: string) => {
-    if (level.includes('Débutant')) return 'bg-green-100 text-green-700 border-green-200';
-    if (level.includes('Intermédiaire')) return 'bg-orange-100 text-orange-700 border-orange-200';
-    if (level.includes('Avancé')) return 'bg-red-100 text-red-700 border-red-200';
-    return 'bg-orange-100 text-orange-700 border-orange-200';
-  };
-
   const getCategoryColor = (category: string) => {
     const colors = {
       'Bien-être et performance': 'bg-green-500',
@@ -72,14 +65,6 @@ const FormationCard: React.FC<FormationCardProps> = ({ formation }) => {
             </div>
             <span className="font-medium">{formation.chapters} chapitres</span>
           </div>
-        </div>
-
-        {/* Level Badge */}
-        <div className="flex items-center space-x-2">
-          <BarChart3 className="h-4 w-4 text-gray-400" />
-          <span className={`px-3 py-1 rounded-full text-xs font-medium border ${getLevelColor(formation.level)}`}>
-            {formation.level}
-          </span>
         </div>
 
         {/* Highlights */}

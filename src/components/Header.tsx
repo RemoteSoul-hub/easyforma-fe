@@ -46,12 +46,6 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <div className="p-1 bg-orange-100 rounded-full">
-                <Phone className="h-4 w-4 text-orange-500" />
-              </div>
-              <span>01 23 45 67 89</span>
-            </div>
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
-              <div className="p-1 bg-orange-100 rounded-full">
                 <Mail className="h-4 w-4 text-orange-500" />
               </div>
               <span>service.easyforma@gmail.com</span>
@@ -109,10 +103,6 @@ const Header = () => {
                 Contact
               </Link>
               <div className="px-3 py-2 border-t border-orange-200 mt-2">
-                <div className="flex items-center space-x-2 text-sm text-gray-600 mb-2">
-                  <Phone className="h-4 w-4 text-orange-500" />
-                  <span>01 23 45 67 89</span>
-                </div>
                 <div className="flex items-center space-x-2 text-sm text-gray-600">
                   <Mail className="h-4 w-4 text-orange-500" />
                   <span>service.easyforma@gmail.com</span>

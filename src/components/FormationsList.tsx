@@ -8,6 +8,9 @@ const FormationsList = () => {
   
   const [selectedCategory, setSelectedCategory] = useState<string>('populaires');
   const [activeStep, setActiveStep] = useState(0);
+    const toggleStep = (stepId:number) => {
+    setActiveStep(activeStep === stepId ? null : stepId);
+  };
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
 
   // Formations populaires spécifiques
@@ -65,73 +68,73 @@ const FormationsList = () => {
   ];
 
   // Roadmap steps
-  const roadmapSteps = [
-    {
-      id: 1,
-      title: "Etape 1",
-      description: "Tu reçois un accès illimité à l'ensemble des formations du catalogue EASY FORMA",
-      icon: <Target className="w-6 h-6" />,
-      status: "completed",
-      details: [
-        "Création de compte en 2 minutes",
-        "Accès immédiat au catalogue complet",
-        "Configuration de votre profil",
-        "Premier tour de la plateforme"
-      ]
-    },
-    {
-      id: 2,
-      title: "Etape 2",
-      description: "Tu débloques également la formation BUSINESS 2.0, pour apprendre à vendre tes compétences et lancer ton activité.",
-      icon: <Users className="w-6 h-6" />,
-      status: "in-progress",
-      details: [
-        "Navigation dans le catalogue",
-        "Filtrage par catégorie et niveau",
-        "Lecture des descriptions détaillées",
-        "Sélection de votre première formation"
-      ]
-    },
-    {
-      id: 3,
-      title: "Etape 3",
-      description: "Tu rejoins une communauté active de plus de 5 000 freelances et indépendants.",
-      icon: <Zap className="w-6 h-6" />,
-      status: "upcoming",
-      details: [
-        "Visionnage des vidéos de formation",
-        "Exercices pratiques et quiz",
-        "Suivi de votre progression",
-        "Support pédagogique en continu"
-      ]
-    },
-    {
-      id: 4,
-      title: "Etape 4",
-      description: "Tu choisis la compétence que tu veux apprendre et tu te formes à ton rythme.",
-      icon: <CheckCircle className="w-6 h-6" />,
-      status: "upcoming",
-      details: [
-        "Quiz d'évaluation finale",
-        "Projets pratiques à réaliser",
-        "Correction personnalisée",
-        "Obtention du certificat"
-      ]
-    },
-    {
-      id: 5,
-      title: "Etape 5",
-      description: "Et dans 15 jours, on fait un point ensemble au téléphone pour t'aider à avancer et répondre à tes questions.",
-      icon: <Rocket className="w-6 h-6" />,
-      status: "upcoming",
-      details: [
-        "Application concrète des compétences",
-        "Accompagnement post-formation",
-        "Communauté d'entraide",
-        "Évolution continue de vos compétences"
-      ]
-    }
-  ];
+const roadmapSteps = [
+  {
+    id: 1,
+    title: "Etape 1",
+    description: "Tu reçois un accès illimité à l'ensemble des formations du catalogue EASY FORMA",
+    icon: <Target className="w-6 h-6" />,
+    status: "completed",
+    details: [
+      "Création de compte en 2 minutes",
+      "Accès immédiat au catalogue complet",
+      "Configuration de votre profil",
+      "Premier tour de la plateforme"
+    ]
+  },
+  {
+    id: 2,
+    title: "Etape 2",
+    description: "Tu débloques également la formation BUSINESS 2.0, pour apprendre à vendre tes compétences et lancer ton activité.",
+    icon: <Users className="w-6 h-6" />,
+    status: "in-progress",
+    details: [
+      "Navigation dans le catalogue",
+      "Filtrage par catégorie et niveau",
+      "Lecture des descriptions détaillées",
+      "Sélection de votre première formation"
+    ]
+  },
+  {
+    id: 3,
+    title: "Etape 3",
+    description: "Tu rejoins une communauté active de plus de 5 000 freelances et indépendants.",
+    icon: <Zap className="w-6 h-6" />,
+    status: "upcoming",
+    details: [
+      "Visionnage des vidéos de formation",
+      "Exercices pratiques et quiz",
+      "Suivi de votre progression",
+      "Support pédagogique en continu"
+    ]
+  },
+  {
+    id: 4,
+    title: "Etape 4",
+    description: "Tu choisis la compétence que tu veux apprendre et tu te formes à ton rythme.",
+    icon: <CheckCircle className="w-6 h-6" />,
+    status: "upcoming",
+    details: [
+      "Quiz d'évaluation finale",
+      "Projets pratiques à réaliser",
+      "Correction personnalisée",
+      "Obtention du certificat"
+    ]
+  },
+  {
+    id: 5,
+    title: "Etape 5",
+    description: "Et dans 15 jours, on fait un point ensemble au téléphone pour t'aider à avancer et répondre à tes questions.",
+    icon: <Rocket className="w-6 h-6" />,
+    status: "upcoming",
+    details: [
+      "Application concrète des compétences",
+      "Accompagnement post-formation",
+      "Communauté d'entraide",
+      "Évolution continue de vos compétences"
+    ]
+  }
+];
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -416,16 +419,16 @@ const FormationsList = () => {
 
       <div className="max-w-4xl mx-auto">
         <div className="relative">
-          {/* Ligne verticale de connexion */}
+          {/* Ligne verticale */}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-orange-200 via-orange-300 to-orange-200"></div>
           
           <div className="space-y-4">
             {roadmapSteps.map((step, index) => (
               <div key={step.id} className="relative">
-                {/* Numéro de l'étape sur la ligne */}
+                {/* Point sur la ligne */}
                 <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full border-4 border-white shadow-lg z-10"></div>
                 
-                {/* Contenu de l'étape */}
+                {/* Contenu */}
                 <div className="ml-16">
                   <div 
                     className={`bg-white rounded-2xl shadow-lg border transition-all duration-300 cursor-pointer overflow-hidden ${
@@ -444,10 +447,9 @@ const FormationsList = () => {
                         <div>
                           <div className="flex items-center space-x-3 mb-2">
                             <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">
-                              Étape {step.id}
+                              {step.title}
                             </span>
                           </div>
-                          <h3 className="text-xl font-bold text-gray-900">{step.title}</h3>
                           <p className="text-gray-600 mt-1">{step.description}</p>
                         </div>
                       </div>
@@ -479,11 +481,6 @@ const FormationsList = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* Indicateur de progression */}
-                {index < roadmapSteps.length - 1 && (
-                  <div className="absolute left-7 mt-4 w-2 h-8 bg-gradient-to-b from-orange-300 to-orange-200 rounded-full opacity-50"></div>
-                )}
               </div>
             ))}
           </div>
@@ -492,21 +489,13 @@ const FormationsList = () => {
       
       {/* CTA après la roadmap */}
       <div className="text-center mt-12">
-        <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 max-w-2xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Prêt à commencer votre transformation ?
-          </h3>
-          <p className="text-gray-600 mb-6">
-            Rejoignez des milliers d'apprenants qui ont déjà transformé leur carrière avec EASY FORMA
-          </p>
-          <button 
-            onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-            className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3 transform hover:scale-105"
-          >
-            <Rocket className="h-6 w-6" />
-            <span>Rejoindre EASY FORMA</span>
-          </button>
-        </div>
+        <button 
+          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+          className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
+        >
+          <Rocket className="h-6 w-6" />
+          <span>Rejoindre EASY FORMA</span>
+        </button>
       </div>
     </div>
 
@@ -647,11 +636,11 @@ const FormationsList = () => {
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                       <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
-                      <p className="text-sm">Une communauté de + de 5 000 entrepreneurs</p>
+                      <p className="text-sm">Une communauté d’entrepreneurs dynamique</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                       <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
-                      <p className="text-sm">Un accompagnement business</p>
+                      <p className="text-sm">Un business clé en mains</p>
                     </div>
                   </div>
                   
@@ -677,6 +666,7 @@ const FormationsList = () => {
                   <Link
                     to="/easy-forma-plus"
                     className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center space-x-2"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     <Crown className="h-5 w-5" />
                     <span>Découvrir EASY FORMA +</span>
@@ -769,7 +759,7 @@ const FormationsList = () => {
                     <ul className="space-y-3 text-left">
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu ne veux pas te former, mais tu veux gagner de l'argent maintenant</span>
+                        <span>Tu veux apprendre la vente et gagner de l’argent dans les 7 prochains jours</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
