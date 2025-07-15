@@ -751,8 +751,8 @@ export const formations: Formation[] = [
   id: 31,
   title: "Formation : Sophrologie",
   description: "Découvrez les techniques de sophrologie pour gérer le stress, améliorer votre bien-être et développer vos capacités de relaxation et de concentration.",
-  duration: "4h",
-  chapters: 4,
+  duration: "7h40",
+  chapters: 10,
   level: "Débutant",
   image: "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
   highlights: [
@@ -761,7 +761,57 @@ export const formations: Formation[] = [
     "Exercices de visualisation positive",
     "Applications pratiques au quotidien"
   ],
-  category: "Bien-être et performance"
+  category: "Bien-être et performance",
+  program: [
+    {
+      title: "Test de positionnement - Sophrologie",
+      content: []
+    },
+    {
+      title: "Module 1 : Stress et Travail font-ils bon ménage ?",
+      content: []
+    },
+    {
+      title: "Module 2 : Le travail c'est la sante ?",
+      content: []
+    },
+    {
+      title: "Module 3 : Face au stress, adoptez la double approche",
+      content: []
+    },
+    {
+      title: "Module 4 : Affronter sereinement une surcharge de travail",
+      content: []
+    },
+    {
+      title: "Module 5 : Doper son énergie",
+      content: []
+    },
+    {
+      title: "Module 6 : Se sentir à la hauteur",
+      content: []
+    },
+    {
+      title: "Module 7 : Créer des relations satisfaisantes",
+      content: []
+    },
+    {
+      title: "Module 8 : Concilier vie professionnelle et vie privée",
+      content: []
+    },
+    {
+      title: "Module 9 : Retrouver du sens et de la motivation",
+      content: []
+    },
+    {
+      title: "Module 10 : Passer un pacte de zénitude avec soi-même",
+      content: []
+    },
+    {
+      title: "Test de satisfaction - Sophrologie",
+      content: []
+    }
+  ]
 },
 {
   id: 32,
