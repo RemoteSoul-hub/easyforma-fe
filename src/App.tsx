@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Business20 from './components/Business20';
 import EasyFormaPlus from './components/EasyFormaPlus';
+import FormationDetail from './components/FormationDetail';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/business-20" element={<Business20 />} />
           <Route path="/easy-forma-plus" element={<EasyFormaPlus />} />
+          <Route path="/formation/:id" element={<FormationDetail />} />
         </Routes>
         <Footer />
       </div>

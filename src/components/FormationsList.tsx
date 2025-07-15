@@ -8,7 +8,7 @@ const FormationsList = () => {
   
   const [selectedCategory, setSelectedCategory] = useState<string>('populaires');
   const [activeStep, setActiveStep] = useState(0);
-    const toggleStep = (stepId:number) => {
+  const toggleStep = (stepId:number) => {
     setActiveStep(activeStep === stepId ? null : stepId);
   };
   const [activeFAQ, setActiveFAQ] = useState<number | null>(null);

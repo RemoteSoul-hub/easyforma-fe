@@ -8,6 +8,18 @@ export interface Formation {
   image: string;
   highlights: string[];
   category: string;
+  detailedDescription?: string;
+  objectives?: string[];
+  prerequisites?: string[];
+  program?: {
+    title: string;
+    content: string[];
+  }[];
+  instructor?: {
+    name: string;
+    bio: string;
+    avatar: string;
+  };
 }
 
 export const formations: Formation[] = [
@@ -679,12 +691,12 @@ export const formations: Formation[] = [
     ],
     category: "Communication"
   },
-  {
+{
   id: 30,
   title: "Formation : Langue des signes française - A1",
   description: "Apprenez les bases de la langue des signes française pour communiquer efficacement avec la communauté sourde et malentendante.",
-  duration: "26h",
-  chapters: 10,
+  duration: "20h",
+  chapters: 12,
   level: "Débutant",
   image: "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=800",
   highlights: [
@@ -693,7 +705,47 @@ export const formations: Formation[] = [
     "Grammaire et syntaxe LSF",
     "Communication pratique et expressions"
   ],
-  category: "Communication"
+  category: "Communication",
+  program: [
+    {
+      title: "Test positionnement - Langue des signes française",
+      content: []
+    },
+    {
+      title: "Module 1",
+      content: [
+        "Quiz Module 1"
+      ]
+    },
+    {
+      title: "Module 2", 
+      content: [
+        "Quiz Module 2"
+      ]
+    },
+    {
+      title: "Module 3",
+      content: [
+        "Quiz Module 3"
+      ]
+    },
+    {
+      title: "Module 4",
+      content: [
+        "Quiz Module 4"
+      ]
+    },
+    {
+      title: "Module 5",
+      content: [
+        "Quiz Module 5"
+      ]
+    },
+    {
+      title: "Test de satisfaction - Langue des signes française",
+      content: []
+    }
+  ]
 },
 {
   id: 31,
