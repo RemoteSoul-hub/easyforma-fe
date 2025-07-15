@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, BookOpen, Phone, Mail } from 'lucide-react';
+import { Menu, X, BookOpen, Phone, Mail, Calendar } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,28 +31,30 @@ const Header = () => {
             <a href="/#formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Formations
             </a>
-            <Link to="/faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              FAQ
+            <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+              Droit de revente
             </Link>
             <Link to="/qui-suis-je" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Qui suis-je ?
             </Link>
-            <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Droit de revente
-            </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Contact
+            <Link to="/faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+              FAQ
             </Link>
           </nav>
 
-          {/* Contact Info */}
+          {/* Calendly Link */}
           <div className="hidden lg:flex items-center space-x-6">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
+            <a 
+              href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-sm text-gray-600 hover:text-orange-500 transition-colors duration-200"
+            >
               <div className="p-1 bg-orange-100 rounded-full">
-                <Mail className="h-4 w-4 text-orange-500" />
+                <Calendar className="h-4 w-4 text-orange-500" />
               </div>
-              <span>service.easyforma@gmail.com</span>
-            </div>
+              <span>Réserver un appel</span>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -85,11 +87,11 @@ const Header = () => {
                 Formations
               </a>
               <Link
-                to="/faq"
+                to="/easy-forma-plus"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                FAQ
+                Droit de revente
               </Link>
               <Link
                 to="/qui-suis-je"
@@ -99,24 +101,24 @@ const Header = () => {
                 Qui suis-je ?
               </Link>
               <Link
-                to="/easy-forma-plus"
+                to="/faq"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Droit de revente
-              </Link>
-              <Link
-                to="/contact"
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
+                FAQ
               </Link>
               <div className="px-3 py-2 border-t border-orange-200 mt-2">
-                <div className="flex items-center space-x-2 text-sm text-gray-600">
-                  <Mail className="h-4 w-4 text-orange-500" />
-                  <span>service.easyforma@gmail.com</span>
-                </div>
+                <a 
+                  href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 text-sm text-gray-600 hover:text-orange-500 transition-colors duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <Calendar className="h-4 w-4 text-orange-500" />
+                  <span>Réserver un appel</span>
+                </a>
+              </div>
               </div>
             </div>
           </div>
