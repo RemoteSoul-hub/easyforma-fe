@@ -31,9 +31,12 @@ const Header = () => {
             <a href="/#formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Formations
             </a>
-            <a href="/#faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+            <Link to="/faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               FAQ
-            </a>
+            </Link>
+            <Link to="/qui-suis-je" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+              Qui suis-je ?
+            </Link>
             <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Droit de revente
             </Link>
@@ -75,19 +78,26 @@ const Header = () => {
                 Accueil
               </Link>
               <a
-                href="/#formations"
+                href="/#formations" 
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Formations
               </a>
-              <a
-                href="/#faq"
+              <Link
+                to="/faq"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 FAQ
-              </a>
+              </Link>
+              <Link
+                to="/qui-suis-je"
+                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Qui suis-je ?
+              </Link>
               <Link
                 to="/easy-forma-plus"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
