@@ -512,9 +512,9 @@ const roadmapSteps = [
                     <Play className="h-5 w-5" />
                     <span>Découvrir Business 2.0</span>
                   </Link>
-                  <div className="flex items-center space-x-2 text-blue-200">
+                  <div className="flex items-center space-x-2 text-blue-200 font-bold">
                     <Star className="h-5 w-5 text-yellow-400" />
-                    <span className="text-sm">Inclus dans l'abonnement</span>
+                    <span className="text-sm font-bold">Inclus gratuitement</span>
                   </div>
                 </div>
               </div>
