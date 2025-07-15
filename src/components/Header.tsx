@@ -119,7 +119,6 @@ const Header = () => {
                   <span>Réserver un appel</span>
                 </a>
               </div>
-              </div>
             </div>
           </div>
         )}
