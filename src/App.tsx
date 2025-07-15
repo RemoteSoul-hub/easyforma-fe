@@ -26,8 +26,8 @@ function ScrollToTop() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-white">
-        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={
