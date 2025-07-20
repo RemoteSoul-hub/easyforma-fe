@@ -265,7 +265,55 @@ const roadmapSteps = [
                     <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
                       <p className="text-gray-800 font-semibold text-center">
                         Chez EASY FORMA :<br />
-                        <span className="text-orange-600">Accès illimité</span>
+                        <span className="text-orange-600">forme-toi → deviens expert → gagne de l'argent.</span>
+                      </p>
+                    </div>
+                    
+                    <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                      <h4 className="text-xl font-bold text-gray-800 mb-3">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
+                      <p className="text-gray-700 mb-3">
+                        Tout le monde n'a pas 2 000€ pour se former.
+                      </p>
+                      <p className="text-gray-700">
+                        Et comment savoir, dès le départ, si la compétence qu'on choisit est la bonne ?
+                        Celle qui va vraiment te motiver à aller jusqu'au bout ?
+                      </p>
+                    </div>
+                    
+                    <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
+                      <h4 className="text-xl font-bold text-orange-800 mb-3">C'est pour ça que j'ai créé EASY FORMA :</h4>
+                      <p className="text-orange-700 mb-3">
+                        Une plateforme qui fait sauter les barrières à l'apprentissage.
+                      </p>
+                      <p className="text-orange-700 mb-3">
+                        Pour 29€/mois, tu accèdes à plus de 100 formations professionnalisantes.
+                      </p>
+                      <p className="text-orange-700">
+                        Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
+                      </p>
+                    </div>
+                    
+                    <div className="text-center space-y-4 bg-orange-500 rounded-xl p-6 text-white">
+                      <h4 className="text-2xl font-bold">EASY FORMA, c'est la clé.</h4>
+                      <p className="text-lg">
+                        Celle qui te permet d'ouvrir les bonnes portes,
+                        et de rencontrer enfin ton "toi successfull".
+                      </p>
+                      <p className="text-lg">
+                        Plus personne ne pourra dire qu'entreprendre est impossible.
+                      </p>
+                      <p className="text-lg font-semibold">
+                        Avec EASY FORMA, l'impossible devient possible.
+                      </p>
+                    </div>
+                    
+                    <div className="text-center space-y-3">
+                      <p className="text-lg font-semibold text-gray-900">Alors…</p>
+                      <p className="text-gray-700">
+                        Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
+                      </p>
+                      <p className="text-orange-600 font-semibold">
+                        Annulation à tout moment • Support inclus
                       </p>
                     </div>
                   </div>
@@ -283,59 +331,6 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* Histoire personnelle */}
-        <div className="my-20">
-          <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700 bg-white rounded-2xl p-8 shadow-lg">
-            
-            <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200">
-              <h4 className="text-2xl font-bold text-gray-800 mb-4">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
-              <p className="text-gray-700 mb-4">
-                Tout le monde n'a pas 2 000€ pour se former.
-              </p>
-              <p className="text-gray-700">
-                Et comment savoir, dès le départ, si la compétence qu'on choisit est la bonne ?
-                Celle qui va vraiment te motiver à aller jusqu'au bout ?
-              </p>
-            </div>
-            
-            <div className="bg-orange-50 p-8 rounded-2xl border border-orange-200">
-              <h4 className="text-2xl font-bold text-orange-800 mb-4">C'est pour ça que j'ai créé EASY FORMA :</h4>
-              <p className="text-orange-700 mb-4">
-                Une plateforme qui fait sauter les barrières à l'apprentissage.
-              </p>
-              <p className="text-orange-700 mb-4">
-                Pour 29€/mois, tu accèdes à plus de 100 formations professionnalisantes.
-              </p>
-              <p className="text-orange-700">
-                Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
-              </p>
-            </div>
-            
-            <div className="text-center space-y-6 bg-orange-500 rounded-2xl p-8 text-white">
-              <h4 className="text-3xl font-bold">EASY FORMA, c'est la clé.</h4>
-              <p className="text-xl">
-                Celle qui te permet d'ouvrir les bonnes portes,
-                et de rencontrer enfin ton "toi successfull".
-              </p>
-              <p className="text-xl">
-                Plus personne ne pourra dire qu'entreprendre est impossible.
-              </p>
-              <p className="text-xl font-semibold">
-                Avec EASY FORMA, l'impossible devient possible.
-              </p>
-            </div>
-            
-            <div className="text-center space-y-4">
-              <p className="text-xl font-semibold text-gray-900">Alors…</p>
-              <p className="text-lg">
-                Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
-              </p>
-              <p className="text-lg font-semibold text-orange-600">
-                Annulation à tout moment • Support inclus
-              </p>
-            </div>
-          </div>
-        </div>
 
         {/* 1. Notre mission */}
         <div className="text-center space-y-6 my-20">
