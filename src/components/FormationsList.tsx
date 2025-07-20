@@ -679,8 +679,8 @@ const roadmapSteps = [
                     
                     <div className="bg-orange-100 p-6 rounded-xl">
                       <div className="text-3xl font-bold text-orange-600 mb-2">💸 29€/mois – sans engagement</div>
-                      <div className="text-orange-700 mb-2">📚 +100 formations | +1000h de contenu | accompagnement business</div>
-                      <div className="text-orange-700 font-semibold">🎯 Ton objectif : apprendre et monétiser ton savoir-faire</div>
+                      <div className="text-orange-700 mb-2">📚 +100 formations | +1000h de contenu | Support pédagogique</div>
+                      <div className="text-orange-700 font-semibold">🎯 Ton objectif : Devenir expert dans le domaine de ton choix</div>
                     </div>
                     
                     <button 
