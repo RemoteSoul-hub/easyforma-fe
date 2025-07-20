@@ -276,7 +276,7 @@ const roadmapSteps = [
                 <img
                   src="/cyprien-speaking.jpeg"
                   alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
-                  className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-lg"
+                  className="w-full max-w-md h-auto object-cover rounded-2xl shadow-lg"
                 />
               </div>
             </div>
