@@ -255,7 +255,7 @@ const roadmapSteps = [
                     </p>
                     
                     <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                      <h4 className="text-xl font-bold text-gray-800 mb-3">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
+                      <h4 className="text-lg font-bold text-gray-800 mb-3">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
                       <p className="text-gray-700 mb-3">
                         Tout le monde n'a pas 2 000€ pour se former.
                       </p>
