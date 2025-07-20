@@ -657,23 +657,23 @@ const roadmapSteps = [
                     <ul className="space-y-3 text-left">
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux apprendre une compétence concrète et l'utiliser pour gagner ta vie</span>
+                        <span>Tu veux apprendre une ou plusieurs compétences des domaines particuliers.</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux te lancer en freelance ou créer ton activité en ligne</span>
+                        <span>Tu cherches une formation accessible actionnable sans perte de temps.</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu cherches une formation accessible, actionnable et sans perte de temps</span>
+                        <span>Tu veux avancer à ton rythme sans pression.</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux avancer à ton rythme, sans pression</span>
+                        <span>Tu veux avoir un point pédagogique tout les mois avec un coach expert et support disponible 24/7.</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-orange-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux rejoindre une communauté dynamique et être accompagné</span>
+                        <span>Tu as pour projet de lancer ton propre business</span>
                       </li>
                     </ul>
                     
