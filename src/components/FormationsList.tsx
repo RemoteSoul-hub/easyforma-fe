@@ -642,7 +642,7 @@ const roadmapSteps = [
               </div>
               
               <h3 className="text-3xl font-bold text-gray-900">
-                Obtenir ta liberté financière n'a jamais été aussi simple
+                Tu souhaites apprendre ou entreprendre ?
               </h3>
               
               <div className="text-center space-y-6">
