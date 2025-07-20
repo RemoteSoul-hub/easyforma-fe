@@ -47,7 +47,7 @@ const EasyFormaPlus = () => {
     },
     {
       question: "5. Que se passe-t-il si mon prospect préfère prendre l'abonnement à 29€/mois ?",
-      answer: "L'abonnement à 29€/mois est destiné à ceux qui veulent se former et créer leur agence. EASY FORMA +, c'est pour ceux qui veulent gagner de l'argent immédiatement avec un business déjà prêt. Les deux offres ne répondent pas aux mêmes besoins, c'est à toi de bien positionner la valeur que tu proposes (Thématique traitée dans la formation CLOSERS)."
+      answer: "L'abonnement à 29€/mois est destiné à ceux qui veulent se former. EASY FORMA +, c'est pour ceux qui veulent gagner de l'argent immédiatement avec un business déjà prêt. Les deux offres ne répondent pas aux mêmes besoins, c'est à toi de bien positionner la valeur que tu proposes (Thématique traitée dans la formation CLOSERS)."
     },
     {
       question: "6. Combien de ventes dois-je faire pour rentabiliser mon investissement ?",
