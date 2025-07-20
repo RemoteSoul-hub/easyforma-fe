@@ -503,17 +503,7 @@ const roadmapSteps = [
                   </div>
                 </div>
                 
-                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 mb-8">
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className="p-2 bg-yellow-400/20 rounded-full">
-                      <Star className="h-6 w-6 text-yellow-400" />
-                    </div>
-                    <div>
-                      <div className="text-3xl font-bold">Inclus gratuitement</div>
-                      <div className="text-blue-200 text-lg">avec votre abonnement Easy Forma</div>
-                    </div>
-                  </div>
-                </div>
+
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <Link
