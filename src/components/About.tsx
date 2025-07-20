@@ -61,9 +61,9 @@ const About = () => {
               
               <div className="p-12 lg:p-16 flex items-center justify-center bg-white">
                 <img
-                  src="/b9023d92-8fbb-4147-9740-62b9dcad84fd.jpg"
+                  src="/cyprien-speaking.jpeg"
                   alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
-                  className="w-full max-w-sm h-auto object-cover rounded-2xl shadow-lg"
+                  className="w-full max-w-md h-auto object-cover rounded-2xl shadow-lg"
                 />
               </div>
             </div>
