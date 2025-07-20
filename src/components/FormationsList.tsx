@@ -503,6 +503,18 @@ const roadmapSteps = [
                   </div>
                 </div>
                 
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                  <div className="flex items-center space-x-4 mb-4">
+                    <div className="p-2 bg-yellow-400/20 rounded-full">
+                      <Star className="h-6 w-6 text-yellow-400" />
+                    </div>
+                    <div>
+                      <div className="text-3xl font-bold">Inclus gratuitement</div>
+                      <div className="text-blue-200 text-lg">avec votre abonnement Easy Forma</div>
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <Link
                     to="/business-20"
@@ -601,7 +613,7 @@ const roadmapSteps = [
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                       <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
-                      <p className="text-sm">Une communauté d’entrepreneurs dynamique</p>
+                      <p className="text-sm">Une communauté d'entrepreneurs dynamique</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                       <CheckCircle className="h-5 w-5 text-yellow-400 mx-auto mb-2" />
@@ -724,7 +736,7 @@ const roadmapSteps = [
                     <ul className="space-y-3 text-left">
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux apprendre la vente et gagner de l’argent dans les 7 prochains jours</span>
+                        <span>Tu veux apprendre la vente et gagner de l'argent dans les 7 prochains jours</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
