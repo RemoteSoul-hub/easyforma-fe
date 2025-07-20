@@ -254,14 +254,6 @@ const roadmapSteps = [
                       je ne viens pas du monde académique… je viens du terrain.
                     </p>
                     
-                    <p>
-                      J'ai vu trop de gens galérer avec des formations trop théoriques, sans jamais atteindre cette fameuse liberté financière.
-                    </p>
-                    
-                    <p>
-                      <strong className="text-orange-600">Alors j'ai créé EASY FORMA</strong> : une plateforme 100 % orientée action, pour apprendre une compétence et en vivre.
-                    </p>
-                    
                     <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
                       <p className="text-gray-800 font-semibold text-center">
                         Chez EASY FORMA :<br />
