@@ -52,7 +52,7 @@ const About = () => {
                     <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
                       <p className="text-gray-800 font-semibold text-center">
                         Chez EASY FORMA :<br />
-                        <span className="text-orange-600">forme-toi → deviens expert → gagne de l'argent.</span>
+                        <span className="text-orange-600">forme-toi.</span>
                       </p>
                     </div>
                   </div>
