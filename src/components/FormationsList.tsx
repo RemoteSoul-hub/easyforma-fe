@@ -98,7 +98,7 @@ const roadmapSteps = [
   {
     id: 3,
     title: "Etape 3",
-    description: "Et dans 15 jours, on fait un point ensemble au téléphone pour t'aider à avancer et répondre à tes questions.",
+    description: "Et tout les mois, on fait un point ensemble au téléphone pour t'aider à avancer et répondre à tes questions.",
     icon: <Rocket className="w-6 h-6" />,
     status: "upcoming",
     details: [
