@@ -714,7 +714,7 @@ const roadmapSteps = [
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux pouvoir revendre EASY FORMA et encaisser 750€ de commission par vente</span>
+                        <span>Tu veux pouvoir revendre cette opportunité et encaisser 750€ de commissions par ventes</span>
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
@@ -722,7 +722,7 @@ const roadmapSteps = [
                       </li>
                       <li className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
-                        <span>Tu veux une licence exclusive, des outils fournis, et du coaching</span>
+                        <span>Tu veux une licence de revente, des outils fournis et du coaching</span>
                       </li>
                     </ul>
                     
