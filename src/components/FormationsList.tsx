@@ -51,7 +51,7 @@ const FormationsList = () => {
     },
     {
       question: "Est-ce que je peux vivre de mes compétences après une formation EASY FORMA ?",
-      answer: "C'est justement l'objectif. Chaque formation inclut une partie 'Business 2.0' qui t'apprend à monétiser ce que tu viens d'apprendre et à trouver tes premiers clients en ligne."
+      answer: "Dès lors que tu as terminé une formation à 100% tu reçois BUSINESS 2.0 qui t'expliquera comment monétiser les connaissances que tu viens d'apprendre."
     },
     {
       question: "Combien de temps faut-il pour suivre une formation ?",
@@ -512,9 +512,9 @@ const roadmapSteps = [
                     <Play className="h-5 w-5" />
                     <span>Découvrir Business 2.0</span>
                   </Link>
-                  <div className="flex items-center space-x-2 text-blue-200">
+                  <div className="flex items-center space-x-2 text-blue-200 font-bold">
                     <Star className="h-5 w-5 text-yellow-400" />
-                    <span className="text-sm">Inclus dans l'abonnement</span>
+                    <span className="text-sm font-bold">Inclus gratuitement</span>
                   </div>
                 </div>
               </div>

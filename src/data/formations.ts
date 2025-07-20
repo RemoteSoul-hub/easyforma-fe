@@ -43,8 +43,8 @@ export const formations: Formation[] = [
     id: 2,
     title: "Formation : Qualité de vie au travail",
     description: "Améliorez votre bien-être professionnel en apprenant à créer un environnement de travail sain, équilibré et épanouissant.",
-    duration: "13h",
-    chapters: 6,
+    duration: "20h",
+    chapters: 14,
     level: "Tous niveaux",
     image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -53,14 +53,48 @@ export const formations: Formation[] = [
       "Aménagement de l'espace de travail",
       "Relations interpersonnelles saines"
     ],
-    category: "Bien-être et performance"
+    category: "Bien-être et performance",
+    program: [
+      {
+        title: "Test de positionnement - Qualité de vie au travail",
+        content: []
+      },
+      {
+        title: "Module 1 : QVT et performance : où en sommes-nous en France ?",
+        content: []
+      },
+      {
+        title: "Module 2 : QVT et performance : plus rentable que contraignant",
+        content: []
+      },
+      {
+        title: "Module 3 : Comment amener l'approche de la Qualité de Vie au Travail ?",
+        content: []
+      },
+      {
+        title: "Module 4 : Questions sur la QVT",
+        content: []
+      },
+      {
+        title: "Module 5 : Risques psychosociaux (RPS)",
+        content: []
+      },
+      {
+        title: "Module 6 : Gestion du stress",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Qualité de vie au travail",
+        content: []
+      }
+    ]
   },
   {
     id: 3,
     title: "Formation : Gestes et postures au travail",
     description: "Prévenez les troubles musculo-squelettiques et adoptez les bonnes postures pour préserver votre santé physique au travail.",
-    duration: "9h",
-    chapters: 5,
+    duration: "13h",
+    chapters: 16,
     level: "Débutant",
     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -69,14 +103,28 @@ export const formations: Formation[] = [
       "Exercices d'étirement et renforcement",
       "Postures correctes selon l'activité"
     ],
-    category: "Bien-être et performance"
+    category: "Bien-être et performance",
+    program: [
+      {
+        title: "Test de positionnement - Gestes et postures au travail",
+        content: []
+      },
+      {
+        title: "MODULE N°1 - Données épidémiologiques et législation",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Gestes et postures au travail",
+        content: []
+      }
+    ]
   },
   {
     id: 4,
     title: "Formation : Gestion des conflits",
     description: "Apprenez à identifier, prévenir et résoudre les conflits professionnels pour maintenir un climat de travail serein et productif.",
-    duration: "10h30",
-    chapters: 6,
+    duration: "9h",
+    chapters: 13,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -85,14 +133,76 @@ export const formations: Formation[] = [
       "Communication non-violente",
       "Négociation et résolution"
     ],
-    category: "Bien-être et performance"
+    category: "Bien-être et performance",
+    program: [
+      {
+        title: "Test de positionnement - Gestion des conflits",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 1 : La gestion des conflits au sein d'une entreprise",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 2 : Comment appréhender le conflit ?",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 3 : Développer une intelligence relationnelle",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 4 : Résoudre un conflit ouvert",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 5 : Adopter une attitude constructive dans le conflit",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 6 : Arbitre au médiateur - Gérer un conflit en tant que tiers",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 7 : créer un environnement de travail plus collaboratif",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Module 8 : Ouvrir des paradigmes au-delà du conflit",
+        content: [
+          
+        ]
+      },
+      {
+        title: "Test de satisfaction - Gestion des conflits",
+        content: [
+          
+        ]
+      }
+    ]
   },
   {
     id: 5,
     title: "Formation : Gestion du stress",
     description: "Maîtrisez les techniques de gestion du stress pour améliorer votre performance, votre bien-être et votre qualité de vie professionnelle.",
-    duration: "12h",
-    chapters: 7,
+    duration: "10h30",
+    chapters: 17,
     level: "Tous niveaux",
     image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -101,7 +211,49 @@ export const formations: Formation[] = [
       "Gestion émotionnelle",
       "Stratégies de coping"
     ],
-    category: "Bien-être et performance"
+    category: "Bien-être et performance",
+    program: [
+      {
+        title: "Test de positionnement - Gestion du stress",
+        content: []
+      },
+      {
+        title: "MODULE 1 : Généralités sur le stress",
+        content: []
+      },
+      {
+        title: "MODULE 2 : Gérer le stress et les situations difficiles",
+        content: []
+      },
+      {
+        title: "MODULE 3 : Techniques de relaxation",
+        content: []
+      },
+      {
+        title: "MODULE 4 : Prévenir le stress",
+        content: []
+      },
+      {
+        title: "MODULE 5 : Gérer son temps au travail pour diminuer son stress",
+        content: []
+      },
+      {
+        title: "MODULE 6 : La gestion des conflits au sein d'une entreprise",
+        content: []
+      },
+      {
+        title: "MODULE 7 : Sophrologie au travail - Partie 1",
+        content: []
+      },
+      {
+        title: "MODULE 8 : Sophrologie au travail - Partie 2",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Gestion du stress",
+        content: []
+      }
+    ]
   },
   {
     id: 7,
@@ -155,8 +307,8 @@ export const formations: Formation[] = [
     id: 10,
     title: "Formation : Initiation informatique sous Mac",
     description: "Découvrez l'univers Mac et maîtrisez macOS pour optimiser votre productivité sur les ordinateurs Apple.",
-    duration: "4h",
-    chapters: 4,
+    duration: "6h15",
+    chapters: 19,
     level: "Débutant",
     image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -165,7 +317,53 @@ export const formations: Formation[] = [
       "Gestion des fichiers et dossiers",
       "Personnalisation et optimisation"
     ],
-    category: "Bureaucratique"
+    category: "Bureaucratique",
+    program: [
+      {
+        title: "Test de positionnement - Initiation informatique sur MAC",
+        content: []
+      },
+      {
+        title: "Module 1 : Présentation du MacBook Air",
+        content: []
+      },
+      {
+        title: "Module 2 : Présentation du MacBook Pro",
+        content: []
+      },
+      {
+        title: "Module 3 : Configurer et prendre en main son MacBook",
+        content: []
+      },
+      {
+        title: "Module 4 : Nouvelles fonctionnalités sur le MacBook",
+        content: []
+      },
+      {
+        title: "Module 5 : Utiliser le MacBook avec d'autres appareils",
+        content: []
+      },
+      {
+        title: "Module 6 : Applications",
+        content: []
+      },
+      {
+        title: "Module 7 : Trouver des réponses",
+        content: []
+      },
+      {
+        title: "Module 8 : Sécurité, manipulation et informations réglementaires",
+        content: []
+      },
+      {
+        title: "Quiz final",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Initiation informatique sur MAC",
+        content: []
+      }
+    ]
   },
   {
     id: 11,
@@ -266,8 +464,8 @@ export const formations: Formation[] = [
     id: 13,
     title: "Formation : After Effects",
     description: "Créez des animations et effets visuels spectaculaires avec Adobe After Effects pour donner vie à vos projets créatifs.",
-    duration: "10h",
-    chapters: 7,
+    duration: "7h",
+    chapters: 15,
     level: "Intermédiaire à Avancé",
     image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -277,65 +475,63 @@ export const formations: Formation[] = [
       "Animation de texte et logos"
     ],
     category: "Communication",
-    detailedDescription: "Plongez dans l'univers du motion design et des effets visuels avec Adobe After Effects. Créez des animations professionnelles et des effets spectaculaires pour vos vidéos.",
-    objectives: [
-      "Maîtriser les principes de l'animation",
-      "Créer des effets visuels professionnels",
-      "Réaliser du compositing avancé",
-      "Animer textes, logos et graphiques",
-      "Intégrer After Effects dans un workflow vidéo"
-    ],
-    prerequisites: [
-      "Connaissances de base en vidéo",
-      "Accès à Adobe After Effects",
-      "Notions de Premiere Pro recommandées"
-    ],
     program: [
       {
-        title: "Fondamentaux",
-        content: [
-          "Interface et concepts de base",
-          "Compositions et calques",
-          "Propriétés et keyframes",
-          "Prévisualisation et rendu"
-        ]
+        title: "Test de positionnement - After Effects",
+        content: []
       },
       {
-        title: "Animation",
-        content: [
-          "Principes de l'animation",
-          "Courbes de vitesse",
-          "Animation de texte",
-          "Rigging et parentage"
-        ]
+        title: "Module 1 : Définir les champs d'application d'After effects dans l'univers de l'animation graphique",
+        content: []
       },
       {
-        title: "Effets et compositing",
-        content: [
-          "Effets visuels",
-          "Masques et rotoscoping",
-          "Tracking et stabilisation",
-          "Compositing multicouches"
-        ]
+        title: "Module 2 : Appréhender le logiciel",
+        content: []
       },
       {
-        title: "Motion design avancé",
-        content: [
-          "Animation de logos",
-          "Particules et simulations",
-          "Expressions et scripts",
-          "Workflow et optimisation"
-        ]
+        title: "Module 3 : Utiliser les outils fondamentaux",
+        content: []
+      },
+      {
+        title: "Module 4 : Gestion de la transparence",
+        content: []
+      },
+      {
+        title: "Module 5 : Points clés, compositions et vélocité",
+        content: []
+      },
+      {
+        title: "Module 6 : Les effets",
+        content: []
+      },
+      {
+        title: "Module 7 : Animation de texte",
+        content: []
+      },
+      {
+        title: "Module 8 : Animation avancée",
+        content: []
+      },
+      {
+        title: "Module 9 : Exportation",
+        content: []
+      },
+      {
+        title: "Quiz Final",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - After Effects",
+        content: []
       }
-    ],
-    category: "Communication"
+    ]
   },
   {
     id: 14,
     title: "Formation : Canva",
     description: "Créez des visuels professionnels facilement avec Canva. Maîtrisez tous les outils pour concevoir des designs impactants sans compétences techniques.",
-    duration: "26h",
-    chapters: 12,
+    duration: "10h",
+    chapters: 11,
     level: "Débutant",
     image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -344,86 +540,176 @@ export const formations: Formation[] = [
       "Création de contenus multi-formats",
       "Collaboration et partage d'équipe"
     ],
-    category: "Communication"
-  },
-  {
-    id: 15,
-    title: "Formation : Marketing e-commerce et réseaux sociaux",
-    description: "Développez votre activité e-commerce grâce aux stratégies marketing digital et à la puissance des réseaux sociaux.",
-    duration: "18h",
-    chapters: 9,
-    level: "Intermédiaire",
-    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Stratégies e-commerce performantes",
-      "Marketing des réseaux sociaux",
-      "Publicité Facebook et Instagram Ads",
-      "Conversion et fidélisation client"
-    ],
     category: "Communication",
-    detailedDescription: "Apprenez à développer et promouvoir votre e-commerce grâce aux techniques de marketing digital les plus efficaces. Maîtrisez les réseaux sociaux pour booster vos ventes.",
-    objectives: [
-      "Élaborer une stratégie e-commerce complète",
-      "Maîtriser le marketing des réseaux sociaux",
-      "Créer des campagnes publicitaires rentables",
-      "Optimiser le taux de conversion",
-      "Fidéliser et développer sa clientèle"
-    ],
-    prerequisites: [
-      "Notions de base en marketing",
-      "Projet e-commerce existant ou en cours",
-      "Accès aux réseaux sociaux professionnels"
-    ],
     program: [
       {
-        title: "Stratégie e-commerce",
-        content: [
-          "Analyse de marché et concurrence",
-          "Positionnement et proposition de valeur",
-          "Parcours client et UX",
-          "KPIs et métriques essentielles"
-        ]
+        title: "Test de positionnement - Canva",
+        content: []
       },
       {
-        title: "Marketing des réseaux sociaux",
-        content: [
-          "Stratégie de contenu",
-          "Community management",
-          "Influence et partenariats",
-          "Engagement et interaction"
-        ]
+        title: "Module 1 : Canva, un outil de création visuel intuitif et professionnel",
+        content: []
       },
       {
-        title: "Publicité payante",
-        content: [
-          "Facebook et Instagram Ads",
-          "Google Ads pour e-commerce",
-          "Retargeting et remarketing",
-          "Optimisation des campagnes"
-        ]
+        title: "Module 2 : Vos premiers pas sur canva",
+        content: []
       },
       {
-        title: "Conversion et fidélisation",
-        content: [
-          "Optimisation du tunnel de vente",
-          "Email marketing automatisé",
-          "Programme de fidélité",
-          "Service client et avis"
-        ]
+        title: "Module 3 : L'importance d'avoir une image professionnelle dans votre communication digitale",
+        content: []
+      },
+      {
+        title: "Module 4 : Personal branding - construire une marque personnelle avec canva",
+        content: []
+      },
+      {
+        title: "Quiz final",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Canva",
+        content: []
       }
+    ]
+  },
+  {
+    id: 16,
+    title: "Formation : Création d'entreprise",
+    description: "Apprenez toutes les étapes pour créer votre entreprise avec succès, de l'idée à la mise en œuvre, en passant par les démarches administratives.",
+    duration: "24h30",
+    chapters: 20,
+    level: "Débutant",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Validation d'idée et étude de marché",
+      "Choix du statut juridique optimal",
+      "Business plan et prévisionnel financier",
+      "Démarches administratives complètes"
     ],
-    instructor: {
-      name: "Thomas Commerce",
-      bio: "Expert e-commerce et marketing digital avec 10 ans d'expérience. Consultant pour des marques internationales et formateur certifié Google Ads.",
-      avatar: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
+    category: "La boîte à outils de l'entrepreneur",
+    program: [
+      {
+        title: "Test de postionnement - Création d'entreprise",
+        content: []
+      },
+      {
+        title: "Module d'introduction",
+        content: []
+      },
+      {
+        title: "Module 1 : Comment créer une entreprise",
+        content: []
+      },
+      {
+        title: "Module 2 : L'état d'esprit et les compétences de l'entrepreneur",
+        content: []
+      },
+      {
+        title: "Module 3 : La rentabilité pour l'entrepreneur",
+        content: []
+      },
+      {
+        title: "Module 4 : L'analyse SWOT",
+        content: []
+      },
+      {
+        title: "Module 5 : Les 4 P - Positionner votre offre sur le marché",
+        content: []
+      },
+      {
+        title: "Module 6 : Le Bilan",
+        content: []
+      },
+      {
+        title: "Module 7 : Etude de cas d'un Bilan",
+        content: []
+      },
+      {
+        title: "Module 8 : Le plan de trésorerie",
+        content: []
+      },
+      {
+        title: "Module 9 : Le business plan",
+        content: []
+      },
+      {
+        title: "Module 10 : Gestion simplifié de la comptabilité",
+        content: []
+      },
+      {
+        title: "Module 11 : L'organisation de votre temps",
+        content: []
+      },
+      {
+        title: "Module 12 : Quel type d'entreprise choisir ?",
+        content: []
+      },
+      {
+        title: "Module 13 : Apprendre à déléguer",
+        content: []
+      },
+      {
+        title: "Module 14 : Les outils de l'entrepreneur",
+        content: []
+      },
+      {
+        title: "Module 15 : Création d'entreprise",
+        content: []
+      },
+      {
+        title: "Quiz Evaluation Final",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Création d'entreprise",
+        content: []
+      }
+    ]
+  },
+  {
+    id: 17,
+    title: "Formation : Document unique obligatoire en entreprise",
+    description: "Maîtrisez la création et la gestion du Document Unique d'Évaluation des Risques Professionnels (DUERP) pour assurer la sécurité en entreprise.",
+    duration: "6h",
+    chapters: 8,
+    level: "Intermédiaire",
+    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Obligations légales et réglementaires",
+      "Méthodologie d'évaluation des risques",
+      "Rédaction et mise à jour du DUERP",
+      "Plan d'actions préventives"
+    ],
+    category: "La boîte à outils de l'entrepreneur",
+    program: [
+      {
+        title: "Test de positionnement - Document unique obligatoire en entreprise",
+        content: []
+      },
+      {
+        title: "Module 1 : Les obligations de l'employeur en matière de formation, d'information et de prévention des risques professionnels ?",
+        content: []
+      },
+      {
+        title: "Module 2 : la politique QSEH",
+        content: []
+      },
+      {
+        title: "Module 3 : le document unique : santé et sécurité au travail, zoom sur deux volets importants de la gestion QHSE",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Document unique obligatoire en entreprise",
+        content: []
+      }
+    ]
   },
   {
     id: 18,
     title: "Formation : Management (Manitude)",
     description: "Développez vos compétences managériales avec la méthode Manitude pour diriger efficacement vos équipes et créer un environnement de travail performant.",
-    duration: "19h",
-    chapters: 8,
+    duration: "15h",
+    chapters: 34,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -432,14 +718,104 @@ export const formations: Formation[] = [
       "Gestion des performances",
       "Développement des collaborateurs"
     ],
-    category: "Management et vente"
+    category: "Management et vente",
+    program: [
+      {
+        title: "Test de positionnement - Management ( Manitude )",
+        content: []
+      },
+      {
+        title: "Module 1 : Manager une mission, une posture",
+        content: []
+      },
+      {
+        title: "Module 2 : individualiser les stratégies de motivation du manager",
+        content: []
+      },
+      {
+        title: "Module 3 : Le management situationnel",
+        content: []
+      },
+      {
+        title: "Module 4 : Apprendre à déléguer",
+        content: []
+      },
+      {
+        title: "Module 5 : Mener des entretiens avec ses collaborateurs",
+        content: []
+      },
+      {
+        title: "Module 6 : Appréhender le leadership",
+        content: []
+      },
+      {
+        title: "Module 7 : Manager le changement",
+        content: []
+      },
+      {
+        title: "Module 8 : Animer une réunion",
+        content: []
+      },
+      {
+        title: "Module 9 : Comment appréhender le conflit ?",
+        content: []
+      },
+      {
+        title: "Module 10 : Développer une intelligence relationnelle",
+        content: []
+      },
+      {
+        title: "Module 11 : Résoudre un conflit ouvert",
+        content: []
+      },
+      {
+        title: "Module 12 : Adopter une attitude constructive dans le conflit",
+        content: []
+      },
+      {
+        title: "Module 13 : Arbitre au médiateur - Gérer un conflit en tant que tiers",
+        content: []
+      },
+      {
+        title: "Module 14 : Créer un environnement de travail plus collaboratif",
+        content: []
+      },
+      {
+        title: "Module 15 : Ouvrir des paradigmes au-delà du conflit",
+        content: []
+      },
+      {
+        title: "Module 16 : Communiquer dans le désaccord",
+        content: []
+      },
+      {
+        title: "Module 17 : Améliorer ses talents relationnels",
+        content: []
+      },
+      {
+        title: "Module 18 : Management à distance",
+        content: []
+      },
+      {
+        title: "Module 19 : Gestion du stress",
+        content: []
+      },
+      {
+        title: "Quiz final",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Management ( Manitude )",
+        content: []
+      }
+    ]
   },
   {
     id: 19,
     title: "Formation : Techniques de vente - Omnicanal RS5068",
     description: "Maîtrisez les techniques de vente modernes et l'approche omnicanale pour maximiser vos performances commerciales sur tous les canaux.",
-    duration: "9h",
-    chapters: 6,
+    duration: "19h",
+    chapters: 25,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -448,14 +824,80 @@ export const formations: Formation[] = [
       "Négociation et closing",
       "Relation client digitale"
     ],
-    category: "Management et vente"
+    category: "Management et vente",
+    program: [
+      {
+        title: "Test de positionnement - Techniques de vente - Omnical RS5068",
+        content: []
+      },
+      {
+        title: "Module 1 : La compréhension basique du processus de vente",
+        content: []
+      },
+      {
+        title: "Module 2 : 7 étapes de ventes",
+        content: []
+      },
+      {
+        title: "Module 3 : Les techniques de vente",
+        content: []
+      },
+      {
+        title: "Module 4 : La négociation",
+        content: []
+      },
+      {
+        title: "Module 5 : Encaissement",
+        content: []
+      },
+      {
+        title: "Module 6 : Les bases du RGPD pour créer une fiche client",
+        content: []
+      },
+      {
+        title: "Module 7 : Conseiller à distance",
+        content: []
+      },
+      {
+        title: "Module 8 : L'après-vente et la fidélisation",
+        content: []
+      },
+      {
+        title: "Module 9 : Les fondamentaux pour communiquer sur les réseaux sociaux",
+        content: []
+      },
+      {
+        title: "Module 10 : Mettre en ligne des photos avec Canva",
+        content: []
+      },
+      {
+        title: "Module 11 : Utiliser les réseaux sociaux comme levier de communication et outils de vente",
+        content: []
+      },
+      {
+        title: "Module 12 : Comprendre son environnement de vente",
+        content: []
+      },
+      {
+        title: "Module 13 : La prospection omnicanal et la découverte client",
+        content: []
+      },
+      {
+        title: "Module 14 : La prospection téléphonique dans une démarche omnicanal",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Techniques de vente - Omnical RS5068",
+        content: []
+      }
+    ]
   },
   {
     id: 20,
     title: "Formation : Gestion de projet",
     description: "Apprenez à planifier, organiser et mener à bien vos projets avec les méthodologies et outils de gestion de projet les plus efficaces.",
-    duration: "15h",
-    chapters: 7,
+    duration: "9h",
+    chapters: 18,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -464,7 +906,21 @@ export const formations: Formation[] = [
       "Gestion des équipes projet",
       "Outils collaboratifs modernes"
     ],
-    category: "Management et vente"
+    category: "Management et vente",
+    program: [
+      {
+        title: "Test de positionnement - Gestion de projet",
+        content: []
+      },
+      {
+        title: "Gestion de projet",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Gestion de projet",
+        content: []
+      }
+    ]
   },
   {
     id: 21,
@@ -483,11 +939,113 @@ export const formations: Formation[] = [
     category: "Communication"
   },
   {
+    id: 23,
+    title: "Formation : SketchUp",
+    description: "Maîtrisez SketchUp pour créer des modèles 3D professionnels, des plans architecturaux et des visualisations pour vos projets créatifs et techniques.",
+    duration: "15h",
+    chapters: 40,
+    level: "Débutant à Intermédiaire",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    highlights: [
+      "Modélisation 3D professionnelle",
+      "Plans et coupes techniques",
+      "Rendu et visualisation",
+      "Extensions et plugins utiles"
+    ],
+    category: "Communication",
+    program: [
+      {
+        title: "Test de positionnement - SketchUp",
+        content: []
+      },
+      {
+        title: "Module 1 : Les fondamentaux de SketchUp",
+        content: []
+      },
+      {
+        title: "Module 2 : Paramétrer le modèle SketchUp",
+        content: []
+      },
+      {
+        title: "Module 3 : Se déplacer dans le modèle",
+        content: []
+      },
+      {
+        title: "Module 4 : Les outils de base",
+        content: []
+      },
+      {
+        title: "Module 5 : Les outils d'édition et de construction",
+        content: []
+      },
+      {
+        title: "Module 6 : Modéliser avec précision",
+        content: []
+      },
+      {
+        title: "Module 7 : Les textures et matières",
+        content: []
+      },
+      {
+        title: "Module 8 : Créer une bibliothèque",
+        content: []
+      },
+      {
+        title: "Module 9 : Les informations du modèle",
+        content: []
+      },
+      {
+        title: "Module 10 : Les lumières dans SketchUp",
+        content: []
+      },
+      {
+        title: "Module 11 : Présenter son projet",
+        content: []
+      },
+      {
+        title: "Module 12 : Animer son projet",
+        content: []
+      },
+      {
+        title: "Module 13 : Présenter avec LayOut",
+        content: []
+      },
+      {
+        title: "Module 14 : Créer un style avec Stylebuilder",
+        content: []
+      },
+      {
+        title: "Module 15 : Le langage visuel du design",
+        content: []
+      },
+      {
+        title: "Module 16 : L'histoire de l'architecture et des styles",
+        content: []
+      },
+      {
+        title: "Module 17 : Les styles de décorations d'intérieur",
+        content: []
+      },
+      {
+        title: "Module 18 : Aménagement de l'espace",
+        content: []
+      },
+      {
+        title: "Module 19 : L'histoire du mobilier",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - SketchUp",
+        content: []
+      }
+    ]
+  },
+  {
     id: 24,
     title: "Formation : Marketing e-commerce et réseaux sociaux",
     description: "Développez votre activité e-commerce grâce aux stratégies marketing digital et à la puissance des réseaux sociaux.",
-    duration: "18h",
-    chapters: 9,
+    duration: "26h",
+    chapters: 17,
     level: "Intermédiaire",
     image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
     highlights: [
@@ -496,7 +1054,49 @@ export const formations: Formation[] = [
       "Publicité Facebook et Instagram Ads",
       "Conversion et fidélisation client"
     ],
-    category: "Communication"
+    category: "Communication",
+    program: [
+      {
+        title: "Test de positionnement - Marketer l'e-Commerce, Réseaux Sociaux",
+        content: []
+      },
+      {
+        title: "Module 1 - Les fondamentaux du Community Manager",
+        content: []
+      },
+      {
+        title: "Module 2 - La base des réseaux sociaux",
+        content: []
+      },
+      {
+        title: "Module 3 - Cerner les enjeux comportementaux des internautes pour construire votre projet social media",
+        content: []
+      },
+      {
+        title: "Module 4 - Mettre en place une stratégie Social Média",
+        content: []
+      },
+      {
+        title: "Module 5 - Pinterest Ads",
+        content: []
+      },
+      {
+        title: "Module 6 - TikTok Ads",
+        content: []
+      },
+      {
+        title: "Module 7 - SnapChat Ads",
+        content: []
+      },
+      {
+        title: "Module 8 - Le référencement",
+        content: []
+      },
+      {
+        title: "Test de satisfaction - Marketer l'e-Commerce, Réseaux Sociaux",
+        content: []
+      }
+    ]
   },
   {
     id: 25,
@@ -578,119 +1178,6 @@ export const formations: Formation[] = [
     ],
     category: "La boîte à outils de l'entrepreneur"
   },
-  {
-    id: 16,
-    title: "Formation : Création d'entreprise",
-    description: "Apprenez toutes les étapes pour créer votre entreprise avec succès, de l'idée à la mise en œuvre, en passant par les démarches administratives.",
-    duration: "6h",
-    chapters: 5,
-    level: "Débutant",
-    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Validation d'idée et étude de marché",
-      "Choix du statut juridique optimal",
-      "Business plan et prévisionnel financier",
-      "Démarches administratives complètes"
-    ],
-    category: "La boîte à outils de l'entrepreneur",
-    detailedDescription: "Formation complète pour transformer votre idée en entreprise viable. Apprenez méthodiquement toutes les étapes de la création d'entreprise avec les conseils d'experts.",
-    objectives: [
-      "Valider votre idée d'entreprise",
-      "Choisir le statut juridique adapté",
-      "Élaborer un business plan solide",
-      "Réaliser toutes les démarches administratives",
-      "Lancer votre activité en toute sérénité"
-    ],
-    prerequisites: [
-      "Avoir une idée d'entreprise ou un projet",
-      "Motivation entrepreneuriale",
-      "Aucune connaissance préalable requise"
-    ],
-    program: [
-      {
-        title: "Validation de l'idée",
-        content: [
-          "Analyse de l'idée et du marché",
-          "Étude de la concurrence",
-          "Validation auprès des clients potentiels",
-          "Définition de la proposition de valeur"
-        ]
-      },
-      {
-        title: "Aspects juridiques",
-        content: [
-          "Choix du statut juridique",
-          "Protection de l'idée et de la marque",
-          "Rédaction des statuts",
-          "Assurances et responsabilités"
-        ]
-      },
-      {
-        title: "Business plan",
-        content: [
-          "Structure du business plan",
-          "Prévisionnel financier",
-          "Plan de financement",
-          "Stratégie commerciale"
-        ]
-      },
-      {
-        title: "Démarches administratives",
-        content: [
-          "Immatriculation de l'entreprise",
-          "Ouverture de compte bancaire",
-          "Déclarations fiscales et sociales",
-          "Mise en conformité"
-        ]
-      },
-      {
-        title: "Lancement et développement",
-        content: [
-          "Stratégie de lancement",
-          "Premiers clients et ventes",
-          "Gestion administrative courante",
-          "Développement et croissance"
-        ]
-      }
-    ],
-    instructor: {
-      name: "Pierre Entrepreneur",
-      bio: "Consultant en création d'entreprise et ancien dirigeant de startup. 15 ans d'expérience dans l'accompagnement d'entrepreneurs.",
-      avatar: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400"
-    }
-  },
-  {
-    id: 17,
-    title: "Formation : Document unique obligatoire en entreprise",
-    description: "Maîtrisez la création et la gestion du Document Unique d'Évaluation des Risques Professionnels (DUERP) pour assurer la sécurité en entreprise.",
-    duration: "24h30",
-    chapters: 4,
-    level: "Intermédiaire",
-    image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Obligations légales et réglementaires",
-      "Méthodologie d'évaluation des risques",
-      "Rédaction et mise à jour du DUERP",
-      "Plan d'actions préventives"
-    ],
-    category: "La boîte à outils de l'entrepreneur"
-  },
-  {
-    id: 23,
-    title: "Formation : SketchUp",
-    description: "Maîtrisez SketchUp pour créer des modèles 3D professionnels, des plans architecturaux et des visualisations pour vos projets créatifs et techniques.",
-    duration: "19h",
-    chapters: 9,
-    level: "Débutant à Intermédiaire",
-    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
-    highlights: [
-      "Modélisation 3D professionnelle",
-      "Plans et coupes techniques",
-      "Rendu et visualisation",
-      "Extensions et plugins utiles"
-    ],
-    category: "Communication"
-  },
 {
   id: 30,
   title: "Formation : Langue des signes française - A1",
@@ -751,8 +1238,8 @@ export const formations: Formation[] = [
   id: 31,
   title: "Formation : Sophrologie",
   description: "Découvrez les techniques de sophrologie pour gérer le stress, améliorer votre bien-être et développer vos capacités de relaxation et de concentration.",
-  duration: "4h",
-  chapters: 4,
+  duration: "7h40",
+  chapters: 21,
   level: "Débutant",
   image: "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
   highlights: [
@@ -761,7 +1248,57 @@ export const formations: Formation[] = [
     "Exercices de visualisation positive",
     "Applications pratiques au quotidien"
   ],
-  category: "Bien-être et performance"
+  category: "Bien-être et performance",
+  program: [
+    {
+      title: "Test de positionnement - Sophrologie",
+      content: []
+    },
+    {
+      title: "Module 1 : Stress et Travail font-ils bon ménage ?",
+      content: []
+    },
+    {
+      title: "Module 2 : Le travail c'est la sante ?",
+      content: []
+    },
+    {
+      title: "Module 3 : Face au stress, adoptez la double approche",
+      content: []
+    },
+    {
+      title: "Module 4 : Affronter sereinement une surcharge de travail",
+      content: []
+    },
+    {
+      title: "Module 5 : Doper son énergie",
+      content: []
+    },
+    {
+      title: "Module 6 : Se sentir à la hauteur",
+      content: []
+    },
+    {
+      title: "Module 7 : Créer des relations satisfaisantes",
+      content: []
+    },
+    {
+      title: "Module 8 : Concilier vie professionnelle et vie privée",
+      content: []
+    },
+    {
+      title: "Module 9 : Retrouver du sens et de la motivation",
+      content: []
+    },
+    {
+      title: "Module 10 : Passer un pacte de zénitude avec soi-même",
+      content: []
+    },
+    {
+      title: "Test de satisfaction - Sophrologie",
+      content: []
+    }
+  ]
 },
 {
   id: 32,
