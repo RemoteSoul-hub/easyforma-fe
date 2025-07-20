@@ -280,14 +280,14 @@ const roadmapSteps = [
                     
                     <div className="text-center space-y-4 bg-orange-500 rounded-xl p-6 text-white">
                       <h4 className="text-lg font-bold">EASY FORMA, c'est la clé.</h4>
-                      <p className="text-lg">
+                      <p className="text-base">
                         Celle qui te permet d'ouvrir les bonnes portes,
                         et de rencontrer enfin ton "toi successfull".
                       </p>
-                      <p className="text-lg">
+                      <p className="text-base">
                         Plus personne ne pourra me dire qu'entreprendre est impossible.
                       </p>
-                      <p className="text-lg font-semibold">
+                      <p className="text-base font-semibold">
                         Avec EASY FORMA, l'impossible devient possible.
                       </p>
                     </div>
