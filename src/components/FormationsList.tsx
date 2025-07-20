@@ -51,7 +51,7 @@ const FormationsList = () => {
     },
     {
       question: "Est-ce que je peux vivre de mes compétences après une formation EASY FORMA ?",
-      answer: "Dès lors que tu as terminé une formation à 100% tu reçois BUSINESS 2.0 qui t'expliquera comment monétiser les connaissances que tu viens d'apprendre."
+      answer: "Oui, dès que tu qs complété 100 % d'une formation, tu peux candidater à notre programme exclusif BUSINESS 2.0. Ce programme t'enseigne concrètement comment monétiser les compétences que tu viens d'acquérir."
     },
     {
       question: "Combien de temps faut-il pour suivre une formation ?",
@@ -59,7 +59,7 @@ const FormationsList = () => {
     },
     {
       question: "Et si j'ai une question ou un blocage ?",
-      answer: "Tu n'es jamais seul. Tu peux poser toutes tes questions dans la communauté privée ou contacter notre support 24h / 24 et 7 j / 7."
+      answer: "Tu n'est jamais seul(e), tu peux poser toutes les questions en contactant notre support pédagogique disponible 24h/24 et 7j/7."
     },
     {
       question: "Est-ce que je peux obtenir un certificat de réussite ?",
