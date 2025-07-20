@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, BookOpen, Phone, Mail, Calendar } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const isBusiness20Page = location.pathname === '/business-20';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -28,9 +30,11 @@ const Header = () => {
             <Link to="/" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Accueil
             </Link>
-            <a href="/#formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Formations
-            </a>
+            {!isBusiness20Page && (
+              <a href="/#formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+                Formations
+              </a>
+            )}
             <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Droit de revente
             </Link>
@@ -79,13 +83,15 @@ const Header = () => {
               >
                 Accueil
               </Link>
-              <a
-                href="/#formations" 
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Formations
-              </a>
+              {!isBusiness20Page && (
+                <a
+                  href="/#formations" 
+                  className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Formations
+                </a>
+              )}
               <Link
                 to="/qui-suis-je"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
