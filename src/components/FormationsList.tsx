@@ -254,13 +254,6 @@ const roadmapSteps = [
                       je ne viens pas du monde académique… je viens du terrain.
                     </p>
                     
-                    <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-                      <p className="text-gray-800 font-semibold text-center">
-                        Chez EASY FORMA :<br />
-                        <span className="text-orange-600">forme-toi → deviens expert → gagne de l'argent.</span>
-                      </p>
-                    </div>
-                    
                     <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                       <h4 className="text-xl font-bold text-gray-800 mb-3">Le vrai problème ? L'injustice devant l'accès à la connaissance.</h4>
                       <p className="text-gray-700 mb-3">
