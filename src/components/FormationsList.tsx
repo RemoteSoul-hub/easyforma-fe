@@ -85,32 +85,6 @@ const roadmapSteps = [
   {
     id: 2,
     title: "Etape 2",
-    description: "Tu débloques également la formation BUSINESS 2.0, pour apprendre à vendre tes compétences et lancer ton activité.",
-    icon: <Users className="w-6 h-6" />,
-    status: "in-progress",
-    details: [
-      "Navigation dans le catalogue",
-      "Filtrage par catégorie et niveau",
-      "Lecture des descriptions détaillées",
-      "Sélection de votre première formation"
-    ]
-  },
-  {
-    id: 3,
-    title: "Etape 3",
-    description: "Tu rejoins une communauté active de plus de 5 000 freelances et indépendants.",
-    icon: <Zap className="w-6 h-6" />,
-    status: "upcoming",
-    details: [
-      "Visionnage des vidéos de formation",
-      "Exercices pratiques et quiz",
-      "Suivi de votre progression",
-      "Support pédagogique en continu"
-    ]
-  },
-  {
-    id: 4,
-    title: "Etape 4",
     description: "Tu choisis la compétence que tu veux apprendre et tu te formes à ton rythme.",
     icon: <CheckCircle className="w-6 h-6" />,
     status: "upcoming",
@@ -122,8 +96,8 @@ const roadmapSteps = [
     ]
   },
   {
-    id: 5,
-    title: "Etape 5",
+    id: 3,
+    title: "Etape 3",
     description: "Et dans 15 jours, on fait un point ensemble au téléphone pour t'aider à avancer et répondre à tes questions.",
     icon: <Rocket className="w-6 h-6" />,
     status: "upcoming",
