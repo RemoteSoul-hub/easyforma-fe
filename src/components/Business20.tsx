@@ -124,7 +124,7 @@ const Business20 = () => {
                   className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
                 >
                   <Zap className="h-5 w-5" />
-                  <span>Démarrer EASY FORMA</span>
+                  <span>Déposer ma candidature</span>
                 </Link>
               </div>
             </div>
