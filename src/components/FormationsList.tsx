@@ -644,12 +644,7 @@ const roadmapSteps = [
               <h3 className="text-3xl font-bold text-gray-900">
                 Tu souhaites apprendre ou entreprendre ?
               </h3>
-              
-              <div className="text-center space-y-6">
-                <h4 className="text-2xl font-bold text-gray-900">
-                  🚀 Deux profils, deux chemins. À toi de choisir.
-                </h4>
-              </div>
+            
 
               {/* Deux options côte à côte */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
