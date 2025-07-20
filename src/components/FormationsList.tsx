@@ -266,7 +266,7 @@ const roadmapSteps = [
                     </div>
                     
                     <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
-                      <h4 className="text-xl font-bold text-orange-800 mb-3">C'est pour ça que j'ai créé EASY FORMA :</h4>
+                      <h4 className="text-md font-bold text-orange-800 mb-3">C'est pour ça que j'ai créé EASY FORMA :</h4>
                       <p className="text-orange-700 mb-3">
                         Une plateforme qui fait sauter les barrières à l'apprentissage.
                       </p>
@@ -279,7 +279,7 @@ const roadmapSteps = [
                     </div>
                     
                     <div className="text-center space-y-4 bg-orange-500 rounded-xl p-6 text-white">
-                      <h4 className="text-2xl font-bold">EASY FORMA, c'est la clé.</h4>
+                      <h4 className="text-lg font-bold">EASY FORMA, c'est la clé.</h4>
                       <p className="text-lg">
                         Celle qui te permet d'ouvrir les bonnes portes,
                         et de rencontrer enfin ton "toi successfull".
