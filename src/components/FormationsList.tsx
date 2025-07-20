@@ -274,7 +274,7 @@ const roadmapSteps = [
                         Pour 29€/mois, tu accèdes à plus de 100 formations professionnalisantes.
                       </p>
                       <p className="text-orange-700">
-                        Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
+                        Tu choisis celle qui te correspond vraiment… et tu te lances.
                       </p>
                     </div>
                     
