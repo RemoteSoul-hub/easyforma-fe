@@ -104,7 +104,7 @@ const Business20 = () => {
               </h1>
               
               <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
-                10 heures de contenu business offert dès ton inscription chez EASY FORMA
+                10 heures de contenu business intensif, accompagnées d'une séance mensuelle de coaching avec un expert en stratégie.
               </p>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
@@ -113,8 +113,7 @@ const Business20 = () => {
                     <Star className="h-6 w-6 text-yellow-400" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold">Inclus gratuitement</div>
-                    <div className="text-blue-200">avec votre abonnement Easy Forma</div>
+                    <div className="text-2xl font-bold">Candidature obligatoire</div>
                   </div>
                 </div>
               </div>
