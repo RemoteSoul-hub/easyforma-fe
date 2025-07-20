@@ -137,7 +137,7 @@ const About = () => {
                 Pour 29€/mois, tu accèdes à plus de 100 formations professionnalisantes.
               </p>
               <p className="text-orange-700">
-                Tu choisis celle qui te correspond vraiment… et tu lances ton activité en ligne.
+                Tu choisis celle qui te correspond vraiment… et tu te lances.
               </p>
             </div>
             
@@ -148,7 +148,7 @@ const About = () => {
                 et de rencontrer enfin ton "toi successfull".
               </p>
               <p className="text-xl">
-                Plus personne ne pourra dire qu'entreprendre est impossible.
+                Plus personne ne pourra me dire qu'entreprendre est impossible.
               </p>
               <p className="text-xl font-semibold">
                 Avec EASY FORMA, l'impossible devient possible.
