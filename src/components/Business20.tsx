@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   ArrowLeft, 
@@ -16,10 +17,14 @@ import {
   Heart,
   Globe,
   MessageSquare,
-  Calendar
+  Calendar,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 
 const Business20 = () => {
+  const [activeFAQ, setActiveFAQ] = useState<number | null>(null);
+
   const objectives = [
     "Construire une image de marque forte et cohérente",
     "Élaborer des offres commerciales claires et attractives", 
@@ -393,80 +398,140 @@ const Business20 = () => {
 
           <div className="space-y-6">
             {/* Question 1 */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                1. C'est quoi exactement le programme BUSINESS 2.0 ?
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                BUSINESS 2.0 est l'étape suivante logique après avoir suivi une ou plusieurs formations sur EASY FORMA. C'est 
-                un accompagnement exclusif conçu pour t'aider à transformer concrètement ce que tu as appris en source de revenus.
-              </p>
+            <div className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === 0 ? null : 0)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">1. C'est quoi exactement le programme BUSINESS 2.0 ?</h3>
+                {activeFAQ === 0 ? (
+                  <ChevronUp className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 0 && (
+                <div className="px-8 pb-6 border-t border-blue-100 bg-blue-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    BUSINESS 2.0 est l'étape suivante logique après avoir suivi une ou plusieurs formations sur EASY FORMA. C'est 
+                    un accompagnement exclusif conçu pour t'aider à transformer concrètement ce que tu as appris en source de revenus.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Question 2 */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                2. Pourquoi ce programme n'est-il pas inclus dans l'abonnement ?
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                L'abonnement EASY FORMA te donne un accès illimité aux compétences. BUSINESS 2.0, lui, est un 
-                accompagnement business personnalisé, avec du coaching, des stratégies concrètes et des outils prêts à l'emploi. Il est 
-                réservé à celles et ceux qui souhaitent passer à l'action sérieusement. Il s'agit d'un accompagnement à forte valeur 
-                ajoutée, uniquement accessible aux abonnés.
-              </p>
+            <div className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === 1 ? null : 1)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">2. Pourquoi ce programme n'est-il pas inclus dans l'abonnement ?</h3>
+                {activeFAQ === 1 ? (
+                  <ChevronUp className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 1 && (
+                <div className="px-8 pb-6 border-t border-blue-100 bg-blue-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    L'abonnement EASY FORMA te donne un accès illimité aux compétences. BUSINESS 2.0, lui, est un 
+                    accompagnement business personnalisé, avec du coaching, des stratégies concrètes et des outils prêts à l'emploi. Il est 
+                    réservé à celles et ceux qui souhaitent passer à l'action sérieusement. Il s'agit d'un accompagnement à forte valeur 
+                    ajoutée, uniquement accessible aux abonnés.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Question 3 */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                3. Est-ce que je dois avoir terminé toutes les formations pour postuler ?
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Non, mais avoir validé au moins une formation à 100 % est nécessaire pour accéder à BUSINESS 2.0. L'objectif 
-                est que tu aies déjà acquis une première compétence que nous pourrons ensuite transformer ensemble en offre 
-                monétisable.
-              </p>
+            <div className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === 2 ? null : 2)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">3. Est-ce que je dois avoir terminé toutes les formations pour postuler ?</h3>
+                {activeFAQ === 2 ? (
+                  <ChevronUp className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 2 && (
+                <div className="px-8 pb-6 border-t border-blue-100 bg-blue-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    Non, mais avoir validé au moins une formation à 100 % est nécessaire pour accéder à BUSINESS 2.0. L'objectif 
+                    est que tu aies déjà acquis une première compétence que nous pourrons ensuite transformer ensemble en offre 
+                    monétisable.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Question 4 */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                4. Qu'est-ce que je vais recevoir concrètement ?
-              </h3>
-              <p className="text-gray-700 leading-relaxed mb-4">Tu accèdes à :</p>
-              <div className="space-y-3">
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
-                  <span className="text-gray-700">10 heures de contenu business exclusif</span>
+            <div className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === 3 ? null : 3)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">4. Qu'est-ce que je vais recevoir concrètement ?</h3>
+                {activeFAQ === 3 ? (
+                  <ChevronUp className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 3 && (
+                <div className="px-8 pb-6 border-t border-blue-100 bg-blue-50">
+                  <p className="text-gray-700 leading-relaxed pt-4 mb-4">Tu accèdes à :</p>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="text-gray-700">10 heures de contenu business exclusif</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="text-gray-700">1 coaching individuel / mois avec un expert</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="text-gray-700">Des plans d'action concrets pour vendre tes services</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="text-gray-700">Une méthode éprouvée pour décrocher tes premiers 5000€ de chiffres d'affaire.</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                      <span className="text-gray-700">Des outils & scripts prêts à l'emploi</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
-                  <span className="text-gray-700">1 coaching individuel / mois avec un expert</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
-                  <span className="text-gray-700">Des plans d'action concrets pour vendre tes services</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
-                  <span className="text-gray-700">Une méthode éprouvée pour décrocher tes premiers 5000€ de chiffres d'affaire.</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
-                  <span className="text-gray-700">Des outils & scripts prêts à l'emploi</span>
-                </div>
-              </div>
+              )}
             </div>
 
             {/* Question 5 */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
-                5. Comment rejoindre BUSINESS 2.0 ?
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                Clique sur "Accéder à BUSINESS 2.0". Tu pourras remplir une courte candidature. 
-                Si tu es sélectionné, tu recevras toutes les infos pour rejoindre le programme et débloquer ton potentiel business.
-              </p>
+            <div className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === 4 ? null : 4)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-blue-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">5. Comment rejoindre BUSINESS 2.0 ?</h3>
+                {activeFAQ === 4 ? (
+                  <ChevronUp className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 4 && (
+                <div className="px-8 pb-6 border-t border-blue-100 bg-blue-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    Clique sur "Accéder à BUSINESS 2.0". Tu pourras remplir une courte candidature. 
+                    Si tu es sélectionné, tu recevras toutes les infos pour rejoindre le programme et débloquer ton potentiel business.
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
