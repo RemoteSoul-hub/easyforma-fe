@@ -132,10 +132,10 @@ const FormationDetail = () => {
               </div>
 
               {/* Level Badge */}
-              <div className="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-full border border-orange-200">
+              {/* <div className="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-full border border-orange-200">
                 <Award className="h-4 w-4 text-orange-500" />
                 <span className="text-gray-700 font-medium">Niveau : {formation.level}</span>
-              </div>
+              </div> */}
             </div>
 
             {/* Image */}
