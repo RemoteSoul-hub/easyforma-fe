@@ -35,9 +35,11 @@ const Header = () => {
                 Formations
               </a>
             )}
-            <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Droit de revente
-            </Link>
+            {!isBusiness20Page && (
+              <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+                Droit de revente
+              </Link>
+            )}
             <Link to="/qui-suis-je" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
               Qui suis-je ?
             </Link>
