@@ -428,6 +428,31 @@ const roadmapSteps = [
       </div>
     </div>
 
+        {/* CTA Section - Prêt à rejoindre l'aventure */}
+        <div className="my-20">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
+            <div className="max-w-4xl mx-auto text-center text-white">
+              <div className="space-y-8">
+                <h3 className="text-4xl md:text-5xl font-bold leading-tight">
+                  Prêt à rejoindre l'aventure ?
+                </h3>
+                
+                <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
+                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
+                </p>
+                
+                <div className="pt-4">
+                  <button
+                    onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                    className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
+                  >
+                    Commencer maintenant
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* 3. Business 2.0 Section */}
         <div className="my-20">
           <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
