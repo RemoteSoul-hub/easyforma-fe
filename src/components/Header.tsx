@@ -87,13 +87,6 @@ const Header = () => {
                 Formations
               </a>
               <Link
-                to="/easy-forma-plus"
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Droit de revente
-              </Link>
-              <Link
                 to="/qui-suis-je"
                 className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}

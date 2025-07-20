@@ -111,7 +111,7 @@ const Hero = () => {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/WO174H-oymM"
+                  src="https://www.youtube.com/embed/eRBslaaqyPQ"
                   title="Présentation Easy Forma"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

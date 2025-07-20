@@ -786,7 +786,7 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* 7. Sunday Business Section */}
+        {/* 6. Sunday Business Section */}
           <div className="my-20">
             <div className="bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 rounded-3xl overflow-hidden shadow-2xl">
               <div className="relative px-8 py-16 md:px-16">

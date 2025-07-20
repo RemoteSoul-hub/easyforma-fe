@@ -56,12 +56,6 @@ EASY FORMA, c’est toutes les formations professionnalisantes réunies sur une 
                 </a>
               </li>
               <li>
-                <Link to="/easy-forma-plus" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
-                  <div className="w-1 h-1 bg-orange-500 rounded-full"></div>
-                  <span>Droit de revente</span>
-                </Link>
-              </li>
-              <li>
                 <Link to="/qui-suis-je" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
                   <div className="w-1 h-1 bg-orange-500 rounded-full"></div>
                   <span>Qui suis-je ?</span>
