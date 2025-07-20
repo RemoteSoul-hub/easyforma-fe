@@ -285,7 +285,7 @@ const roadmapSteps = [
                         et de rencontrer enfin ton "toi successfull".
                       </p>
                       <p className="text-lg">
-                        Plus personne ne pourra dire qu'entreprendre est impossible.
+                        Plus personne ne pourra me dire qu'entreprendre est impossible.
                       </p>
                       <p className="text-lg font-semibold">
                         Avec EASY FORMA, l'impossible devient possible.
