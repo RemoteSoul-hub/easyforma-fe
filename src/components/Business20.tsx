@@ -377,6 +377,101 @@ const Business20 = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
+              <CheckCircle className="h-4 w-4" />
+              <span>Questions fréquentes</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              Questions sur
+              <span className="text-blue-600 block">BUSINESS 2.0</span>
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            {/* Question 1 */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                1. C'est quoi exactement le programme BUSINESS 2.0 ?
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                BUSINESS 2.0 est l'étape suivante logique après avoir suivi une ou plusieurs formations sur EASY FORMA. C'est 
+                un accompagnement exclusif conçu pour t'aider à transformer concrètement ce que tu as appris en source de revenus.
+              </p>
+            </div>
+
+            {/* Question 2 */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                2. Pourquoi ce programme n'est-il pas inclus dans l'abonnement ?
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                L'abonnement EASY FORMA te donne un accès illimité aux compétences. BUSINESS 2.0, lui, est un 
+                accompagnement business personnalisé, avec du coaching, des stratégies concrètes et des outils prêts à l'emploi. Il est 
+                réservé à celles et ceux qui souhaitent passer à l'action sérieusement. Il s'agit d'un accompagnement à forte valeur 
+                ajoutée, uniquement accessible aux abonnés.
+              </p>
+            </div>
+
+            {/* Question 3 */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                3. Est-ce que je dois avoir terminé toutes les formations pour postuler ?
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Non, mais avoir validé au moins une formation à 100 % est nécessaire pour accéder à BUSINESS 2.0. L'objectif 
+                est que tu aies déjà acquis une première compétence que nous pourrons ensuite transformer ensemble en offre 
+                monétisable.
+              </p>
+            </div>
+
+            {/* Question 4 */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                4. Qu'est-ce que je vais recevoir concrètement ?
+              </h3>
+              <p className="text-gray-700 leading-relaxed mb-4">Tu accèdes à :</p>
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                  <span className="text-gray-700">10 heures de contenu business exclusif</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                  <span className="text-gray-700">1 coaching individuel / mois avec un expert</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                  <span className="text-gray-700">Des plans d'action concrets pour vendre tes services</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                  <span className="text-gray-700">Une méthode éprouvée pour décrocher tes premiers 5000€ de chiffres d'affaire.</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
+                  <span className="text-gray-700">Des outils & scripts prêts à l'emploi</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Question 5 */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                5. Comment rejoindre BUSINESS 2.0 ?
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Clique sur "Accéder à BUSINESS 2.0". Tu pourras remplir une courte candidature. 
+                Si tu es sélectionné, tu recevras toutes les infos pour rejoindre le programme et débloquer ton potentiel business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
