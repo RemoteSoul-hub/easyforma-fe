@@ -384,9 +384,7 @@ const roadmapSteps = [
       </div>
     </div>
 
-        {/* COMMENTED OUT SECTIONS FOR LATER USE */}
-        {/* 
-        // CTA Section - Prêt à rejoindre l'aventure
+        {/* CTA after roadmap */}
         <div className="my-20">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
             <div className="max-w-4xl mx-auto text-center text-white">
@@ -412,6 +410,8 @@ const roadmapSteps = [
           </div>
         </div>
 
+        {/* COMMENTED OUT SECTIONS FOR LATER USE */}
+        {/* 
         // Section Partenaire EASY FORMA +
         <div className="my-20">
           <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
