@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
                 <Infinity className="h-4 w-4" />
-                <span>Forme-toi - Deviens expert - Gagne de l'argent</span>
+                <span>Accès illimité</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 <span className="block sm:hidden">
