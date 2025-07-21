@@ -553,26 +553,6 @@ const EasyFormaPlus = () => {
         </div>
       </section>
 
-      {/* CTA après FAQ */}
-      <section className="py-12 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-            <h3 className="text-2xl font-bold text-white mb-4">D'autres questions ?</h3>
-            <p className="text-purple-100 mb-6">
-              Réservez un appel stratégique gratuit pour discuter de votre projet
-            </p>
-            <a
-              href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
-            >
-              <Calendar className="h-5 w-5" />
-              <span>Réserver un appel</span>
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-24 bg-white">
