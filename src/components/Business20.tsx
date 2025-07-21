@@ -532,14 +532,14 @@ const Business20 = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <Target className="h-4 w-4" />
-              <span>Votre parcours Business 2.0</span>
+              <span>Votre parcours business</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Que se passe-t-il une 
               <span className="text-blue-600 block">fois inscrit à Business 2.0?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Découvrez votre parcours Business 2.0 étape par étape, de l'accès au programme à la monétisation de vos compétences.
+              Suivez un parcours clair et structuré : de votre inscription à la mise en place de votre projet, jusqu'à l'encaissement de vos premiers 5 000€ de chiffre d'affaires
             </p>
           </div>
 
