@@ -590,7 +590,7 @@ const EasyFormaPlus = () => {
                             Étape 1
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu rejoins EASY FORMA+ et reçois immédiatement accès à la formation CLOSERS et à tous les outils</p>
+                        <p className="text-gray-600">Découvrez votre parcours partenaire étape par étape, de l'inscription à vos premières ventes.</p>
                       </div>
                     </div>
                   </div>
@@ -612,7 +612,7 @@ const EasyFormaPlus = () => {
                             Étape 2
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu suis la formation CLOSERS et apprends les techniques de vente pour réussir tes premières ventes</p>
+                        <p className="text-gray-600">Tu débloques également l'accompagnement CLOSERS, pour apprendre à vendre l'opportunité EASY FORMA + et encaisser ta 1ère vente en - de 7 jours.</p>
                       </div>
                     </div>
                   </div>
@@ -634,7 +634,29 @@ const EasyFormaPlus = () => {
                             Étape 3
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu commences à vendre EASY FORMA+ et encaisses 750€ de commission par vente, versés en moins de 24h</p>
+                        <p className="text-gray-600">Tu rejoins une communauté de closers dynamique et un support business disponible 24h/7.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Étape 4 */}
+              <div className="relative">
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="ml-16">
+                  <div className="bg-white rounded-2xl shadow-lg border border-purple-200 p-6">
+                    <div className="flex items-center space-x-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+                        <MessageSquare className="w-6 h-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">
+                            Étape 4
+                          </span>
+                        </div>
+                        <p className="text-gray-600">Et chaque mois, on se retrouve au téléphone pour répondre à tes questions et t'accompagner pas à pas jusqu'à tes 3 premières ventes.</p>
                       </div>
                     </div>
                   </div>
