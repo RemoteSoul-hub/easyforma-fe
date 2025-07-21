@@ -34,7 +34,6 @@ function App() {
           <Route path="/" element={
             <>
               <Hero />
-              <FormationsList />
             </>
           } />
           <Route path="/contact" element={<Contact />} />
