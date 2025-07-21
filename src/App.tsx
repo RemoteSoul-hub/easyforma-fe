@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import FormationsSection from './components/FormationsSection';
 import FormationsList from './components/FormationsList';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -34,6 +35,7 @@ function App() {
           <Route path="/" element={
             <>
               <Hero />
+              <FormationsSection />
               <FormationsList />
             </>
           } />
