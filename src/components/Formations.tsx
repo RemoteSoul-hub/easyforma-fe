@@ -125,69 +125,25 @@ const Formations = () => {
 
           {/* CTA Section */}
           <div className="text-center">
-            <div className="bg-white rounded-3xl shadow-xl p-12 max-w-4xl mx-auto border border-orange-100">
-              <div className="space-y-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto">
-                  <Rocket className="h-8 w-8 text-white" />
-                </div>
-                
-                <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                  Prêt à commencer votre
-                  <span className="text-orange-500 block">parcours de formation ?</span>
-                </h3>
-                
-                <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie 
-                  grâce à Easy Forma.
-                </p>
-                
-                <div className="bg-orange-50 rounded-2xl p-8 border border-orange-100 max-w-2xl mx-auto">
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600">29€</div>
-                      <div className="text-gray-600 text-sm">par mois</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600">+100</div>
-                      <div className="text-gray-600 text-sm">formations</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-3xl font-bold text-orange-600">∞</div>
-                      <div className="text-gray-600 text-sm">accès illimité</div>
-                    </div>
-                  </div>
+            <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
+              <div className="max-w-4xl mx-auto text-center text-white">
+                <div className="space-y-8">
+                  <h3 className="text-4xl md:text-5xl font-bold leading-tight">
+                    Prêt à rejoindre l'aventure ?
+                  </h3>
                   
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-center space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700">Accès à toutes les formations</span>
-                    </div>
-                    <div className="flex items-center justify-center space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700">Support pédagogique inclus</span>
-                    </div>
-                    <div className="flex items-center justify-center space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700">Certificats de réussite</span>
-                    </div>
-                    <div className="flex items-center justify-center space-x-3">
-                      <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-700">Annulation à tout moment</span>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="pt-8">
-                  <button
-                    onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                    className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-12 py-5 rounded-xl font-bold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-                  >
-                    <Rocket className="h-6 w-6" />
-                    <span>Rejoindre EASY FORMA</span>
-                  </button>
-                  <p className="text-gray-500 text-sm mt-4">
-                    Accès immédiat • Support inclus • Annulation à tout moment
+                  <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
+                    Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
                   </p>
+                  
+                  <div className="pt-4">
+                    <button
+                      onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                      className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
+                    >
+                      Commencer maintenant
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
