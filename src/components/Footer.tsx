@@ -50,10 +50,10 @@ EASY FORMA, c’est toutes les formations professionnalisantes réunies sur une 
             <h3 className="text-lg font-semibold text-orange-400">Liens rapides</h3>
             <ul className="space-y-3">
               <li>
-                <a href="/#formations" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
+                <Link to="/formations" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
                   <div className="w-1 h-1 bg-orange-500 rounded-full"></div>
                   <span>Nos formations</span>
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/qui-suis-je" className="text-gray-400 hover:text-white transition-colors duration-200 flex items-center space-x-2">
