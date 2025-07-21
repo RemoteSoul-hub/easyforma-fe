@@ -248,7 +248,45 @@ const roadmapSteps = [
           </p>
         </div> */}
 
-        {/* 2. Que se passe-t-il après s'être inscrit */}
+        {/* 2. FAQ Section */}
+        <div id="faq" className="text-center space-y-6 mb-16 mt-16">
+          <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
+            <CheckCircle className="h-4 w-4" />
+            <span>Questions fréquentes</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            <span className="text-orange-500 block">Les questions qu'on nous pose souvent.</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Retrouvez les réponses aux questions les plus fréquemment posées sur Easy Forma
+          </p>
+        </div>
+
+        {/* FAQ Cards */}
+        <div className="max-w-4xl mx-auto space-y-4 mb-16">
+          {faqData.map((faq, index) => (
+            <div key={index} className="bg-white rounded-xl shadow-lg border border-orange-100 overflow-hidden">
+              <button
+                onClick={() => setActiveFAQ(activeFAQ === index ? null : index)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-orange-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">{faq.question}</h3>
+                {activeFAQ === index ? (
+                  <ChevronUp className="h-5 w-5 text-orange-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-orange-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === index && (
+                <div className="px-8 pb-6 border-t border-orange-100 bg-orange-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+
+        {/* 3. Que se passe-t-il après s'être inscrit */}
     <div className="my-20">
       <div className="text-center mb-16">
         <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
@@ -346,31 +384,6 @@ const roadmapSteps = [
       </div>
     </div>
 
-        {/* CTA Section - Prêt à rejoindre l'aventure */}
-        <div className="my-20">
-          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
-            <div className="max-w-4xl mx-auto text-center text-white">
-              <div className="space-y-8">
-                <h3 className="text-4xl md:text-5xl font-bold leading-tight">
-                  Prêt à rejoindre l'aventure ?
-                </h3>
-                
-                <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
-                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
-                </p>
-                
-                <div className="pt-4">
-                  <button
-                    onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                    className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
-                  >
-                    Commencer maintenant
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* 3. Business 2.0 Section */}
         {/* <div className="my-20">
           <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
@@ -425,45 +438,33 @@ const roadmapSteps = [
         </div> */}
 
 
-        {/* 4. FAQ Section */}
-        <div id="faq" className="text-center space-y-6 mb-16 mt-16">
-          <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
-            <CheckCircle className="h-4 w-4" />
-            <span>Questions fréquentes</span>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-            <span className="text-orange-500 block">Les questions qu'on nous pose souvent.</span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Retrouvez les réponses aux questions les plus fréquemment posées sur Easy Forma
-          </p>
-        </div>
-
-        {/* FAQ Cards */}
-        <div className="max-w-4xl mx-auto space-y-4 mb-16">
-          {faqData.map((faq, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-lg border border-orange-100 overflow-hidden">
-              <button
-                onClick={() => setActiveFAQ(activeFAQ === index ? null : index)}
-                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-orange-50 transition-all duration-200"
-              >
-                <h3 className="text-lg font-semibold text-gray-900 pr-4">{faq.question}</h3>
-                {activeFAQ === index ? (
-                  <ChevronUp className="h-5 w-5 text-orange-500 flex-shrink-0" />
-                ) : (
-                  <ChevronDown className="h-5 w-5 text-orange-500 flex-shrink-0" />
-                )}
-              </button>
-              {activeFAQ === index && (
-                <div className="px-8 pb-6 border-t border-orange-100 bg-orange-50">
-                  <p className="text-gray-700 leading-relaxed pt-4">{faq.answer}</p>
+        {/* CTA Section - Prêt à rejoindre l'aventure */}
+        <div className="my-20">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
+            <div className="max-w-4xl mx-auto text-center text-white">
+              <div className="space-y-8">
+                <h3 className="text-4xl md:text-5xl font-bold leading-tight">
+                  Prêt à rejoindre l'aventure ?
+                </h3>
+                
+                <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
+                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
+                </p>
+                
+                <div className="pt-4">
+                  <button
+                    onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                    className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
+                  >
+                    Commencer maintenant
+                  </button>
                 </div>
-              )}
+              </div>
             </div>
-          ))}
+          </div>
         </div>
 
-        {/* 5. Section Partenaire EASY FORMA + */}
+        {/* 4. Section Partenaire EASY FORMA + */}
         <div className="my-20">
           <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
             <div className="relative px-8 py-16 md:px-16">
@@ -549,7 +550,7 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* 6. CTA Section avec les deux profils */}
+        {/* 5. CTA Section avec les deux profils */}
         <div className="text-center">
           <div className="bg-white rounded-3xl shadow-xl p-12 max-w-5xl mx-auto border border-orange-100">
             <div className="space-y-8">
