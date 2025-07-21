@@ -526,6 +526,131 @@ const Business20 = () => {
         </div>
       </section>
 
+      {/* Roadmap Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <Target className="h-4 w-4" />
+              <span>Votre parcours Business 2.0</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Que se passe-t-il une 
+              <span className="text-blue-600 block">fois inscrit à Business 2.0?</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Découvrez votre parcours Business 2.0 étape par étape, de l'accès au programme à la monétisation de vos compétences.
+            </p>
+          </div>
+
+          <div className="relative">
+            {/* Ligne verticale */}
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-blue-300 to-blue-200"></div>
+            
+            <div className="space-y-4">
+              {/* Étape 1 */}
+              <div className="relative">
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="ml-16">
+                  <div className="bg-white rounded-2xl shadow-lg border border-blue-200 p-6">
+                    <div className="flex items-center space-x-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                        <Target className="h-6 w-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                            Étape 1
+                          </span>
+                        </div>
+                        <p className="text-gray-600">Tu accèdes immédiatement aux 10 heures de contenu business intensif et aux outils exclusifs</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Étape 2 */}
+              <div className="relative">
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="ml-16">
+                  <div className="bg-white rounded-2xl shadow-lg border border-blue-200 p-6">
+                    <div className="flex items-center space-x-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                        <Briefcase className="h-5 w-5 text-white" />
+                      </div>
+                      <div>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                            Étape 2
+                          </span>
+                        </div>
+                        <p className="text-gray-600">Tu apprends à construire ton image de marque et à élaborer des offres commerciales attractives</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Étape 3 */}
+              <div className="relative">
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="ml-16">
+                  <div className="bg-white rounded-2xl shadow-lg border border-blue-200 p-6">
+                    <div className="flex items-center space-x-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                        <TrendingUp className="h-6 w-6 text-white" />
+                      </div>
+                      <div>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                            Étape 3
+                          </span>
+                        </div>
+                        <p className="text-gray-600">Tu développes ta stratégie d'acquisition client et maîtrises les techniques de vente avancées</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Étape 4 */}
+              <div className="relative">
+                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
+                <div className="ml-16">
+                  <div className="bg-white rounded-2xl shadow-lg border border-blue-200 p-6">
+                    <div className="flex items-center space-x-4 mb-4">
+                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                        <MessageSquare className="h-5 w-5 text-white" />
+                      </div>
+                      <div>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                            Étape 4
+                          </span>
+                        </div>
+                        <p className="text-gray-600">Tu bénéficies d'une séance de coaching mensuelle pour t'accompagner dans le lancement et la croissance de ton activité</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* CTA après la roadmap */}
+          <div className="text-center mt-12">
+            <Link
+              to="/"
+              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
+            >
+              <Zap className="h-6 w-6" />
+              <span>Accéder à Business 2.0</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
