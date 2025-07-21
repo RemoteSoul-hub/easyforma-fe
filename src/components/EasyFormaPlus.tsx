@@ -626,7 +626,7 @@ const EasyFormaPlus = () => {
                   <div className="bg-white rounded-2xl shadow-lg border border-purple-200 p-6">
                     <div className="flex items-center space-x-4 mb-4">
                       <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
-                        <Rocket className="h-5 w-5 text-white" />
+                        <Users className="h-5 w-5 text-white" />
                       </div>
                       <div>
                         <div className="flex items-center space-x-3 mb-2">
@@ -648,7 +648,7 @@ const EasyFormaPlus = () => {
                   <div className="bg-white rounded-2xl shadow-lg border border-purple-200 p-6">
                     <div className="flex items-center space-x-4 mb-4">
                       <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
-                        <MessageSquare className="h-5 w-5 text-white" />
+                        <Calendar className="h-5 w-5 text-white" />
                       </div>
                       <div>
                         <div className="flex items-center space-x-3 mb-2">
