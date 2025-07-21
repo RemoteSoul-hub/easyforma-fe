@@ -11,6 +11,7 @@ import EasyFormaPlus from './components/EasyFormaPlus';
 import FormationDetail from './components/FormationDetail';
 import FAQ from './components/FAQ';
 import About from './components/About';
+import Formations from './components/Formations';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/formation/:id" element={<FormationDetail />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/qui-suis-je" element={<About />} />
+          <Route path="/formations" element={<Formations />} />
         </Routes>
         <Footer />
       </div>

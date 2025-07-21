@@ -80,10 +80,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => {
-                  const formationsSection = document.getElementById('formations');
-                  if (formationsSection) {
-                    formationsSection.scrollIntoView({ behavior: 'smooth' });
-                  }
+                  window.location.href = '/formations';
                 }}
                 className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 flex items-center justify-center group shadow-lg hover:shadow-xl"
               >
@@ -92,10 +89,7 @@ const Hero = () => {
               </button>
               <button
                 onClick={() => {
-                  const formationsSection = document.getElementById('formations');
-                  if (formationsSection) {
-                    formationsSection.scrollIntoView({ behavior: 'smooth' });
-                  }
+                  window.location.href = '/formations';
                 }}
                 className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200 text-center"
               >

@@ -31,9 +31,9 @@ const Header = () => {
               Accueil
             </Link>
             {!isBusiness20Page && (
-              <a href="/#formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+              <Link to="/formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
                 Formations
-              </a>
+              </Link>
             )}
             {!isBusiness20Page && (
               <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
@@ -86,13 +86,13 @@ const Header = () => {
                 Accueil
               </Link>
               {!isBusiness20Page && (
-                <a
-                  href="/#formations" 
+                <Link
+                  to="/formations" 
                   className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Formations
-                </a>
+                </Link>
               )}
               <Link
                 to="/qui-suis-je"
