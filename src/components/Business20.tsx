@@ -658,7 +658,7 @@ const Business20 = () => {
               <div className="space-y-4">
                 <div className="flex items-center justify-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-yellow-400" />
-                  <span className="text-blue-100">Business 2.0 inclus gratuitement</span>
+                  <span className="text-blue-100">Accompagnement jusqu'à tes premiers 5000€ de C.A</span>
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-yellow-400" />
@@ -666,19 +666,9 @@ const Business20 = () => {
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-yellow-400" />
-                  <span className="text-blue-100">Accès à vie au contenu</span>
+                  <span className="text-blue-100">Support + Communauté</span>
                 </div>
               </div>
-            </div>
-            
-            <div className="pt-8">
-              <Link
-                to="/"
-                className="bg-yellow-400 text-blue-900 px-12 py-5 rounded-xl font-bold text-lg hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-              >
-                <Zap className="h-6 w-6" />
-                <span>Démarrer EASY FORMA</span>
-              </Link>
             </div>
           </div>
         </div>
