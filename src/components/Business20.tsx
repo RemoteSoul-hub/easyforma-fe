@@ -563,7 +563,10 @@ const Business20 = () => {
                             Étape 1
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu accèdes immédiatement aux 10 heures de contenu business intensif et aux outils exclusifs</p>
+                        <div className="text-gray-600">
+                          <p className="mb-2">Tu reçois un accès immédiat et à vie à l'écosystème BUSINESS 2.0</p>
+                          <p className="text-sm font-medium text-blue-600">10h de contenu - outils - support privé</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -585,7 +588,7 @@ const Business20 = () => {
                             Étape 2
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu apprends à construire ton image de marque et à élaborer des offres commerciales attractives</p>
+                        <p className="text-gray-600">Tu commences à mettre en œuvre ton projet à ton rythme grâce à tout l'écosystème BUSINESS 2.0.</p>
                       </div>
                     </div>
                   </div>
@@ -607,7 +610,7 @@ const Business20 = () => {
                             Étape 3
                           </span>
                         </div>
-                        <p className="text-gray-600">Tu développes ta stratégie d'acquisition client et maîtrises les techniques de vente avancées</p>
+                        <p className="text-gray-600">Et tous les mois, on fait un point ensemble au téléphone pour t'aider à avancer, répondre à tes questions et réaliser ensemble tes premiers milliers d'euros de chiffre d'affaires.</p>
                       </div>
                     </div>
                   </div>
