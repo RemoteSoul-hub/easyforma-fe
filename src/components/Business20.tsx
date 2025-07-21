@@ -636,23 +636,22 @@ const Business20 = () => {
             </h3>
             
             <p className="text-xl text-blue-100 leading-relaxed max-w-2xl mx-auto">
-              Rejoignez Easy Forma dès maintenant et accédez immédiatement à Business 2.0 
-              ainsi qu'à toutes nos formations professionnelles.
+              Déposez votre candidature maintenant pour accéder à Business 2.0 et transformer vos compétences en machine à CASH.
             </p>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-2xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-400">29€</div>
-                  <div className="text-blue-200 text-sm">par mois</div>
+                  <div className="text-3xl font-bold text-yellow-400">499€</div>
+                  <div className="text-blue-200 text-sm">paiement unique</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-yellow-400">+100</div>
-                  <div className="text-blue-200 text-sm">formations</div>
+                  <div className="text-3xl font-bold text-yellow-400">+10h</div>
+                  <div className="text-blue-200 text-sm">De contenu</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-yellow-400">∞</div>
-                  <div className="text-blue-200 text-sm">accès illimité</div>
+                  <div className="text-blue-200 text-sm">accès à vie</div>
                 </div>
               </div>
               
