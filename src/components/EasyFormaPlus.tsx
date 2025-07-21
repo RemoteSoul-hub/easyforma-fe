@@ -378,7 +378,7 @@ const EasyFormaPlus = () => {
                   <div className="space-y-6">
                     <div className="grid grid-cols-2 gap-8 items-center py-4 border-b border-gray-200">
                       <div className="text-gray-800 text-lg text-center">
-                        Tu veux apprendre un métier et créer ton agence →
+                        Tu veux devenir expert dans le domaine de ton choix →
                       </div>
                       <div className="flex items-center justify-center space-x-2">
                         <CheckCircle className="h-5 w-5 text-green-500" />
@@ -388,7 +388,7 @@ const EasyFormaPlus = () => {
                     
                     <div className="grid grid-cols-2 gap-8 items-center py-4">
                       <div className="text-gray-800 text-lg text-center">
-                        Tu veux un business clé en main →
+                        Tu veux un business clé en main et encaisser de l'argent maintenant →
                       </div>
                       <div className="flex items-center justify-center space-x-2">
                         <CheckCircle className="h-5 w-5 text-green-500" />
