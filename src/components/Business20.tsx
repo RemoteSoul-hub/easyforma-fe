@@ -640,17 +640,6 @@ const Business20 = () => {
               </div>
             </div>
           </div>
-          
-          {/* CTA après la roadmap */}
-          <div className="text-center mt-12">
-            <Link
-              to="/"
-              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-            >
-              <Zap className="h-6 w-6" />
-              <span>Accéder à Business 2.0</span>
-            </Link>
-          </div>
         </div>
       </section>
 
