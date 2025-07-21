@@ -524,66 +524,6 @@ const EasyFormaPlus = () => {
               <span className="text-yellow-400 block">encore plus loin ?</span>
             </h2>
           </div>
-          
-          <div className="text-center space-y-8 text-white mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Pour résumer, aujourd'hui
-              <span className="text-yellow-400 block">tu as le choix :</span>
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Option 1 */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
-              <div className="text-center space-y-6">
-                <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center mx-auto">
-                  <Users className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-white">EASY FORMA</h3>
-                <div className="space-y-4">
-                  <div className="text-4xl font-bold text-orange-400">29€</div>
-                  <div className="text-white/80">par mois</div>
-                  <p className="text-white/90">
-                    Rejoindre Easy Forma et obtenir un accès complet au catalogue en illimité
-                  </p>
-                </div>
-                <Link
-                  to="/"
-                  className="block bg-orange-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-orange-600 transition-all duration-200"
-                >
-                  Rejoindre EASY FORMA
-                </Link>
-              </div>
-            </div>
-
-            {/* Option 2 */}
-            <div className="bg-gradient-to-br from-yellow-400/20 to-yellow-500/20 backdrop-blur-sm rounded-3xl p-8 border-2 border-yellow-400 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <div className="bg-yellow-400 text-purple-900 px-4 py-2 rounded-full text-sm font-bold">
-                  RECOMMANDÉ
-                </div>
-              </div>
-              <div className="text-center space-y-6">
-                <div className="w-16 h-16 bg-yellow-400 rounded-2xl flex items-center justify-center mx-auto">
-                  <Crown className="h-8 w-8 text-purple-900" />
-                </div>
-                <h3 className="text-2xl font-bold text-white">Partenaire EASY FORMA+</h3>
-                <div className="space-y-4">
-                  <div className="text-4xl font-bold text-yellow-400">1 500€</div>
-                  <div className="text-white/80">paiement unique</div>
-                  <p className="text-white/90">
-                    Devenir mon partenaire et pouvoir revendre l'écosystème EASY FORMA
-                  </p>
-                  <div className="bg-green-500/20 rounded-lg p-3">
-                    <div className="text-green-400 font-bold">+ 750€ de commission par vente</div>
-                  </div>
-                </div>
-                <button className="block w-full bg-yellow-400 text-purple-900 px-6 py-3 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200">
-                  Devenir partenaire
-                </button>
-              </div>
-            </div>
-          </div>
 
           <div className="text-center mt-12">
             <p className="text-xl text-purple-100 font-semibold">
