@@ -220,7 +220,7 @@ const roadmapSteps = [
 
 
         {/* 1. Notre mission */}
-        <div className="text-center space-y-6 my-20">
+        {/* <div className="text-center space-y-6 my-20">
           <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
             <Infinity className="h-4 w-4" />
             <span>Notre mission</span>
@@ -246,7 +246,7 @@ const roadmapSteps = [
             Rendre la formation professionnelle accessible à tous, partout et à tout moment. 
             Nous croyons que chacun mérite d'avoir accès aux meilleures formations pour développer ses compétences.
           </p>
-        </div>
+        </div> */}
 
         {/* 2. Que se passe-t-il après s'être inscrit */}
     <div className="my-20">
@@ -372,10 +372,9 @@ const roadmapSteps = [
           </div>
         </div>
         {/* 3. Business 2.0 Section */}
-        <div className="my-20">
+        {/* <div className="my-20">
           <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
             <div className="relative px-8 py-16 md:px-16">
-              {/* Background Pattern */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
               
               <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
@@ -410,8 +409,6 @@ const roadmapSteps = [
                   </div>
                 </div>
                 
-
-                
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <Link
                     to="/business-20"
@@ -425,100 +422,8 @@ const roadmapSteps = [
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* Formations Section */}
-        <div className="text-center space-y-6 mb-16">
-          <div className="inline-flex items-center space-x-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full text-sm font-medium">
-            <Infinity className="h-4 w-4" />
-            <span>Accès illimité pour 29€/mois</span>
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            +100 formations
-            <span className="text-orange-500 block">professionnalisantes</span>
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Un seul prix, un accès total. Explorez l'intégralité de notre catalogue 
-            de formations professionnelles sans restriction.
-          </p>
-        </div>
-
-        {/* Pricing Banner */}
-        <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl p-8 mb-16 text-white shadow-2xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-            <div className="text-center md:text-left">
-              <div className="text-4xl font-bold mb-2">29€</div>
-              <div className="text-orange-100">par mois</div>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-2 mb-2">
-                <CheckCircle className="h-6 w-6" />
-                <span className="text-xl font-semibold">Accès illimité</span>
-              </div>
-              <div className="text-orange-100">à toutes les formations</div>
-              <div className="text-orange-200 text-sm mt-2">+ Des nouvelles formations chaque mois</div>
-            </div>
-            <div className="text-center md:text-right">
-              <button 
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg"
-              >
-                Commencer maintenant
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Filter */}
-        <div className="flex flex-wrap items-center justify-center gap-3 mb-12">
-          <div className="flex items-center space-x-2 text-gray-600 mr-4">
-            <div className="p-1 bg-orange-100 rounded-full">
-              <Filter className="h-4 w-4 text-orange-500" />
-            </div>
-            <span className="text-sm font-medium">Filtrer par catégorie :</span>
-          </div>
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-3 rounded-full text-sm font-semibold transition-all duration-200 ${
-                selectedCategory === category
-                  ? 'bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg scale-105'
-                  : 'bg-white text-gray-700 hover:bg-orange-50 hover:text-orange-600 border border-orange-200 hover:border-orange-300'
-              }`}
-            >
-              {getCategoryLabel(category)}
-            </button>
-          ))}
-        </div>
-
-        {/* Results count */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-full shadow-sm border border-orange-100">
-            <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-            <p className="text-gray-700 font-medium">
-              {filteredFormations.length} formation{filteredFormations.length > 1 ? 's' : ''} disponible{filteredFormations.length > 1 ? 's' : ''}
-            </p>
-          </div>
-        </div>
-
-        {/* Formations Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {filteredFormations.map((formation) => (
-            <FormationCard key={formation.id} formation={formation} />
-          ))}
-        </div>
-
-        {/* Link to full catalog */}
-        <div className="text-center mb-16">
-          <Link
-            to="/formations"
-            className="inline-flex items-center space-x-2 bg-white text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg border border-orange-200"
-          >
-            <span>Voir toutes les formations</span>
-            <ArrowRight className="h-5 w-5" />
-          </Link>
-        </div>
 
         {/* 4. FAQ Section */}
         <div id="faq" className="text-center space-y-6 mb-16 mt-16">
