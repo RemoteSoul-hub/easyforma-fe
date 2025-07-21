@@ -72,7 +72,7 @@ const About = () => {
       </section>
 
       {/* Story Section */}
-      <section className="pb-12 pt-6 bg-gray-50">
+      <section className="pb-12 pt-2 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Personal Story */}
           <div className="my-20">
