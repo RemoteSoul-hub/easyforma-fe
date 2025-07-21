@@ -604,7 +604,7 @@ const EasyFormaPlus = () => {
                   <div className="bg-white rounded-2xl shadow-lg border border-purple-200 p-6">
                     <div className="flex items-center space-x-4 mb-4">
                       <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
-                        <CheckCircle className="h-5 w-5 text-white" />
+                        <Target className="h-6 w-6 text-white" />
                       </div>
                       <div>
                         <div className="flex items-center space-x-3 mb-2">
