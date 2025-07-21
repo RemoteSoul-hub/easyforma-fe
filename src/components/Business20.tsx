@@ -617,27 +617,6 @@ const Business20 = () => {
                 </div>
               </div>
 
-              {/* Étape 4 */}
-              <div className="relative">
-                <div className="absolute left-6 top-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full border-4 border-white shadow-lg z-10"></div>
-                <div className="ml-16">
-                  <div className="bg-white rounded-2xl shadow-lg border border-blue-200 p-6">
-                    <div className="flex items-center space-x-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                        <MessageSquare className="h-5 w-5 text-white" />
-                      </div>
-                      <div>
-                        <div className="flex items-center space-x-3 mb-2">
-                          <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                            Étape 4
-                          </span>
-                        </div>
-                        <p className="text-gray-600">Tu bénéficies d'une séance de coaching mensuelle pour t'accompagner dans le lancement et la croissance de ton activité</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
