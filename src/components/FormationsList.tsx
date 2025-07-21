@@ -384,61 +384,9 @@ const roadmapSteps = [
       </div>
     </div>
 
-        {/* 3. Business 2.0 Section */}
-        {/* <div className="my-20">
-          <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
-            <div className="relative px-8 py-16 md:px-16">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
-              
-              <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
-                <div className="inline-flex items-center space-x-2 bg-blue-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-8">
-                  <Briefcase className="h-4 w-4" />
-                  <span>Inclus <span className="text-yellow-400">GRATUITEMENT</span> avec votre abonnement EasyForma</span>
-                </div>
-                
-                <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                  BUSINESS <span className="text-yellow-400">2.0</span>
-                </h2>
-                
-                <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
-                  Apprends à monétiser tes compétences et à lancer ton activité de freelance
-                </p>
-                
-                <div className="grid md:grid-cols-3 gap-8 mb-12">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                    <TrendingUp className="h-8 w-8 text-yellow-400 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">Stratégies de pricing</h3>
-                    <p className="text-blue-100 text-sm">Fixe tes tarifs comme un pro et valorise ton expertise</p>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                    <Users className="h-8 w-8 text-yellow-400 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">Acquisition clients</h3>
-                    <p className="text-blue-100 text-sm">Trouve et fidélise tes premiers clients rapidement</p>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                    <Rocket className="h-8 w-8 text-yellow-400 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">Scaling business</h3>
-                    <p className="text-blue-100 text-sm">Développe et automatise ton activité pour plus de liberté</p>
-                  </div>
-                </div>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <Link
-                    to="/business-20"
-                    className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center space-x-2"
-                    onClick={() => window.scrollTo(0, 0)}
-                  >
-                    <Play className="h-5 w-5" />
-                    <span>Découvrir Business 2.0</span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-
-        {/* CTA Section - Prêt à rejoindre l'aventure */}
+        {/* COMMENTED OUT SECTIONS FOR LATER USE */}
+        {/* 
+        // CTA Section - Prêt à rejoindre l'aventure
         <div className="my-20">
           <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl py-16 px-8">
             <div className="max-w-4xl mx-auto text-center text-white">
@@ -464,7 +412,7 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* 4. Section Partenaire EASY FORMA + */}
+        // Section Partenaire EASY FORMA +
         <div className="my-20">
           <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 rounded-3xl overflow-hidden shadow-2xl">
             <div className="relative px-8 py-16 md:px-16">
@@ -550,7 +498,7 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* 5. CTA Section avec les deux profils */}
+        // CTA Section avec les deux profils
         <div className="text-center">
           <div className="bg-white rounded-3xl shadow-xl p-12 max-w-5xl mx-auto border border-orange-100">
             <div className="space-y-8">
@@ -563,9 +511,9 @@ const roadmapSteps = [
               </h3>
             
 
-              {/* Deux options côte à côte */}
+              // Deux options côte à côte
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
-                {/* EASY FORMA */}
+                // EASY FORMA
                 <div className="bg-orange-50 p-8 rounded-2xl border-2 border-orange-200">
                   <div className="space-y-6">
                     <h4 className="text-2xl font-bold text-orange-600">
@@ -609,7 +557,7 @@ const roadmapSteps = [
                   </div>
                 </div>
 
-                {/* EASY FORMA + */}
+                // EASY FORMA +
                 <div className="bg-purple-50 p-8 rounded-2xl border-2 border-purple-200 relative">
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <div className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
@@ -659,14 +607,14 @@ const roadmapSteps = [
                 </div>
               </div>
 
-              {/* Résumé - Style tableau comme l'image */}
+              // Résumé - Style tableau comme l'image
               <div className="bg-gray-50 p-8 rounded-2xl mt-8 border border-gray-200">
                 <div className="flex items-center justify-center space-x-3 mb-8">
                   <Target className="h-6 w-6 text-orange-500" />
                   <h4 className="text-2xl font-bold text-gray-900">Résumons simplement :</h4>
                 </div>
                 
-                {/* En-têtes du tableau */}
+                // En-têtes du tableau
                 <div className="grid grid-cols-2 gap-8 mb-6">
                   <div className="text-xl font-semibold text-gray-700 pb-4 border-b border-gray-300 text-center">
                     Ton profil
@@ -676,7 +624,7 @@ const roadmapSteps = [
                   </div>
                 </div>
                 
-                {/* Lignes du tableau */}
+                // Lignes du tableau
                 <div className="space-y-6">
                   <div className="grid grid-cols-2 gap-8 items-center py-4 border-b border-gray-200">
                     <div className="text-gray-800 text-lg text-center">
@@ -703,74 +651,75 @@ const roadmapSteps = [
           </div>
         </div>
 
-        {/* 6. Sunday Business Section */}
-          <div className="my-20">
-            <div className="bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 rounded-3xl overflow-hidden shadow-2xl">
-              <div className="relative px-8 py-16 md:px-16">
-                {/* Background Pattern */}
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+        // Sunday Business Section
+        <div className="my-20">
+          <div className="bg-gradient-to-br from-purple-900 via-pink-800 to-red-900 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative px-8 py-16 md:px-16">
+              // Background Pattern
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+              
+              <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
+                <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-8">
+                  <Calendar className="h-4 w-4" />
+                  <span>Newsletter Hebdomadaire</span>
+                </div>
                 
-                <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
-                  <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-8">
-                    <Calendar className="h-4 w-4" />
-                    <span>Newsletter Hebdomadaire</span>
-                  </div>
-                  
-                  <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                    SUNDAY <span className="text-pink-400">BUSINESS</span>
-                  </h2>
-                  
-                  <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
-                    Chaque dimanche, découvre une idée de business clé en main pour générer tes premiers revenus
-                  </p>
-                  
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-white/20">
-                    <div className="grid md:grid-cols-2 gap-8 items-center">
-                      <div className="text-left">
-                        <h3 className="text-2xl font-bold mb-4 text-pink-300">Ce que tu reçois :</h3>
-                        <ul className="space-y-3">
-                          <li className="flex items-center space-x-3">
-                            <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
-                            <span>Une idée business détaillée chaque semaine</span>
-                          </li>
-                          <li className="flex items-center space-x-3">
-                            <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
-                            <span>Plan d'action étape par étape</span>
-                          </li>
-                          <li className="flex items-center space-x-3">
-                            <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
-                            <span>Outils et ressources nécessaires</span>
-                          </li>
-                          <li className="flex items-center space-x-3">
-                            <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
-                            <span>Estimation des revenus potentiels</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-2xl p-6 border border-pink-400/30">
-                        <div className="text-center">
-                          <Mail className="h-12 w-12 text-pink-400 mx-auto mb-4" />
-                          <div className="text-3xl font-bold text-pink-300 mb-2">+100</div>
-                          <div className="text-purple-200">Idées business partagées</div>
-                        </div>
+                <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                  SUNDAY <span className="text-pink-400">BUSINESS</span>
+                </h2>
+                
+                <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
+                  Chaque dimanche, découvre une idée de business clé en main pour générer tes premiers revenus
+                </p>
+                
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-white/20">
+                  <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div className="text-left">
+                      <h3 className="text-2xl font-bold mb-4 text-pink-300">Ce que tu reçois :</h3>
+                      <ul className="space-y-3">
+                        <li className="flex items-center space-x-3">
+                          <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
+                          <span>Une idée business détaillée chaque semaine</span>
+                        </li>
+                        <li className="flex items-center space-x-3">
+                          <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
+                          <span>Plan d'action étape par étape</span>
+                        </li>
+                        <li className="flex items-center space-x-3">
+                          <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
+                          <span>Outils et ressources nécessaires</span>
+                        </li>
+                        <li className="flex items-center space-x-3">
+                          <CheckCircle className="h-5 w-5 text-pink-400 flex-shrink-0" />
+                          <span>Estimation des revenus potentiels</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-2xl p-6 border border-pink-400/30">
+                      <div className="text-center">
+                        <Mail className="h-12 w-12 text-pink-400 mx-auto mb-4" />
+                        <div className="text-3xl font-bold text-pink-300 mb-2">+100</div>
+                        <div className="text-purple-200">Idées business partagées</div>
                       </div>
                     </div>
                   </div>
-                  
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <button className="bg-gray-500 text-white px-8 py-4 rounded-xl font-bold cursor-not-allowed opacity-75 flex items-center space-x-2" disabled>
-                      <Mail className="h-5 w-5" />
-                      <span>Prochainement</span>
-                    </button>
-                    <div className="flex items-center space-x-2 text-purple-200">
-                      <CheckCircle className="h-5 w-5 text-pink-400" />
-                      <span className="text-sm">Bientôt disponible</span>
-                    </div>
+                </div>
+                
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <button className="bg-gray-500 text-white px-8 py-4 rounded-xl font-bold cursor-not-allowed opacity-75 flex items-center space-x-2" disabled>
+                    <Mail className="h-5 w-5" />
+                    <span>Prochainement</span>
+                  </button>
+                  <div className="flex items-center space-x-2 text-purple-200">
+                    <CheckCircle className="h-5 w-5 text-pink-400" />
+                    <span className="text-sm">Bientôt disponible</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        */}
 
         </div>
     </section>
