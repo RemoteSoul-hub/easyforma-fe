@@ -517,20 +517,7 @@ const EasyFormaPlus = () => {
 
       {/* Choice Section */}
       <section className="py-24 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8 text-white mb-8">
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Tu veux aller
-              <span className="text-yellow-400 block">encore plus loin ?</span>
-            </h2>
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-xl text-purple-100 font-semibold">
-              En bref : tu peux revendre ce que tu viens d'acheter.
-            </p>
-          </div>
-          
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">        
           {/* FAQ Section */}
     <div className="mt-20">
       <div className="text-center space-y-6 mb-16">
