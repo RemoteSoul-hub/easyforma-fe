@@ -553,6 +553,155 @@ const EasyFormaPlus = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-24 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6 mb-16">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
+              <CheckCircle className="h-4 w-4" />
+              <span>Questions fréquentes</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+              Questions sur
+              <span className="text-purple-600 block">EASY FORMA+</span>
+            </h2>
+          </div>
+
+          <div className="space-y-6">
+            {/* Question 1 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(0)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">1. Qu'est-ce que EASY FORMA + exactement ?</h3>
+                {activeFAQ === 0 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 0 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    EASY FORMA + est une offre exclusive qui te donne le droit de revente de l'ensemble de la plateforme EASY FORMA. En achetant cette licence à 1500€ (paiement unique), tu deviens partenaire officiel et tu peux revendre EASY FORMA+ à ton tour… en gagnant 750€ de commission par vente.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Question 2 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(1)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">2. Est-ce que je dois me former avant de revendre ?</h3>
+                {activeFAQ === 1 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 1 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    Non, ce n'est pas obligatoire. EASY FORMA + est une opportunité clé en main. Tu reçois une formation en ligne exclusive CLOSERS et une séance de coaching / mois jusqu'à tes 3 premières ventes
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Question 3 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(2)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">3. Est-ce que je peux rejoindre EASY FORMA + gratuitement ?</h3>
+                {activeFAQ === 2 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 2 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    Non. En rejoignant EASY FORMA +, tu deviens propriétaire d'une licence de revente de l'écosystème EASY FORMA. Cet accès exclusif représente une réelle valeur et est proposé au tarif unique de 1 500 € (paiement unique, sans abonnement).
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Question 4 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(3)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">4. Comment fonctionne le système de commission ?</h3>
+                {activeFAQ === 3 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 3 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    À chaque fois que tu vends EASY FORMA + à 1500€, tu gagnes automatiquement 750€, versés en moins de 24h sur ton compte bancaire. Tu n'as aucune gestion technique à faire : on s'occupe de tout, tu n'as qu'à vendre.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Question 5 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(4)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">5. Que se passe-t-il si mon prospect préfère prendre l'abonnement à 29€/mois ?</h3>
+                {activeFAQ === 4 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 4 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    L'abonnement à 29€/mois est destiné à ceux qui veulent se former. EASY FORMA +, c'est pour ceux qui veulent gagner de l'argent immédiatement avec un business déjà prêt. Les deux offres ne répondent pas aux mêmes besoins, c'est à toi de bien positionner la valeur que tu proposes (Thématique traitée dans la formation CLOSERS).
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Question 6 */}
+            <div className="bg-white rounded-xl shadow-lg border border-purple-100 overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(5)}
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-purple-50 transition-all duration-200"
+              >
+                <h3 className="text-lg font-semibold text-gray-900 pr-4">6. Combien de ventes dois-je faire pour rentabiliser mon investissement ?</h3>
+                {activeFAQ === 5 ? (
+                  <ChevronUp className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                ) : (
+                  <ChevronDown className="h-5 w-5 text-purple-500 flex-shrink-0" />
+                )}
+              </button>
+              {activeFAQ === 5 && (
+                <div className="px-8 pb-6 border-t border-purple-100 bg-purple-50">
+                  <p className="text-gray-700 leading-relaxed pt-4">
+                    Seulement 2 ventes. Chaque vente te rapporte 750€, donc dès la 2e vente, ton investissement est déjà remboursé — et les suivantes sont 100% de bénéfice.
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-24 bg-white">
