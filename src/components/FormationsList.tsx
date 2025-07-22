@@ -376,38 +376,38 @@ const roadmapSteps = [
                   Prêt à rejoindre l'aventure ?
                 </h3>
                 
-                <div className="text-left max-w-2xl mx-auto">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-3xl mx-auto">
                   <h4 className="text-2xl font-bold mb-6">Ce que tu reçois :</h4>
-                  <ul className="space-y-3 text-lg text-orange-100">
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>Accès illimité et à vie au catalogue EASY FORMA</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>1000h de contenu</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>De nouvelles formations chaque mois</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>Quiz et évaluation</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>Attestation de réussite</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>Support pédagogique 24h/24, 7J/7</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-orange-300">-</span>
-                      <span>1 point pédagogique au téléphone / mois avec un coach</span>
-                    </li>
-                  </ul>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">Accès illimité et à vie</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">1000h de contenu</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">Nouvelles formations mensuelles</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">Quiz et évaluation</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">Attestation de réussite</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">Support 24h/24, 7J/7</span>
+                    </div>
+                    <div className="flex items-center space-x-3 md:col-span-2 justify-center">
+                      <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                      <span className="text-white">1 coaching téléphonique / mois</span>
+                    </div>
+                  </div>
                 </div>
                 
                 <p className="text-xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
