@@ -127,7 +127,7 @@ const roadmapSteps = [
         {/* Qui suis-je Section */}
         <div className="my-20">
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               <div className="p-12 lg:p-16 bg-gray-50">
                 <div className="space-y-8">
                   <div className="inline-flex items-center space-x-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">
@@ -167,6 +167,20 @@ const roadmapSteps = [
                       </p>
                       <p className="text-orange-700">
                         Tu choisis celle qui te correspond vraiment… et tu te lances.
+                      </p>
+                    </div>
+                    
+                    <div className="text-center space-y-4 bg-orange-500 rounded-xl p-6 text-white">
+                      <h4 className="text-lg font-bold">EASY FORMA, c'est la clé.</h4>
+                      <p className="text-base">
+                        Celle qui te permet d'ouvrir les bonnes portes,
+                        et de rencontrer enfin ton "toi successfull".
+                      </p>
+                      <p className="text-base">
+                        Plus personne ne pourra me dire qu'entreprendre est impossible.
+                      </p>
+                      <p className="text-base font-semibold">
+                        Avec EASY FORMA, l'impossible devient possible.
                       </p>
                     </div>
                     
