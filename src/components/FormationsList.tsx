@@ -227,7 +227,7 @@ const roadmapSteps = [
                 </div>
               </div>
               
-              <div className="p-12 lg:p-16 flex items-center justify-center bg-white">
+              <div className="p-12 lg:p-16 flex items-start justify-center bg-white">
                 <div>
                   <img
                     src="/cyprien-speaking.jpeg"
