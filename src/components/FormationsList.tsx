@@ -376,8 +376,42 @@ const roadmapSteps = [
                   Prêt à rejoindre l'aventure ?
                 </h3>
                 
-                <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
-                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
+                <div className="text-left max-w-2xl mx-auto">
+                  <h4 className="text-2xl font-bold mb-6">Ce que tu reçois :</h4>
+                  <ul className="space-y-3 text-lg text-orange-100">
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>Accès illimité et à vie au catalogue EASY FORMA</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>1000h de contenu</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>De nouvelles formations chaque mois</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>Quiz et évaluation</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>Attestation de réussite</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>Support pédagogique 24h/24, 7J/7</span>
+                    </li>
+                    <li className="flex items-start space-x-3">
+                      <span className="text-orange-300">-</span>
+                      <span>1 point pédagogique au téléphone / mois avec un coach</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <p className="text-xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
+                  Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma
                 </p>
                 
                 <div className="pt-4">
