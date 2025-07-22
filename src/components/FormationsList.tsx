@@ -218,40 +218,6 @@ const roadmapSteps = [
                         Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
                       </p>
                       <p className="text-orange-600 font-semibold">
-                        Annulation à tout moment • Support inclus
-                      </p>
-                      
-                      <div className="pt-6">
-                        <button 
-                          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                          className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-                        >
-                          <Rocket className="h-5 w-5" />
-                          <span>Rejoindre EASY FORMA</span>
-                        </button>
-                      </div>
-                    </div>
-                    
-                    <div className="text-center space-y-3">
-                      <p className="text-lg font-semibold text-gray-900">Alors…</p>
-                      <p className="text-gray-700">
-                        Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
-                      </p>
-                      <p className="text-orange-600 font-semibold">
-                        Annulation à tout moment • Support inclus
-                      </p>
-                      
-                      <div className="pt-6">
-                        <button 
-                          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                          className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-                        >
-                          <Rocket className="h-5 w-5" />
-                          <span>Rejoindre EASY FORMA</span>
-                        </button>
-                      </div>
-                    </div>
-                    
                     <div className="text-center space-y-3">
                       <p className="text-lg font-semibold text-gray-900">Alors…</p>
                       <p className="text-gray-700">
