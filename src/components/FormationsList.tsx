@@ -127,7 +127,7 @@ const roadmapSteps = [
         {/* Qui suis-je Section */}
         <div className="my-20">
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch">
               <div className="p-12 lg:p-16 bg-gray-50">
                 <div className="space-y-8">
                   <div className="inline-flex items-center space-x-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">
@@ -203,41 +203,38 @@ const roadmapSteps = [
                         </button>
                       </div>
                     </div>
+                    
+                    <div className="text-center space-y-3">
+                      <p className="text-lg font-semibold text-gray-900">Alors…</p>
+                      <p className="text-gray-700">
+                        Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
+                      </p>
+                      <p className="text-orange-600 font-semibold">
+                        Annulation à tout moment • Support inclus
+                      </p>
+                      
+                      <div className="pt-6">
+                        <button 
+                          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                          className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
+                        >
+                          <Rocket className="h-5 w-5" />
+                          <span>Rejoindre EASY FORMA</span>
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            {/* CTA centré entre les deux colonnes */}
-            <div className="col-span-full flex justify-center py-8 bg-gray-50">
-              <div className="text-center space-y-4 max-w-md">
-                <p className="text-xl font-semibold text-gray-900">Alors…</p>
-                <p className="text-gray-700">
-                  Troque ton abonnement Netflix contre une plateforme qui peut changer ta vie.
-                </p>
-                <p className="text-orange-600 font-semibold">
-                  Annulation à tout moment • Support inclus
-                </p>
-                
-                <div className="pt-4">
-                  <button 
-                    onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                    className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
-                  >
-                    <Rocket className="h-5 w-5" />
-                    <span>Rejoindre EASY FORMA</span>
-                  </button>
+              
+              <div className="p-12 lg:p-16 flex items-center justify-center bg-white">
+                <div>
+                  <img
+                    src="/cyprien-speaking.jpeg"
+                    alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
+                    className="w-full max-w-md h-auto object-cover rounded-2xl shadow-lg"
+                  />
                 </div>
-              </div>
-            </div>
-            
-            <div className="p-12 lg:p-16 flex items-start justify-center bg-white">
-              <div>
-                <img
-                  src="/cyprien-speaking.jpeg"
-                  alt="Cyprien Sesboüé, fondateur d'EASY FORMA"
-                  className="w-full max-w-md h-auto object-cover rounded-2xl shadow-lg"
-                />
               </div>
             </div>
           </div>
