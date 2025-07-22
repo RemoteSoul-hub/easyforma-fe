@@ -54,6 +54,16 @@ const About = () => {
                         Chez EASY FORMA :<br />
                         <span className="text-orange-600">forme-toi - Deviens Expert - Créer ton business</span>
                       </p>
+                      
+                      <div className="pt-4">
+                        <button
+                          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                          className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
+                        >
+                          <Rocket className="h-5 w-5" />
+                          <span>Rejoindre EASY FORMA</span>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
