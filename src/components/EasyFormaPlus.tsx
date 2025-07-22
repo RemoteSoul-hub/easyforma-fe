@@ -590,7 +590,7 @@ const EasyFormaPlus = () => {
                             Étape 1
                           </span>
                         </div>
-                        <p className="text-gray-600">Découvrez votre parcours partenaire étape par étape, de l'inscription à vos premières ventes.</p>
+                        <p className="text-gray-600">Tu reçois un accès illimité à l'ensemble des formations du catalogue EASY FORMA</p>
                       </div>
                     </div>
                   </div>
