@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Heart, Target, Rocket } from 'lucide-react';
+import { Users, Heart, Target, Rocket, CheckCircle } from 'lucide-react';
 
 const About = () => {
   return (
@@ -264,32 +264,6 @@ const About = () => {
             
             <p className="text-xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
               Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma
-            </p>
-            
-            <div className="pt-4">
-              <button
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
-                className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
-              >
-                Commencer maintenant
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
-
-export default About;
-
-            <h3 className="text-3xl md:text-4xl font-bold leading-tight">
-              Prêt à rejoindre l'aventure ?
-            </h3>
-            
-            <p className="text-xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
-              Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie 
-              grâce à Easy Forma.
             </p>
             
             <div className="pt-4">
