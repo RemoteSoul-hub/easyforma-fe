@@ -132,8 +132,42 @@ const Formations = () => {
                     Prêt à rejoindre l'aventure ?
                   </h3>
                   
-                  <p className="text-xl md:text-2xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
-                    Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma.
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-3xl mx-auto">
+                    <h4 className="text-2xl font-bold mb-6">Ce que tu reçois :</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">Accès illimité et à vie</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">1000h de contenu</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">Nouvelles formations mensuelles</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">Quiz et évaluation</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">Attestation de réussite</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">Support 24h/24, 7J/7</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
+                        <span className="text-white">1 coaching téléphonique / mois</span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <p className="text-xl text-orange-100 leading-relaxed max-w-2xl mx-auto">
+                    Rejoignez les milliers d'apprenants qui ont déjà transformé leur vie grâce à Easy Forma
                   </p>
                   
                   <div className="pt-4">
