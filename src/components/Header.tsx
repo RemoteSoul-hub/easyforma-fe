@@ -20,9 +20,16 @@ const Header = () => {
             <div className="bg-gradient-to-r from-orange-400 to-orange-500 p-2 rounded-xl">
               <BookOpen className="h-8 w-8 text-white" />
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
-              EASY FORMA
-            </span>
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
+                EASY FORMA
+              </span>
+              {isBusiness20Page && (
+                <span className="text-xs font-semibold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent -mt-1">
+                  BUSINESS 2.0
+                </span>
+              )}
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
