@@ -156,6 +156,7 @@ const roadmapSteps = [
                         Celle qui va vraiment te motiver à aller jusqu'au bout ?
                       </p>
                     </div>
+                  </div>
                 </div>
               </div>
               
@@ -347,7 +348,6 @@ const roadmapSteps = [
                           </div>
                         </div>
                       </div>
-                    </div>
                     </div>
                   </div>
                 ))}
