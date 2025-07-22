@@ -403,7 +403,7 @@ const roadmapSteps = [
                       <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
                       <span className="text-white">Support 24h/24, 7J/7</span>
                     </div>
-                    <div className="flex items-center space-x-3 md:col-span-2 justify-center">
+                    <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-yellow-400 flex-shrink-0" />
                       <span className="text-white">1 coaching téléphonique / mois</span>
                     </div>
