@@ -348,6 +348,7 @@ const roadmapSteps = [
                         </div>
                       </div>
                     </div>
+                    </div>
                   </div>
                 ))}
               </div>
