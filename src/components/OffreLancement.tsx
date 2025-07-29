@@ -106,10 +106,17 @@ const OffreLancement = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* SEO Meta - Non indexée */}
-      <div style={{ display: 'none' }}>
+      <Helmet>
+        <title>Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif</title>
+        <meta name="description" content="Offre de lancement exclusive EASY FORMA+ : Devenez partenaire pour 999€ au lieu de 1500€. Commission de 750€ par vente. Limité aux 100 premiers inscrits." />
         <meta name="robots" content="noindex, nofollow" />
-      </div>
+        <meta property="og:title" content="Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif" />
+        <meta property="og:description" content="Offre de lancement exclusive : 999€ au lieu de 1500€ pour les 100 premiers. Devenez partenaire EASY FORMA+ et gagnez 750€ par vente." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif" />
+        <meta name="twitter:description" content="Offre exclusive : 999€ au lieu de 1500€. Commission de 750€ par vente. Limité aux 100 premiers inscrits." />
+      </Helmet>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 py-24">

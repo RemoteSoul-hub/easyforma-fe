@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { 
   ArrowLeft, 
@@ -106,6 +107,13 @@ const EasyFormaPlus = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Easy Forma+ - Programme Partenaire et Droit de Revente</title>
+        <meta name="description" content="Devenez partenaire Easy Forma+ : droit de revente complet pour 1500€, commission de 750€ par vente, formation CLOSERS incluse." />
+        <meta property="og:title" content="Easy Forma+ - Programme Partenaire et Droit de Revente" />
+        <meta property="og:description" content="Programme partenaire exclusif : droit de revente + formation + accompagnement. Commission de 50% par vente." />
+      </Helmet>
+
       {/* Header */}
       <div className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">

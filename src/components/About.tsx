@@ -1,9 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Users, Heart, Target, Rocket, CheckCircle } from 'lucide-react';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Qui suis-je ? - Cyprien Sesboüé | Easy Forma</title>
+        <meta name="description" content="Découvrez l'histoire de Cyprien Sesboüé, fondateur d'Easy Forma. De 0 à 1 million d'euros à 21 ans, sa mission : rendre la formation accessible à tous." />
+        <meta property="og:title" content="Qui suis-je ? - Cyprien Sesboüé | Easy Forma" />
+        <meta property="og:description" content="L'histoire du fondateur d'Easy Forma : comment j'ai créé une plateforme pour démocratiser l'accès à la formation professionnelle." />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 via-white to-orange-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

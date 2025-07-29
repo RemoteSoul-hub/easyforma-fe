@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { CheckCircle, ChevronDown, ChevronUp } from 'lucide-react';
 
 const FAQ = () => {
@@ -34,6 +35,13 @@ const FAQ = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>FAQ - Questions Fréquentes | Easy Forma</title>
+        <meta name="description" content="Retrouvez les réponses aux questions les plus fréquemment posées sur Easy Forma : formations, abonnement, certificats, support pédagogique." />
+        <meta property="og:title" content="FAQ - Questions Fréquentes | Easy Forma" />
+        <meta property="og:description" content="Toutes les réponses à vos questions sur Easy Forma et nos formations professionnelles." />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 via-white to-orange-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

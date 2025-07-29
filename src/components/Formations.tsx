@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { formations } from '../data/formations';
 import FormationCard from './FormationCard';
 import { Filter, Infinity, CheckCircle, Rocket } from 'lucide-react';
@@ -34,6 +35,13 @@ const Formations = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-orange-50">
+      <Helmet>
+        <title>Toutes nos Formations Professionnelles | Easy Forma</title>
+        <meta name="description" content="Découvrez notre catalogue complet de +100 formations professionnelles : bien-être, communication, management, entrepreneuriat. 29€/mois, accès illimité." />
+        <meta property="og:title" content="Catalogue Complet des Formations | Easy Forma" />
+        <meta property="og:description" content="+100 formations professionnelles pour 29€/mois. Accès illimité à tout notre catalogue." />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-orange-50 via-white to-orange-50 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

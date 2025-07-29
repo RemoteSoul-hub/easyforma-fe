@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { 
   ArrowLeft, 
@@ -81,6 +82,12 @@ const Business20 = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Business 2.0 - Programme d'Accompagnement Entrepreneurial | Easy Forma</title>
+        <meta name="description" content="Business 2.0 : 10h de contenu business + coaching mensuel pour transformer vos compétences en revenus. Candidature obligatoire." />
+        <meta property="og:title" content="Business 2.0 - Programme d'Accompagnement Entrepreneurial" />
+        <meta property="og:description" content="Accompagnement exclusif pour monétiser vos compétences. 10h de contenu + coaching mensuel." />
+      </Helmet>
 
 
       {/* Hero Section */}
