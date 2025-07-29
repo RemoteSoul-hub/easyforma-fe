@@ -134,8 +134,9 @@ const OffreLancement = () => {
                     <DollarSign className="h-6 w-6 text-yellow-400" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold">1 500€</div>
+                    <div className="text-2xl font-bold">999€</div>
                     <div className="text-purple-200">Investissement unique</div>
+                    <div className="text-yellow-400 text-sm font-semibold">🔥 100 premiers inscrits</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -164,7 +165,7 @@ const OffreLancement = () => {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/39mEkOco50w"
+                    src="https://www.youtube.com/embed/-ziQC5Z-jfw"
                     title="Présentation EASY FORMA+"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -193,7 +194,7 @@ const OffreLancement = () => {
 
           <div className="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed text-gray-700">
             <p>
-              Tu percevras un <strong className="text-purple-600">droit de revente</strong> te permettant d'acheter la totalité du catalogue EASY FORMA en une seule fois, au prix unique de <strong className="text-purple-600">1 500€</strong>. Cet achat te permettra de posséder l'écosystème EASY FORMA et de pouvoir le revendre à la personne de ton choix.
+              Tu percevras un <strong className="text-purple-600">droit de revente</strong> te permettant d'acheter la totalité du catalogue EASY FORMA en une seule fois, au prix exceptionnel de <strong className="text-purple-600">999€</strong> (au lieu de 1500€ pour les 100 premiers inscrits). Cet achat te permettra de posséder l'écosystème EASY FORMA et de pouvoir le revendre à la personne de ton choix.
             </p>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
@@ -207,7 +208,7 @@ const OffreLancement = () => {
             </div>
 
             <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Ce que tu peux offrir pour seulement 1 500€ :</h3>
+              <h3 className="text-2xl font-bold mb-6">Ce que tu peux offrir pour seulement 999€ :</h3>
               <div className="space-y-4">
                 {comparison.map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -531,8 +532,9 @@ const OffreLancement = () => {
             <div className="bg-purple-50 rounded-2xl p-8 border border-purple-100 max-w-2xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600">1 500€</div>
+                  <div className="text-3xl font-bold text-purple-600">999€</div>
                   <div className="text-gray-600 text-sm">Investissement unique</div>
+                  <div className="text-yellow-600 text-xs font-semibold">🔥 100 premiers</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">750€</div>
