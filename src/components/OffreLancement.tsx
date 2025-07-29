@@ -22,7 +22,8 @@ import {
   Shield,
   Crown,
   ChevronUp,
-  ChevronDown
+  ChevronDown,
+  Lock
 } from 'lucide-react';
 
 const OffreLancement = () => {
@@ -117,7 +118,7 @@ const OffreLancement = () => {
             <div className="space-y-8 text-white">
               <div className="inline-flex items-center space-x-2 bg-purple-800/50 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
                 <Crown className="h-4 w-4" />
-                <span>🔥 OFFRE DE LANCEMENT EXCLUSIVE 🔥</span>
+                <span><Lock className="h-4 w-4 inline mr-1" /> OFFRE DE LANCEMENT EXCLUSIVE <Lock className="h-4 w-4 inline ml-1" /></span>
               </div>
               
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
@@ -136,7 +137,10 @@ const OffreLancement = () => {
                   <div>
                     <div className="text-2xl font-bold">999€</div>
                     <div className="text-purple-200">Investissement unique</div>
-                    <div className="text-yellow-400 text-sm font-semibold">🔥 100 premiers inscrits</div>
+                    <div className="text-yellow-400 text-sm font-semibold flex items-center justify-center">
+                      <Lock className="h-3 w-3 mr-1" />
+                      100 premiers inscrits
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -534,7 +538,10 @@ const OffreLancement = () => {
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-600">999€</div>
                   <div className="text-gray-600 text-sm">Investissement unique</div>
-                  <div className="text-yellow-600 text-xs font-semibold">🔥 100 premiers</div>
+                  <div className="text-yellow-600 text-xs font-semibold flex items-center justify-center">
+                    <Lock className="h-3 w-3 mr-1" />
+                    100 premiers
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-600">750€</div>
