@@ -65,11 +65,11 @@ const About = () => {
                       
                       <div className="pt-4">
                         <button
-                          onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                          onClick={() => window.open('https://buy.stripe.com/7sY7sM7MW2Lf8UPeBM4Rq01', '_blank')}
                           className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-bold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3"
                         >
                           <Rocket className="h-5 w-5" />
-                          <span>Rejoindre EASY FORMA</span>
+                          <span>S'abonner maintenant</span>
                         </button>
                       </div>
                     </div>
@@ -276,10 +276,10 @@ const About = () => {
             
             <div className="pt-4">
               <button
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                onClick={() => window.open('https://buy.stripe.com/7sY7sM7MW2Lf8UPeBM4Rq01', '_blank')}
                 className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                Commencer maintenant
+                S'abonner maintenant
               </button>
             </div>
           </div>

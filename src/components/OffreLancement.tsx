@@ -179,6 +179,7 @@ const OffreLancement = () => {
 
               <div className="pt-4">
                 <button className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2">
+                  onClick={() => window.open('https://buy.stripe.com/9B6eVe2sC0D71sndxI4Rq00', '_blank')}
                   <Handshake className="h-5 w-5" />
                   <span>Devenir partenaire</span>
                 </button>
@@ -370,6 +371,7 @@ const OffreLancement = () => {
 
               <div className="text-center">
                 <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl">
+                  onClick={() => window.open('https://buy.stripe.com/9B6eVe2sC0D71sndxI4Rq00', '_blank')}
                   Nous rejoindre
                 </button>
               </div>
@@ -531,6 +533,7 @@ const OffreLancement = () => {
           {/* CTA après la roadmap */}
           <div className="text-center mt-12">
             <button className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-12 py-4 rounded-xl font-bold text-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3">
+              onClick={() => window.open('https://buy.stripe.com/9B6eVe2sC0D71sndxI4Rq00', '_blank')}
               <Rocket className="h-6 w-6" />
               <span>Rejoindre EASY FORMA+</span>
             </button>
@@ -601,6 +604,7 @@ const OffreLancement = () => {
             
             <div className="pt-8">
               <button className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-12 py-5 rounded-xl font-bold text-lg hover:from-purple-600 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-3">
+                onClick={() => window.open('https://buy.stripe.com/9B6eVe2sC0D71sndxI4Rq00', '_blank')}
                 <Crown className="h-6 w-6" />
                 <span>Rejoindre EASY FORMA+</span>
               </button>

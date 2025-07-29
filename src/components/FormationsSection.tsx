@@ -69,10 +69,10 @@ const FormationsSection = () => {
             </div>
             <div className="text-center md:text-right">
               <button 
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                onClick={() => window.open('https://buy.stripe.com/7sY7sM7MW2Lf8UPeBM4Rq01', '_blank')}
                 className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:bg-orange-50 transition-all duration-200 shadow-lg"
               >
-                Commencer maintenant
+                S'abonner maintenant
               </button>
             </div>
           </div>

@@ -332,10 +332,10 @@ const FormationDetail = () => {
             
             <div className="pt-4">
               <button
-                onClick={() => window.open('https://easyforma.fr/inscription', '_blank')}
+                onClick={() => window.open('https://buy.stripe.com/7sY7sM7MW2Lf8UPeBM4Rq01', '_blank')}
                 className="bg-white text-orange-600 px-12 py-4 rounded-xl font-bold text-lg hover:bg-orange-50 transition-all duration-200 shadow-lg hover:shadow-xl"
               >
-                S'inscrire maintenant
+                S'abonner maintenant
               </button>
               <p className="text-orange-200 text-sm mt-4">
                 Annulation possible à tout moment • Support inclus

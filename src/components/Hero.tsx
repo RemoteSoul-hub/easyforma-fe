@@ -80,11 +80,11 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={() => {
-                    window.location.href = '/formations';
+                    window.open('https://buy.stripe.com/7sY7sM7MW2Lf8UPeBM4Rq01', '_blank');
                   }}
                   className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-200 flex items-center justify-center group shadow-lg hover:shadow-xl"
                 >
-                  Commencer maintenant
+                  S'abonner maintenant
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                 </button>
                 <button
