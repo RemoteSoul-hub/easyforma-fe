@@ -16,7 +16,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to={isBusiness20Page ? "/business-20" : "/"} className="flex items-center space-x-3">
             <div className="bg-gradient-to-r from-orange-400 to-orange-500 p-2 rounded-xl">
               <BookOpen className="h-8 w-8 text-white" />
             </div>
