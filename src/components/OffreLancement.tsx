@@ -135,7 +135,10 @@ const OffreLancement = () => {
                     <DollarSign className="h-6 w-6 text-yellow-400" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold">999€</div>
+                    <div className="flex items-center space-x-2">
+                      <div className="text-lg text-gray-400 line-through">1500€</div>
+                      <div className="text-2xl font-bold">999€</div>
+                    </div>
                     <div className="text-purple-200">Investissement unique</div>
                     <div className="text-yellow-400 text-sm font-semibold flex items-center justify-center">
                       <Lock className="h-3 w-3 mr-1" />
@@ -536,7 +539,10 @@ const OffreLancement = () => {
             <div className="bg-purple-50 rounded-2xl p-8 border border-purple-100 max-w-2xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600">999€</div>
+                  <div className="flex items-center justify-center space-x-2">
+                    <div className="text-xl text-gray-400 line-through">1500€</div>
+                    <div className="text-3xl font-bold text-purple-600">999€</div>
+                  </div>
                   <div className="text-gray-600 text-sm">Investissement unique</div>
                   <div className="text-yellow-600 text-xs font-semibold flex items-center justify-center">
                     <Lock className="h-3 w-3 mr-1" />
