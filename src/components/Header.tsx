@@ -70,7 +70,7 @@ const Header = () => {
           {/* Calendly Link */}
           <div className="hidden lg:flex items-center space-x-6">
             <a 
-              href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+              href="https://calendly.com/easyforma/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-sm text-gray-600 hover:text-orange-500 transition-colors duration-200"
@@ -155,7 +155,7 @@ const Header = () => {
               )}
               <div className="px-3 py-2 border-t border-orange-200 mt-2">
                 <a 
-                  href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+                  href="https://calendly.com/easyforma/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-sm text-gray-600 hover:text-orange-500 transition-colors duration-200"

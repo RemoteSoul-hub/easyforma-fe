@@ -118,7 +118,7 @@ const Contact = () => {
                 </div>
 
                           <a
-              href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
+              href="https://calendly.com/easyforma/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-xl font-bold hover:bg-yellow-300 transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center space-x-2"
