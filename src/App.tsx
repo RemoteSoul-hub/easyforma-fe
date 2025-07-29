@@ -15,6 +15,7 @@ import About from './components/About';
 import Formations from './components/Formations';
 import Business20About from './components/Business20About';
 import Business20FAQ from './components/Business20FAQ';
+import OffreLancement from './components/OffreLancement';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -50,6 +51,7 @@ function App() {
           <Route path="/formations" element={<Formations />} />
           <Route path="/business-20/qui-suis-je" element={<Business20About />} />
           <Route path="/business-20/faq" element={<Business20FAQ />} />
+          <Route path="/offre-lancement" element={<OffreLancement />} />
         </Routes>
         <Footer />
       </div>
