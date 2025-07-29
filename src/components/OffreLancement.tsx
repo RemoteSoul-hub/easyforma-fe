@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { 
   ArrowLeft, 
   Play, 
@@ -106,6 +107,18 @@ const OffreLancement = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif</title>
+        <meta name="description" content="Offre de lancement exclusive EASY FORMA+ : Devenez partenaire pour 999€ au lieu de 1500€. Commission de 750€ par vente. Limité aux 100 premiers inscrits." />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:title" content="Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif" />
+        <meta property="og:description" content="Offre de lancement exclusive : 999€ au lieu de 1500€ pour les 100 premiers. Devenez partenaire EASY FORMA+ et gagnez 750€ par vente." />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif" />
+        <meta name="twitter:description" content="Offre exclusive : 999€ au lieu de 1500€. Commission de 750€ par vente. Limité aux 100 premiers inscrits." />
+      </Helmet>
+
       <Helmet>
         <title>Offre de Lancement EASY FORMA+ - Droit de Revente Exclusif</title>
         <meta name="description" content="Offre de lancement exclusive EASY FORMA+ : Devenez partenaire pour 999€ au lieu de 1500€. Commission de 750€ par vente. Limité aux 100 premiers inscrits." />
