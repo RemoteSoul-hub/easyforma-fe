@@ -13,6 +13,8 @@ import FormationDetail from './components/FormationDetail';
 import FAQ from './components/FAQ';
 import About from './components/About';
 import Formations from './components/Formations';
+import Business20About from './components/Business20About';
+import Business20FAQ from './components/Business20FAQ';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -46,6 +48,8 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/qui-suis-je" element={<About />} />
           <Route path="/formations" element={<Formations />} />
+          <Route path="/business-20/qui-suis-je" element={<Business20About />} />
+          <Route path="/business-20/faq" element={<Business20FAQ />} />
         </Routes>
         <Footer />
       </div>

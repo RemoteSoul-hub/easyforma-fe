@@ -5,7 +5,7 @@ import { Menu, X, BookOpen, Phone, Mail, Calendar } from 'lucide-react';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  const isBusiness20Page = location.pathname === '/business-20';
+  const isBusiness20Page = location.pathname.startsWith('/business-20');
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -34,25 +34,37 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Accueil
-            </Link>
-            {!isBusiness20Page && (
+            {isBusiness20Page ? (
+              <>
+                <Link to="/business-20" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                  Accueil
+                </Link>
+                <Link to="/business-20/qui-suis-je" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                  Qui suis-je ?
+                </Link>
+                <Link to="/business-20/faq" className="text-gray-700 hover:text-blue-500 transition-colors duration-200 font-medium">
+                  FAQ
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link to="/" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+                  Accueil
+                </Link>
               <Link to="/formations" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
                 Formations
               </Link>
-            )}
-            {!isBusiness20Page && (
               <Link to="/easy-forma-plus" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
                 Droit de revente
               </Link>
+                <Link to="/qui-suis-je" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+                  Qui suis-je ?
+                </Link>
+                <Link to="/faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
+                  FAQ
+                </Link>
+              </>
             )}
-            <Link to="/qui-suis-je" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              Qui suis-je ?
-            </Link>
-            <Link to="/faq" className="text-gray-700 hover:text-orange-500 transition-colors duration-200 font-medium">
-              FAQ
-            </Link>
           </nav>
 
           {/* Calendly Link */}
@@ -85,14 +97,39 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-orange-100">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-orange-50">
-              <Link
-                to="/"
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Accueil
-              </Link>
-              {!isBusiness20Page && (
+              {isBusiness20Page ? (
+                <>
+                  <Link
+                    to="/business-20"
+                    className="block px-3 py-2 text-gray-700 hover:text-blue-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Accueil
+                  </Link>
+                  <Link
+                    to="/business-20/qui-suis-je"
+                    className="block px-3 py-2 text-gray-700 hover:text-blue-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Qui suis-je ?
+                  </Link>
+                  <Link
+                    to="/business-20/faq"
+                    className="block px-3 py-2 text-gray-700 hover:text-blue-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    FAQ
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <Link
+                    to="/"
+                    className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Accueil
+                  </Link>
                 <Link
                   to="/formations" 
                   className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
@@ -100,21 +137,22 @@ const Header = () => {
                 >
                   Formations
                 </Link>
+                  <Link
+                    to="/qui-suis-je"
+                    className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Qui suis-je ?
+                  </Link>
+                  <Link
+                    to="/faq"
+                    className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    FAQ
+                  </Link>
+                </>
               )}
-              <Link
-                to="/qui-suis-je"
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Qui suis-je ?
-              </Link>
-              <Link
-                to="/faq"
-                className="block px-3 py-2 text-gray-700 hover:text-orange-500 hover:bg-white rounded-lg transition-all duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                FAQ
-              </Link>
               <div className="px-3 py-2 border-t border-orange-200 mt-2">
                 <a 
                   href="https://calendly.com/cyprien-appel-strategique/30min?month=2025-07"
