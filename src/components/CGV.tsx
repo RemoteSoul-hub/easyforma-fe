@@ -51,7 +51,7 @@ const CGV = () => {
                 En souscrivant à nos services, vous acceptez sans réserve les présentes conditions générales de vente.
               </p>
               <p className="text-sm text-green-600">
-                <strong>Date d'entrée en vigueur :</strong> Janvier 2025
+                <strong>Date d'entrée en vigueur :</strong> Juillet 2025
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@ const CGV = () => {
                 </p>
               </div>
               <p className="text-sm text-gray-600">
-                <strong>Dernière mise à jour :</strong> Janvier 2025
+                <strong>Dernière mise à jour :</strong> Juillet 2025
               </p>
             </div>
           </div>
