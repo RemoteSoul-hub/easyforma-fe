@@ -95,20 +95,19 @@ EASY FORMA, c’est toutes les formations professionnalisantes réunies sur une 
             <span>•</span>
             <span className="flex items-center space-x-1">
               <span>Designed by</span>
-              <Heart className="h-3 w-3 text-orange-500" />
               <span>MonoPixels</span>
             </span>
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
+            <Link to="/mentions-legales" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
               Mentions légales
-            </a>
-            <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
+            </Link>
+            <Link to="/politique-confidentialite" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
               Politique de confidentialité
-            </a>
-            <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
+            </Link>
+            <Link to="/cgv" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
               CGV
-            </a>
+            </Link>
           </div>
         </div>
       </div>

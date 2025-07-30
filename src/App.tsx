@@ -16,6 +16,10 @@ import Formations from './components/Formations';
 import Business20About from './components/Business20About';
 import Business20FAQ from './components/Business20FAQ';
 import OffreLancement from './components/OffreLancement';
+import MentionsLegales from './components/MentionsLegales';
+import PolitiqueConfidentialite from './components/PolitiqueConfidentialite';
+import CGV from './components/CGV';
+import CookieConsentBanner from './components/CookieConsent';
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -52,8 +56,12 @@ function App() {
           <Route path="/business-20/qui-suis-je" element={<Business20About />} />
           <Route path="/business-20/faq" element={<Business20FAQ />} />
           <Route path="/offre-lancement" element={<OffreLancement />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/politique-confidentialite" element={<PolitiqueConfidentialite />} />
+          <Route path="/cgv" element={<CGV />} />
         </Routes>
         <Footer />
+        <CookieConsentBanner />
       </div>
     </Router>
   );
