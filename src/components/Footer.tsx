@@ -33,16 +33,13 @@ const TikTokIcon: React.FC<TikTokIconProps> = ({ className }) => (
 EASY FORMA, c’est toutes les formations professionnalisantes réunies sur une seule plateforme, à prix cassé. Forme-toi, deviens expert, et gagne de l’argent avec ce que tu apprends.
             </p>
 <div className="flex space-x-4">
-  <a href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
-    <Facebook className="h-5 w-5" />
-  </a>
-  <a href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
+  <a href="https://www.linkedin.com/in/cyprien-sesbo%C3%BC%C3%A9-55b3171a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
     <Linkedin className="h-5 w-5" />
   </a>
-  <a href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
+  <a href="https://www.instagram.com/cyprien_sb" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
     <Instagram className="h-5 w-5" />
   </a>
-  <a href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
+  <a href="https://www.tiktok.com/@cyprien_sb?_t=ZN-8ySJybS6V8c&_r=1" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-orange-400 hover:bg-gray-700 transition-all duration-200">
     <TikTokIcon className="h-5 w-5" />
   </a>
 </div>
