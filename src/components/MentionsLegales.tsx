@@ -66,7 +66,7 @@ const MentionsLegales = () => {
               <div className="space-y-4 text-gray-700">
                 <p><strong>Hébergeur :</strong> Vercel Inc.</p>
                 <p><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
-                <p><strong>Site web :</strong> <a href="https://vercel.com" className="text-orange-600 hover:text-orange-700">vercel.com</a></p>
+                <p><strong>Site web :</strong> <a href="https://vercel.com" className=\"text-orange-600 hover:text-orange-700">vercel.com</a></p>
               </div>
             </div>
 
