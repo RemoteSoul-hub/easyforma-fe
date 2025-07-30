@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  easyforma-web:
+    build: .
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    networks:
+      - easyforma-network
+
+networks:
+  easyforma-network:
+    driver: bridge
