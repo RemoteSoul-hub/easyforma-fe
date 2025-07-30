@@ -55,20 +55,6 @@ const MentionsLegales = () => {
             </div>
 
             {/* Hébergement */}
-            <div className="bg-gray-50 rounded-2xl p-8 mb-12">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="p-2 bg-orange-100 rounded-full">
-                  <Globe className="h-6 w-6 text-orange-500" />
-                </div>
-                <h2 className="text-2xl font-bold text-gray-900 m-0">Hébergement</h2>
-              </div>
-              
-              <div className="space-y-4 text-gray-700">
-                <p><strong>Hébergeur :</strong> Vercel Inc.</p>
-                <p><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
-                <p><strong>Site web :</strong> <a href="https://vercel.com" className=\"text-orange-600 hover:text-orange-700">vercel.com</a></p>
-              </div>
-            </div>
 
             {/* Propriété intellectuelle */}
             <div className="bg-gray-50 rounded-2xl p-8 mb-12">
