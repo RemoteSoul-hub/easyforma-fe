@@ -137,7 +137,7 @@ const MentionsLegales = () => {
                   Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
                 </p>
                 <p className="text-sm text-gray-600">
-                  <strong>Dernière mise à jour :</strong> Janvier 2025
+                  <strong>Dernière mise à jour :</strong> Juillet 2025
                 </p>
               </div>
             </div>

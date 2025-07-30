@@ -53,7 +53,7 @@ const PolitiqueConfidentialite = () => {
                 Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.
               </p>
               <p className="text-sm text-blue-600">
-                <strong>Dernière mise à jour :</strong> Janvier 2025
+                <strong>Dernière mise à jour :</strong> Juillet 2025
               </p>
             </div>
           </div>
