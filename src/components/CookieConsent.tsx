@@ -60,7 +60,7 @@ const CookieConsentBanner = () => {
         </div>
         <div className="flex-1">
           <div className="text-white font-semibold mb-2">
-            🍪 Nous utilisons des cookies
+            Nous utilisons des cookies
           </div>
           <div className="text-orange-100 text-sm leading-relaxed">
             Nous utilisons des cookies pour améliorer votre expérience sur notre site, 
